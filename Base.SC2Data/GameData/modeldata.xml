@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CModel id="AccelerationZone" parent="Unit">
+        <Model value="Assets\Buildings\Neutral\XelNagaInhibitor\XelNagaInhibitor.m3"/>
+        <SelectionRadius value="2.000000"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <Tipability value="1.000000"/>
+    </CModel>
+    <CModel id="AccelerationZoneDeath" parent="Unit">
+        <Model value="Assets\Doodads\ProtossCratesDeath\ProtossCratesDeath_06.m3"/>
+    </CModel>
+    <CModel id="AccelerationZoneRadius" parent="RacePersistentSpellFX">
+        <Model value="Assets\Effects\Neutral\XelNagaAccelerator_Field\XelNagaAccelerator_Field.m3"/>
+        <ScaleMax value="1.000000,1.000000,0.500000"/>
+        <ScaleMin value="1.000000,1.000000,0.500000"/>
+    </CModel>
+    <CModel id="AccelerationZoneTemporalFieldImpactModel" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Neutral\XelNagaAccelerator_Impact\XelNagaAccelerator_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="AccelerationZoneFlying" parent="Unit">
+        <Model value="Assets\Buildings\Neutral\XelNagaAcceleratorFlying\XelNagaAcceleratorFlying.m3"/>
+        <SelectionRadius value="1.500000"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="AccelerationZoneFlyingDeath" parent="Unit">
+        <Model value="Assets\Doodads\ProtossCratesDeath\ProtossCratesDeath_06.m3"/>
+    </CModel>
+    <CModel id="AccelerationZoneFlyingRadius" parent="RacePersistentSpellFX">
+        <Model value="Assets\Effects\Neutral\XelNagaAcceleratorFlying_Field\XelNagaAcceleratorFlying_Field.m3"/>
+        <ScaleMax value="1.000000,1.000000,0.500000"/>
+        <ScaleMin value="1.000000,1.000000,0.500000"/>
+    </CModel>
+    <CModel id="AccelerationZoneFlyingTemporalFieldImpactModel" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Neutral\XelNagaAccelerator_Impact\XelNagaAccelerator_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="TemporalFieldModel" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\TemporalField\TemporalField.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="BattlecruiserTacticalJumpPowerup" parent="Glaze">
+        <Model value="Assets\Effects\Glaze\Glaze_Nova_Buff_Damage\Glaze_Nova_Buff_Damage.m3"/>
+        <Priority value="32"/>
+    </CModel>
+    <CModel id="ShieldBatteryRechargeEx5@Beam" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\ProtossShield_Battery_Beam\ProtossShield_Battery_Beam.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Priority value="16"/>
+    </CModel>
+    <CModel id="ShieldBatteryRechargeEx5@ActionImpact" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\ProtossShield_Battery_Beam_Impact\ProtossShield_Battery_Beam_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="CastanarHoloProjector" parent="Doodad">
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="HologramProjector_PowerOn_AS"/>
+            <Type value="Actor"/>
+            <Time value="0.010000"/>
+            <Payload value="HologramProjector_PowerOn_AS"/>
+        </Events>
+        <Events/>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="HologramProjector_PowerOff_AS"/>
+            <Type value="Actor"/>
+            <Time value="10.330000"/>
+            <Payload value="HologramProjector_PowerOff_AS"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,01"/>
+            <Name value="HologramProjector_PowerOn_AS"/>
+            <Type value="Actor"/>
+            <Time value="0.010000"/>
+            <Payload value="HologramProjector_PowerOn_AS"/>
+        </Events>
+        <Events/>
+        <Events>
+            <Anim value="Stand,01"/>
+            <Name value="HologramProjector_PowerOff_AS"/>
+            <Type value="Actor"/>
+            <Time value="2.950000"/>
+            <Payload value="HologramProjector_PowerOff_AS"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,02"/>
+            <Name value="HologramProjector_PowerOn_AS"/>
+            <Type value="Actor"/>
+            <Time value="0.010000"/>
+            <Payload value="HologramProjector_PowerOn_AS"/>
+        </Events>
+        <Events/>
+        <Events>
+            <Anim value="Stand,02"/>
+            <Name value="HologramProjector_PowerOff_AS"/>
+            <Type value="Actor"/>
+            <Time value="3.740000"/>
+            <Payload value="HologramProjector_PowerOff_AS"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,03"/>
+            <Name value="HologramProjector_PowerOn_AS"/>
+            <Type value="Actor"/>
+            <Time value="0.010000"/>
+            <Payload value="HologramProjector_PowerOn_AS"/>
+        </Events>
+        <Events/>
+        <Events>
+            <Anim value="Stand,03"/>
+            <Name value="HologramProjector_PowerOff_AS"/>
+            <Type value="Actor"/>
+            <Time value="4.660000"/>
+            <Payload value="HologramProjector_PowerOff_AS"/>
+        </Events>
+    </CModel>
+    <CModel id="TempestGroundAttackImpactUpgraded" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\TempestGroundMissileImpact\TempestGroundMissileImpact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="TempestWeaponGroundUpgraded" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\TempestGroundMissile\TempestGroundMissile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="TemporalFieldAfterBubbleModel">
+        <Model value="Assets\Effects\Protoss\TimeWarp_Red\TimeWarp_Red.m3"/>
+    </CModel>
+    <CModel id="TemporalFieldGrowingBubbleModel">
+        <Model value="Assets\Effects\Protoss\TimeWarp_Red\TimeWarp_Red.m3"/>
+    </CModel>
+    <CModel id="TemporalFieldImpactModel">
+        <Model value="Assets\Effects\Protoss\TimeWarpImpact_Red\TimeWarpImpact_Red.m3"/>
+    </CModel>
+    <CModel id="AmorphousArmorcloud" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Zerg\MicrobialShroud\MicrobialShroud.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <ScaleMax value="0.630000,0.630000,0.630000"/>
+        <ScaleMin value="0.630000,0.630000,0.630000"/>
+        <RadiusLoose value="0.630000"/>
+    </CModel>
+    <CModel id="AmorphousArmorcloudModelAttachment" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Zerg\MicrobialShroudImpact\MicrobialShroudImpact.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <SelectionRadius value="0.312500"/>
+        <ShadowRadius value="0.312500"/>
+    </CModel>
+    <CModel id="NexusBatteryOverchargeModel" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\PurifyLaunch\PurifyLaunch.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Flags index="CloakedUndetectedIsHidden" value="1"/>
+    </CModel>
+    <CModel id="ShieldBatteryRechargeChanneledOverchargedBeam" parent="OneShotSpellFX">
+        <Model value="Assets\COOP\Zeratul\Effects\Sentry_Zeratul_COOP_HealingBeam\Sentry_Zeratul_COOP_HealingBeam.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="2.000000,2.000000,2.000000"/>
+        <ScaleMin value="2.000000,2.000000,2.000000"/>
+    </CModel>
+    <CModel id="ShieldBatteryRechargeChanneledOverchargedModel" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\ProtossShield_Battery_Beam_Impact\ProtossShield_Battery_Beam_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="Ursadon" parent="Unit">
+        <Model value="Assets\Units\Neutral\SnowBeast\SnowBeast.m3"/>
+        <Radius value="0.750000"/>
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+        <SelectionRadius value="0.750000"/>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="Ursadon_Walk"/>
+            <Type value="Sound"/>
+            <Time value="0.474000"/>
+            <Payload value="Ursadon_Walk"/>
+        </Events>
+        <Events>
+            <Anim value="Walk,00"/>
+            <Name value="Ursadon_MP_Yes"/>
+            <Type value="Sound"/>
+            <Time value="0.011000"/>
+            <Payload value="Ursadon_MP_Yes"/>
+        </Events>
+    </CModel>
+    <CModel id="UrsadonDeath" parent="UnitDeath">
+        <Model value="Assets\Units\Neutral\SnowBeast\SnowBeast.m3"/>
+        <LowQualityModel value="ZergLargeUnitDeathLow"/>
+        <Occlusion value="Show"/>
+        <Events>
+            <Anim value="Death,02"/>
+            <Name value="Ursadon_MP_Death"/>
+            <Type value="Sound"/>
+            <Time value="0.046000"/>
+            <Payload value="Ursadon_MP_Death"/>
+        </Events>
+        <Events>
+            <Anim value="Death,02"/>
+            <Name value="Ursadon_Walk"/>
+            <Type value="Sound"/>
+            <Time value="0.881000"/>
+            <Payload value="Ursadon_Walk"/>
+        </Events>
+        <Events>
+            <Anim value="Death,02"/>
+            <Name value="Ursadon_MP_BodyFall"/>
+            <Type value="Sound"/>
+            <Time value="0.931000"/>
+            <Payload value="Ursadon_MP_BodyFall"/>
+        </Events>
+        <Events>
+            <Anim value="Death,03"/>
+            <Name value="Ursadon_MP_Death"/>
+            <Type value="Sound"/>
+            <Time value="0.059000"/>
+            <Payload value="Ursadon_MP_Death"/>
+        </Events>
+        <Events>
+            <Anim value="Death,03"/>
+            <Name value="Ursadon_MP_BodyFall"/>
+            <Type value="Sound"/>
+            <Time value="0.795000"/>
+            <Payload value="Ursadon_MP_BodyFall"/>
+        </Events>
+        <Events>
+            <Anim value="Death,03"/>
+            <Name value="Ursadon_Walk"/>
+            <Type value="Sound"/>
+            <Time value="0.672000"/>
+            <Payload value="Ursadon_Walk"/>
+        </Events>
+    </CModel>
+</Catalog>

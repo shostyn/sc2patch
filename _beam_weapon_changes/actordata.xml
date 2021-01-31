@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CActorBeamSimple id="SentryAttackBeam">
+        <Remove Terms="Effect.DisruptionBeam.Stop; At Effect" Send="AnimBracketStop BSD"/>
+        <On Terms="Effect.DisruptionBeam.Stop; At Effect" Send="TimerSet 0.500000 Delay"/>
+        <On Terms="TimerExpired; TimerName Delay" Send="AnimBracketStop BSD"/>
+    </CActorBeamSimple>
+</Catalog>
