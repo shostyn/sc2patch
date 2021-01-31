@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CWeaponLegacy id="BattlecruiserWeaponSwitch">
+        <Options index="Hidden" value="0"/>
+    </CWeaponLegacy>
     <CWeaponLegacy id="AcidSpines">
         <MinScanRange value="8.5"/>
         <Range value="7"/>
