@@ -1,0 +1,7 @@
+﻿DocInfo/DescLong=The Golden Wall splits the map in two distinct halves. The bottom part is totally closed by walls of minerals in multiple places. Players can choose to play as usual by only using the top part or get innovative and use the bottom part.<n/><n/>Submitted to Teamliquid Map Contest<n/>Created by: Superouman
+DocInfo/DescShort=1v1
+DocInfo/Name=Golden Wall LE
+MapInfo/Player00/Name=Neutral
+MapInfo/Player01/Name=Player 1
+MapInfo/Player02/Name=Player 2
+MapInfo/Player03/Name=Hostile

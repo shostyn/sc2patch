@@ -1,0 +1,7 @@
+﻿DocInfo/DescLong=Rocks in the middle path can be destroyed to widen the path. One of the lowground bases has a Rich Vespene Geyser to boost up the players' gas income. <n/><n/>Submitted to Teamliquid Map Contest<n/>Created by: Marras
+DocInfo/DescShort=1v1
+DocInfo/Name=Ever Dream LE
+MapInfo/Player00/Name=Neutral
+MapInfo/Player01/Name=Player 1
+MapInfo/Player02/Name=Player 2
+MapInfo/Player03/Name=Hostile

@@ -1,0 +1,7 @@
+﻿DocInfo/DescLong=Deathaura features the new Acceleration Zone Generators that increase the movement speed of units. These zones are situated on the three bridges in the middle. The most forward bases have two Rich Vespene Geysers.<n/><n/>Submitted to TLnet Map Contest<n/>Created by: Marras
+DocInfo/DescShort=1v1
+DocInfo/Name=Deathaura LE
+MapInfo/Player00/Name=Neutral
+MapInfo/Player01/Name=Player 1
+MapInfo/Player02/Name=Player 2
+MapInfo/Player03/Name=Hostile
