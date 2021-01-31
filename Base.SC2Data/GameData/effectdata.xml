@@ -169,9 +169,6 @@
         <ValidatorArray value="CasterIsNotYoinked"/>
         <ValidatorArray value="CasterDoesNotHaveScramblerMissileBehavior"/-->
     </CEffectCreateUnit>
-    <CEffectDamage id="InfestedGuassRifle">
-        <Amount value="12"/>
-    </CEffectDamage>
     <CEffectApplyBehavior id="ResonatingGlaivesPhaseShiftAB">
         <EditorCategories value="Race:Zerg"/>
         <Behavior value="ResonatingGlaivesPhaseShift"/>

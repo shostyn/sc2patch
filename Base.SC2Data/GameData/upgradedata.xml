@@ -7,15 +7,6 @@
         <EffectArray Reference="Effect,TempestDamageGround,AttributeBonus[Structure]" Value="40"/>
         <AffectedUnitArray value="Tempest"/>
     </CUpgrade>
-    <CUpgrade id="AmplifiedShielding">
-        <Icon value="Assets\Textures\btn-upgrade-protoss-adeptshieldupgrade.dds"/>
-        <ScoreAmount value="200"/>
-        <ScoreResult value="BuildOrder"/>
-        <EffectArray Reference="Unit,Adept,ShieldsMax" Value="20"/>
-        <EffectArray Reference="Unit,Adept,ShieldsStart" Value="20"/>
-        <EditorCategories value="Race:Protoss,UpgradeType:AttackBonus"/>
-        <AffectedUnitArray value="Adept"/>
-    </CUpgrade>
     <CUpgrade id="MicrobialShroud">
         <Icon value="Assets\Textures\btn-ability-zerg-darkswarm.dds"/>
         <Alert value="ResearchComplete"/>
@@ -25,50 +16,12 @@
         <EditorCategories value="Race:Zerg,UpgradeType:SpellResearch"/>
         <AffectedUnitArray value="Infestor"/>
     </CUpgrade>
-    <CUpgrade id="PsionicAmplifiers">
-        <Icon value="Assets\Textures\btn-ability-protoss-phasedisruptor.dds"/>
-        <ScoreAmount value="200"/>
-        <ScoreResult value="BuildOrder"/>
-        <EffectArray Reference="Weapon,Adept,Range" Value="1"/>
-        <EditorCategories value="Race:Protoss,UpgradeType:AttackBonus"/>
-        <AffectedUnitArray value="Adept"/>
-    </CUpgrade>
     <CUpgrade id="Charge">
         <EffectArray index="0" Reference="Unit,Zealot,Speed" Value="1.125000"/>
-    </CUpgrade>
-    <CUpgrade id="SunderingImpact">
-        <Flags index="TechTreeCheat" value="1"/>
-        <Icon value="Assets\Textures\btn-ability-protoss-shadowblade.dds"/>
-        <Alert value="ResearchComplete"/>
-        <Race value="Prot"/>
-        <ScoreAmount value="200"/>
-        <ScoreResult value="BuildOrder"/>
-        <!--EffectArray Operation="Set" Reference="Effect,ChargingDamage,Amount" Value="8"/>
-        <EffectArray Operation="Set" Reference="Effect,ChargingDamageSecondary,Amount" Value="8"/-->
-        <EditorCategories value="Race:Protoss,UpgradeType:Talents"/>
-        <AffectedUnitArray value="Zealot"/>
-        <LeaderAlias value="Charge"/>
     </CUpgrade>
     <CUpgrade id="DrillClaws">
         <EffectArray index="2" removed="1"/>
         <!--EffectArray Operation="Set" Reference="Behavior,WidowMineBurrowedCloakingBehavior,Modification.StateFlags[SuppressCloak]" Value="0"/-->
-    </CUpgrade>
-    <CUpgrade id="SecretedCoating">
-        <Flags index="TechTreeCheat" value="1"/>
-        <Icon value="Assets\Textures\btn-upgrade-zerg-demolition.dds"/>
-        <Alert value="ResearchComplete"/>
-        <Race value="Zerg"/>
-        <ScoreAmount value="200"/>
-        <ScoreResult value="BuildOrder"/>
-        <EffectArray Operation="Set" Reference="Abil,NydusCanalTransport,InitialUnloadDelay" Value="0.250000"/>
-        <EffectArray Operation="Set" Reference="Abil,NydusCanalTransport,LoadPeriod" Value="0.125000"/>
-        <EffectArray Operation="Set" Reference="Abil,NydusCanalTransport,UnloadPeriod" Value="0.250000"/>
-        <EffectArray Operation="Set" Reference="Abil,NydusWormTransport,InitialUnloadDelay" Value="0.250000"/>
-        <EffectArray Operation="Set" Reference="Abil,NydusWormTransport,LoadPeriod" Value="0.125000"/>
-        <EffectArray Operation="Set" Reference="Abil,NydusWormTransport,UnloadPeriod" Value="0.250000"/>
-        <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
-        <AffectedUnitArray value="NydusNetwork"/>
-        <AffectedUnitArray value="NydusCanal"/>
     </CUpgrade>
     <CUpgrade id="ObserverGraviticBooster">
         <EffectArray index="0" Reference="Unit,Observer,Speed" Value="0.937500"/>

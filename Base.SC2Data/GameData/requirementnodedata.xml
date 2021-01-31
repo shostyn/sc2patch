@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
-    <CRequirementCountUpgrade id="CountUpgradeAmplifiedShieldingQueuedOrBetter">
-        <Flags index="TechTreeCheat" value="0"/>
-        <Count Link="AmplifiedShielding" State="QueuedOrBetter"/>
-    </CRequirementCountUpgrade>
     <CRequirementCountUpgrade id="CountUpgradeEnhancedShockwavesCompleteOnly2618611756TechTreeCheat">
         <Count Link="EnhancedShockwaves" State="CompleteOnly"/>
     </CRequirementCountUpgrade>
@@ -24,20 +20,6 @@
         <Flags index="TechTreeCheat" value="0"/>
         <Count Link="MicrobialShroud" State="QueuedOrBetter"/>
     </CRequirementCountUpgrade>
-    <CRequirementCountUpgrade id="CountUpgradePsionicAmplifiersQueuedOrBetter">
-        <Flags index="TechTreeCheat" value="0"/>
-        <Count Link="PsionicAmplifiers" State="QueuedOrBetter"/>
-    </CRequirementCountUpgrade>
-    <CRequirementCountUpgrade id="CountUpgradeSecretedCoatingQueuedOrBetterTechTreeCheat">
-        <Count Link="SecretedCoating" State="QueuedOrBetter"/>
-    </CRequirementCountUpgrade>
-    <CRequirementCountUpgrade id="CountUpgradeSunderingImpactCompleteOnly1226141447TechTreeCheat">
-        <Count Link="SunderingImpact" State="CompleteOnly"/>
-    </CRequirementCountUpgrade>
-    <CRequirementCountUpgrade id="CountUpgradeSunderingImpactQueuedOrBetter">
-        <Flags index="TechTreeCheat" value="0"/>
-        <Count Link="SunderingImpact" State="QueuedOrBetter"/>
-    </CRequirementCountUpgrade>
     <CRequirementCountUpgrade id="CountUpgradeTempestGroundAttackUpgradeCompleteOnly788113278">
         <Flags index="TechTreeCheat" value="0"/>
         <Count Link="TempestGroundAttackUpgrade" State="CompleteOnly"/>
@@ -46,9 +28,6 @@
         <Flags index="TechTreeCheat" value="0"/>
         <Count Link="TempestGroundAttackUpgrade" State="QueuedOrBetter"/>
     </CRequirementCountUpgrade>
-    <CRequirementNot id="NotCountUpgradeAmplifiedShieldingQueuedOrBetter">
-        <OperandArray index="0" value="CountUpgradeAmplifiedShieldingQueuedOrBetter"/>
-    </CRequirementNot>
     <CRequirementNot id="NotCountUpgradeEnhancedShockwavesQueuedOrBetter">
         <OperandArray index="0" value="CountUpgradeEnhancedShockwavesQueuedOrBetter"/>
     </CRequirementNot>
@@ -57,15 +36,6 @@
     </CRequirementNot>
     <CRequirementNot id="NotCountUpgradeMicrobialShroudQueuedOrBetter">
         <OperandArray index="0" value="CountUpgradeMicrobialShroudQueuedOrBetter"/>
-    </CRequirementNot>
-    <CRequirementNot id="NotCountUpgradePsionicAmplifiersQueuedOrBetter">
-        <OperandArray index="0" value="CountUpgradePsionicAmplifiersQueuedOrBetter"/>
-    </CRequirementNot>
-    <CRequirementNot id="NotCountUpgradeSecretedCoatingQueuedOrBetterTechTreeCheat">
-        <OperandArray index="0" value="CountUpgradeSecretedCoatingQueuedOrBetterTechTreeCheat"/>
-    </CRequirementNot>
-    <CRequirementNot id="NotCountUpgradeSunderingImpactQueuedOrBetter">
-        <OperandArray index="0" value="CountUpgradeSunderingImpactQueuedOrBetter"/>
     </CRequirementNot>
     <CRequirementNot id="NotCountUpgradeTempestGroundAttackUpgradeQueuedOrBetter">
         <OperandArray index="0" value="CountUpgradeTempestGroundAttackUpgradeQueuedOrBetter"/>

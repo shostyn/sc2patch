@@ -144,10 +144,6 @@
         <Attributes index="Light" value="1"/>
         <Attributes index="Armored" value="0"/>
     </CUnit>
-    <CUnit id="InfestorTerranBurrowed">
-        <LifeStart value="75"/>
-        <LifeMax value="75"/>
-    </CUnit>
     <CUnit id="Drone">
         <AbilArray Link="SprayZerg"/>
         <CardLayouts index="0">
@@ -307,12 +303,6 @@
         <AbilArray Link="AmorphousArmorcloud"/>
         <Radius value="0.625"/>
     </CUnit>
-    <CUnit id="InfestorTerran">
-        <LifeStart value="75"/>
-        <LifeMax value="75"/>
-        <GlossaryCategory value=""/>
-        <HotkeyCategory value=""/>
-    </CUnit>
     <CUnit id="LurkerDenMP">
         <CardLayouts index="0">
             <LayoutButtons Face="EvolveDiggingClaws" Type="AbilCmd" AbilCmd="LurkerDenResearch,Research1" Row="0" Column="0"/>
@@ -380,13 +370,6 @@
             <LayoutButtons Face="ShieldBattery" Type="AbilCmd" AbilCmd="ProtossBuild,Build16" Row="2" Column="2"/>
         </CardLayouts>
     </CUnit>
-    <CUnit id="PylonOvercharged" parent="Pylon">
-        <AttackTargetPriority value="20"/>
-        <AbilArray Link="PurifyMorphPylonBack"/>
-        <AbilArray Link="attackProtossBuilding"/>
-        <AbilArray Link="stopProtossBuilding"/>
-        <TechAliasArray value="Alias_Pylon"/>
-    </CUnit>
     <CUnit id="ShieldBattery">
         <CardLayouts index="0">
             <LayoutButtons index="0" Face="Cancel" AbilCmd="BuildInProgress,Cancel" Column="4"/>
@@ -433,11 +416,6 @@
         <AddedOnArray index="0" ParentBehaviorLink="AddonIsWorking"/>
         <AddedOnArray index="1" ParentBehaviorLink="AddonIsWorking"/>
         <AddedOnArray index="2" ParentBehaviorLink="AddonIsWorking"/>
-    </CUnit>
-    <CUnit id="InfestationPit">
-        <!--CardLayouts index="0">
-            <LayoutButtons Face="EvolveAmorphousArmorcloud" Type="AbilCmd" AbilCmd="InfestationPitResearch,Research6" Row="0" Column="2"/>
-        </CardLayouts-->
     </CUnit>
     <CUnit id="VoidRay">
         <Speed value="2.75"/>

@@ -170,15 +170,6 @@
         <CastOutroTime index="0" value="1.4"/>
         <FinishTime value="6"/>
     </CAbilEffectTarget>
-    <CAbilResearch id="InfestationPitResearch">
-        <InfoArray index="Research6" Time="110" Upgrade="MicrobialShroud">
-            <Resource index="Minerals" value="150"/>
-            <Resource index="Vespene" value="150"/>
-            <Button DefaultButtonFace="EvolveAmorphousArmorcloud" Requirements="LearnAmorphousArmorcloud">
-                <Flags index="ShowInGlossary" value="1"/>
-            </Button>
-        </InfoArray>
-    </CAbilResearch>
     <CAbilEffectTarget id="NeuralParasite">
         <Range index="0" value="8"/>
     </CAbilEffectTarget>
@@ -305,43 +296,8 @@
             </Button>
         </InfoArray>
     </CAbilResearch>
-    <CAbilResearch id="TwilightCouncilResearch">
-        <InfoArray index="Research1">
-            <Resource index="Minerals" value="100"/>
-            <Resource index="Vespene" value="100"/>
-        </InfoArray>
-        <InfoArray index="Research3" Upgrade="AdeptPiercingAttack">
-            <Button DefaultButtonFace="AdeptResearchPiercingUpgrade" Requirements="LearnAdeptPiercingAttack"/>
-        </InfoArray>
-        <InfoArray index="Research4" Time="140" Upgrade="SunderingImpact">
-            <Resource index="Minerals" value="100"/>
-            <Resource index="Vespene" value="100"/>
-            <Button DefaultButtonFace="ResearchPsionicSurge" State="Restricted" Requirements="LearnSunderingImpact">
-                <Flags index="ShowInGlossary" value="1"/>
-            </Button>
-        </InfoArray>
-        <InfoArray index="Research5" Time="140" Upgrade="AmplifiedShielding">
-            <Resource index="Minerals" value="100"/>
-            <Resource index="Vespene" value="100"/>
-            <Button DefaultButtonFace="ResearchAmplifiedShielding" State="Restricted" Requirements="LearnAdeptAmplifiedShielding">
-                <Flags index="ShowInGlossary" value="1"/>
-            </Button>
-        </InfoArray>
-        <InfoArray index="Research6" Time="140" Upgrade="PsionicAmplifiers">
-            <Resource index="Minerals" value="100"/>
-            <Resource index="Vespene" value="100"/>
-            <Button DefaultButtonFace="ResearchPsionicAmplifiers" State="Restricted" Requirements="LearnAdeptPsionicAmplifiers">
-                <Flags index="ShowInGlossary" value="1"/>
-            </Button>
-        </InfoArray>
-    </CAbilResearch>
     <CAbilTransport id="WarpPrismTransport">
         <Range value="5"/>
-        <!--UnloadCargoEffect value="WarpPrismUnloadCargoSetEffect"/-->
-        <UnloadCargoEffect value="WarpPrismUnloadCargoSetEffect"/>
-        <LoadCargoEffect value="WarpPrismLoadDummy"/>
-        <!--LoadCargoEffect value="PurificationNovaTransportPickupSet"/>
-        <UnloadCargoEffect value="PurificationNovaMorphBackFromTransport"/-->
     </CAbilTransport>
     <CAbilEffectTarget id="Yamato">
         <Flags index="AbortOnAllianceChange" value="0"/>
@@ -389,15 +345,6 @@
             <Flags index="CreateDefaultButton" value="1"/>
         </CmdButtonArray>
     </CAbilEffectTarget>
-    <CAbilResearch id="evolutionchamberresearch">
-        <InfoArray index="Research10" Time="80" Upgrade="SecretedCoating">
-            <Resource index="Minerals" value="100"/>
-            <Resource index="Vespene" value="100"/>
-            <Button DefaultButtonFace="EvolvePropulsivePeristalsis" State="Restricted" Requirements="LearnEvolveSecretedCoating">
-                <Flags index="ShowInGlossary" value="1"/>
-            </Button>
-        </InfoArray>
-    </CAbilResearch>
     <CAbilMove id="move">
         <AbilSetId value="Move"/>
     </CAbilMove>
