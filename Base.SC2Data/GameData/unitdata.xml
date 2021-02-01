@@ -439,4 +439,7 @@
             <LayoutButtons Face="WidowMineConcealment" Type="Passive" Requirements="HaveArmory" Row="2" Column="4"/>
         </CardLayouts>
     </CUnit>
+    <CUnit id="Oracle">
+        <BehaviorArray Link="OracleDisableAttack"/>
+    </CUnit>
 </Catalog>

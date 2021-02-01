@@ -176,4 +176,14 @@
         <!--InitialEffect value="NexusShieldOverchargeMorphNexus"/>
         <FinalEffect value="NexusShieldOverchargeMorphNexusBack"/-->
     </CBehaviorBuff>
+    <CBehaviorBuff id="OracleDisableAttack">
+        <Name value="Behavior/Name/OracleDisableAttack"/>
+        <BehaviorFlags index="Permanent" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Modification>
+            <WeaponDisableArray value="Oracle"/>
+            <WeaponDisableArray value="OracleDisplayDummy"/>
+        </Modification>
+        <InfoFlags index="Hidden" value="1"/>
+    </CBehaviorBuff>
 </Catalog>

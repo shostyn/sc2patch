@@ -1,5 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CEffectCreatePersistent id="DisruptionBeam">
+        <PeriodicValidator value="IsAttackingTargetAndTargetInRange"/>
+        <Flags index="Channeled" value="0"/>
+        <PeriodicEffectArray index="0" value="SentryWeaponPeriodicSet"/>
+        <InitialEffect value="SentryWeaponPeriodicSet"/>
+        <PeriodicPeriodArray index="0" value="0.0625"/>
+    </CEffectCreatePersistent>
+    <CEffectSet id="SentryWeaponPeriodicSet">
+        <EditorCategories value="Race:Protoss"/>
+        <!--EffectArray value="SentryWeaponApplyCooldown"/-->
+        <!--EffectArray value="DisruptionBeamDamage"/-->
+        <EffectArray value="DisruptionBeamTimeWarpSwitch"/>
+        <ValidatorArray value="NotHaveBeamTargetCDBehavior"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="DisruptionBeamABTarget">
+        <EditorCategories value=""/>
+        <Behavior value="BeamTargetCD"/>
+        <Flags index="UseDuration" value="1"/>
+        <Duration value="1"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="DisruptionBeamABTargetTimeWarped">
+        <EditorCategories value=""/>
+        <Behavior value="BeamTargetCD"/>
+        <Flags index="UseDuration" value="1"/>
+        <Duration value="2"/>
+    </CEffectApplyBehavior>
+    <CEffectSwitch id="DisruptionBeamTimeWarpSwitch">
+        <EditorCategories value=""/>
+        <CaseArray Validator="CasterIsTimeWarpedMothership" Effect="DisruptionBeamABTargetTimeWarped"/>
+        <CaseDefault value="DisruptionBeamABTarget"/>
+    </CEffectSwitch>
+    <CEffectCreatePersistent id="OracleWeaponCreatePersistent">
+        <PeriodicValidator value="IsAttackingTargetAndTargetInRange"/>
+        <Flags index="Channeled" value="0"/>
+        <PeriodicEffectArray index="0" value="OracleWeaponPeriodicSet"/>
+        <InitialEffect value="OracleWeaponPeriodicSet"/>
+        <PeriodicPeriodArray index="0" value="0.0625"/>
+        <!--ValidatorArray value="PulsarCasterMinEnergy"/-->
+    </CEffectCreatePersistent>
+    <CEffectSet id="OracleWeaponPeriodicSet">
+        <EditorCategories value="Race:Protoss"/>
+        <!--EffectArray value="OracleWeaponApplyCooldown"/-->
+        <!--EffectArray value="OracleWeaponDamage"/-->
+        <EffectArray value="OracleWeaponTimeWarpSwitch"/>
+        <ValidatorArray value="NotHaveBeamTargetCDBehavior"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="OracleWeaponABTarget">
+        <EditorCategories value=""/>
+        <Behavior value="BeamTargetCD"/>
+        <Flags index="UseDuration" value="1"/>
+        <Duration value="0.86"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="OracleWeaponABTargetTimeWarped">
+        <EditorCategories value=""/>
+        <Behavior value="BeamTargetCD"/>
+        <Flags index="UseDuration" value="1"/>
+        <Duration value="1.72"/>
+    </CEffectApplyBehavior>
+    <CEffectCreatePersistent id="VoidRaySwarm">
+        <PeriodicValidator value="IsAttackingTargetAndTargetInRange"/>
+        <Flags index="Channeled" value="0"/>
+        <PeriodicEffectArray index="0" value="VoidRayWeaponPeriodicSet"/>
+        <InitialEffect value="VoidRayWeaponPeriodicSet"/>
+        <PeriodicPeriodArray index="0" value="0.0625"/>
+    </CEffectCreatePersistent>
+    <CEffectSet id="VoidRayWeaponPeriodicSet">
+        <EditorCategories value="Race:Protoss"/>
+        <!--EffectArray value="VoidRayWeaponApplyCooldown"/-->
+        <!--EffectArray value="VoidRaySwarmDamage"/-->
+        <EffectArray value="VoidRayWeaponTimeWarpSwitch"/>
+        <ValidatorArray value="NotHaveBeamTargetCDBehavior"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="VoidRayWeaponABTarget">
+        <EditorCategories value=""/>
+        <Behavior value="BeamTargetCD"/>
+        <Flags index="UseDuration" value="1"/>
+        <Duration value="0.5"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="VoidRayWeaponABTargetTimeWarped">
+        <EditorCategories value=""/>
+        <Behavior value="BeamTargetCD"/>
+        <Flags index="UseDuration" value="1"/>
+        <Duration value="1"/>
+    </CEffectApplyBehavior>
+    <CEffectSwitch id="VoidRayWeaponTimeWarpSwitch">
+        <EditorCategories value=""/>
+        <CaseArray Validator="CasterIsTimeWarpedMothership" Effect="VoidRayWeaponABTargetTimeWarped"/>
+        <CaseDefault value="VoidRayWeaponABTarget"/>
+    </CEffectSwitch>
+    <CEffectSwitch id="OracleWeaponTimeWarpSwitch">
+        <EditorCategories value=""/>
+        <CaseArray Validator="CasterIsTimeWarpedMothership" Effect="OracleWeaponABTargetTimeWarped"/>
+        <CaseDefault value="OracleWeaponABTarget"/>
+    </CEffectSwitch>
     <CEffectEnumArea default="1" id="AccelerationZoneSearchBase">
         <AreaArray Effect="AccelerationZoneTemporalField"/>
         <SearchFilters value="-;Player,Ally,Missile,Stasis,Dead,Hidden"/>

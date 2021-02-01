@@ -18,8 +18,12 @@
     <CWeaponLegacy id="LurkerMP">
         <Range value="8"/>
     </CWeaponLegacy>
+    <CWeaponLegacy id="OracleDisplayDummy">
+        <Options index="Disabled" value="0"/>
+    </CWeaponLegacy>
     <CWeaponLegacy id="Oracle">
-        <Options index="Hidden" value="1"/>
+        <Options index="Disabled" value="0"/>
+        <Options index="Hidden" value="0"/>
         <Cost>
             <Cooldown TimeUse="0.86"/>
         </Cost>

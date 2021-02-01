@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CValidatorCombine id="IsAttackingTargetAndTargetInRange">
+        <Type value="And"/>
+        <CombineArray value="CasterIsAttackingTarget"/>
+        <CombineArray value="WeaponInRange"/>
+    </CValidatorCombine>
+    <CValidatorUnitOrderQueue id="CasterIsAttackingTarget">
+        <AbilLink value="attack"/>
+        <Target Value="TargetUnit"/>
+    </CValidatorUnitOrderQueue>
     <CValidatorUnitCompareBehaviorCount id="CasterIsTimeWarpedMothership">
         <WhichUnit Value="Caster"/>
         <Compare value="GT"/>
