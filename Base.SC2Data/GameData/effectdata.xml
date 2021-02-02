@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
     <CEffectCreatePersistent id="DisruptionBeam">
-        <PeriodicValidator value="IsAttackingTargetAndTargetInRange"/>
-        <Flags index="Channeled" value="0"/>
+        <!--PeriodicValidator value="IsAttackingTargetAndTargetInRange"/-->
+        <!--Flags index="Channeled" value="0"/-->
         <PeriodicEffectArray index="0" value="SentryWeaponPeriodicSet"/>
         <InitialEffect value="SentryWeaponPeriodicSet"/>
         <PeriodicPeriodArray index="0" value="0.0625"/>
@@ -32,8 +32,8 @@
         <CaseDefault value="DisruptionBeamABTarget"/>
     </CEffectSwitch>
     <CEffectCreatePersistent id="OracleWeaponCreatePersistent">
-        <PeriodicValidator value="IsAttackingTargetAndTargetInRange"/>
-        <Flags index="Channeled" value="0"/>
+        <!--PeriodicValidator value="IsAttackingTargetAndTargetInRange"/-->
+        <!--Flags index="Channeled" value="0"/-->
         <PeriodicEffectArray index="0" value="OracleWeaponPeriodicSet"/>
         <InitialEffect value="OracleWeaponPeriodicSet"/>
         <PeriodicPeriodArray index="0" value="0.0625"/>
@@ -59,8 +59,8 @@
         <Duration value="1.72"/>
     </CEffectApplyBehavior>
     <CEffectCreatePersistent id="VoidRaySwarm">
-        <PeriodicValidator value="IsAttackingTargetAndTargetInRange"/>
-        <Flags index="Channeled" value="0"/>
+        <!--PeriodicValidator value="IsAttackingTargetAndTargetInRange"/-->
+        <!--Flags index="Channeled" value="0"/-->
         <PeriodicEffectArray index="0" value="VoidRayWeaponPeriodicSet"/>
         <InitialEffect value="VoidRayWeaponPeriodicSet"/>
         <PeriodicPeriodArray index="0" value="0.0625"/>
