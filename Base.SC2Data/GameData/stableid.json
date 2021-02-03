@@ -23262,6 +23262,1902 @@
             "id": 3796,
             "index": 0,
             "name": "GeneralUnloadUnit"
+        },
+	{
+	    "buttonname": "LoadoutSpray@1",
+	    "id": 3797,
+	    "index": 0,
+	    "name": "LoadoutSpray"
+	},
+	{
+	    "buttonname": "LoadoutSpray@2",
+	    "id": 3798,
+	    "index": 1,
+	    "name": "LoadoutSpray"
+	},
+	{
+	    "buttonname": "LoadoutSpray@3",
+	    "id": 3799,
+	    "index": 2,
+	    "name": "LoadoutSpray"
+	},
+	{
+	    "buttonname": "LoadoutSpray@4",
+	    "id": 3800,
+	    "index": 3,
+	    "name": "LoadoutSpray"
+	},
+	{
+	    "buttonname": "LoadoutSpray@5",
+	    "id": 3801,
+	    "index": 4,
+	    "name": "LoadoutSpray"
+	},
+	{
+	    "buttonname": "LoadoutSpray@6",
+	    "id": 3802,
+	    "index": 5,
+	    "name": "LoadoutSpray"
+	},
+	{
+	    "buttonname": "LoadoutSpray@7",
+	    "id": 3803,
+	    "index": 6,
+	    "name": "LoadoutSpray"
+	},
+	{
+	    "buttonname": "LoadoutSpray@8",
+	    "id": 3804,
+	    "index": 7,
+	    "name": "LoadoutSpray"
+	},
+	{
+	    "buttonname": "LoadoutSpray@9",
+	    "id": 3805,
+	    "index": 8,
+	    "name": "LoadoutSpray"
+	},
+	{
+	    "buttonname": "LoadoutSpray@10",
+	    "id": 3806,
+	    "index": 9,
+	    "name": "LoadoutSpray"
+	},
+	{
+	    "buttonname": "LoadoutSpray@11",
+	    "id": 3807,
+	    "index": 10,
+	    "name": "LoadoutSpray"
+	},
+	{
+	    "buttonname": "LoadoutSpray@12",
+	    "id": 3808,
+	    "index": 11,
+	    "name": "LoadoutSpray"
+	},
+	{
+	    "buttonname": "LoadoutSpray@13",
+	    "id": 3809,
+	    "index": 12,
+	    "name": "LoadoutSpray"
+	},
+	{
+	    "buttonname": "LoadoutSpray@14",
+	    "id": 3810,
+	    "index": 13,
+	    "name": "LoadoutSpray"
+	},
+	{
+	    "buttonname": "",
+	    "id": 3811,
+	    "index": 0,
+	    "name": ""
+	},
+	{
+	    "buttonname": "",
+	    "id": 3812,
+	    "index": 1,
+	    "name": ""
+	},
+	{
+            "buttonname": "",
+            "id": 3813,
+            "index": 2,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3814,
+            "index": 3,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3815,
+            "index": 4,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3816,
+            "index": 5,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3817,
+            "index": 6,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3818,
+            "index": 7,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3819,
+            "index": 8,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3820,
+            "index": 9,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3821,
+            "index": 10,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3822,
+            "index": 11,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3823,
+            "index": 12,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3824,
+            "index": 13,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3825,
+            "index": 14,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3826,
+            "index": 15,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3827,
+            "index": 16,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3828,
+            "index": 17,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3829,
+            "index": 18,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3830,
+            "index": 19,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3831,
+            "index": 20,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3832,
+            "index": 21,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3833,
+            "index": 22,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3834,
+            "index": 23,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3835,
+            "index": 24,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3836,
+            "index": 25,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3837,
+            "index": 26,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3838,
+            "index": 27,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3839,
+            "index": 28,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3840,
+            "index": 29,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3841,
+            "index": 30,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3842,
+            "index": 31,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3843,
+            "index": 32,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3844,
+            "index": 33,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3845,
+            "index": 34,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3846,
+            "index": 35,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3847,
+            "index": 36,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3848,
+            "index": 37,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3849,
+            "index": 38,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3850,
+            "index": 39,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3851,
+            "index": 40,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3852,
+            "index": 41,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3853,
+            "index": 42,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3854,
+            "index": 43,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3855,
+            "index": 44,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3856,
+            "index": 45,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3857,
+            "index": 46,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3858,
+            "index": 47,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3859,
+            "index": 48,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3860,
+            "index": 49,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3861,
+            "index": 50,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3862,
+            "index": 51,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3863,
+            "index": 52,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3864,
+            "index": 53,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3865,
+            "index": 54,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3866,
+            "index": 55,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3867,
+            "index": 56,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3868,
+            "index": 57,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3869,
+            "index": 58,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3870,
+            "index": 59,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3871,
+            "index": 60,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3872,
+            "index": 61,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3873,
+            "index": 62,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3874,
+            "index": 63,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3875,
+            "index": 64,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3876,
+            "index": 65,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3877,
+            "index": 66,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3878,
+            "index": 67,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3879,
+            "index": 68,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3880,
+            "index": 69,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3881,
+            "index": 70,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3882,
+            "index": 71,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3883,
+            "index": 72,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3884,
+            "index": 73,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3885,
+            "index": 74,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3886,
+            "index": 75,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3887,
+            "index": 76,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3888,
+            "index": 77,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3889,
+            "index": 78,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3890,
+            "index": 79,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3891,
+            "index": 80,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3892,
+            "index": 81,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3893,
+            "index": 82,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3894,
+            "index": 83,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3895,
+            "index": 84,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3896,
+            "index": 85,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3897,
+            "index": 86,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3898,
+            "index": 87,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3899,
+            "index": 88,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3900,
+            "index": 89,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3901,
+            "index": 90,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3902,
+            "index": 91,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3903,
+            "index": 92,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3904,
+            "index": 93,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3905,
+            "index": 94,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3906,
+            "index": 95,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3907,
+            "index": 96,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3908,
+            "index": 97,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3909,
+            "index": 98,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3910,
+            "index": 99,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3911,
+            "index": 100,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3912,
+            "index": 101,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3913,
+            "index": 102,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3914,
+            "index": 103,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3915,
+            "index": 104,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3916,
+            "index": 105,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3917,
+            "index": 106,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3918,
+            "index": 107,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3919,
+            "index": 108,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3920,
+            "index": 109,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3921,
+            "index": 110,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3922,
+            "index": 111,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3923,
+            "index": 112,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3924,
+            "index": 113,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3925,
+            "index": 114,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3926,
+            "index": 115,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3927,
+            "index": 116,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3928,
+            "index": 117,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3929,
+            "index": 118,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3930,
+            "index": 119,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3931,
+            "index": 120,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3932,
+            "index": 121,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3933,
+            "index": 122,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3934,
+            "index": 123,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3935,
+            "index": 124,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3936,
+            "index": 125,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3937,
+            "index": 126,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3938,
+            "index": 127,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3939,
+            "index": 128,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3940,
+            "index": 129,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3941,
+            "index": 130,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3942,
+            "index": 131,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3943,
+            "index": 132,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3944,
+            "index": 133,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3945,
+            "index": 134,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3946,
+            "index": 135,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3947,
+            "index": 136,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3948,
+            "index": 137,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3949,
+            "index": 138,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3950,
+            "index": 139,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3951,
+            "index": 140,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3952,
+            "index": 141,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3953,
+            "index": 142,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3954,
+            "index": 143,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3955,
+            "index": 144,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3956,
+            "index": 145,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3957,
+            "index": 146,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3958,
+            "index": 147,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3959,
+            "index": 148,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3960,
+            "index": 149,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3961,
+            "index": 150,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3962,
+            "index": 151,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3963,
+            "index": 152,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3964,
+            "index": 153,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3965,
+            "index": 154,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3966,
+            "index": 155,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3967,
+            "index": 156,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3968,
+            "index": 157,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3969,
+            "index": 158,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3970,
+            "index": 159,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3971,
+            "index": 160,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3972,
+            "index": 161,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3973,
+            "index": 162,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3974,
+            "index": 163,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3975,
+            "index": 164,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3976,
+            "index": 165,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3977,
+            "index": 166,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3978,
+            "index": 167,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3979,
+            "index": 168,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3980,
+            "index": 169,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3981,
+            "index": 170,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3982,
+            "index": 171,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3983,
+            "index": 172,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3984,
+            "index": 173,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3985,
+            "index": 174,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3986,
+            "index": 175,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3987,
+            "index": 176,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3988,
+            "index": 177,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3989,
+            "index": 178,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3990,
+            "index": 179,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3991,
+            "index": 180,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3992,
+            "index": 181,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3993,
+            "index": 182,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3994,
+            "index": 183,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3995,
+            "index": 184,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3996,
+            "index": 185,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3997,
+            "index": 186,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3998,
+            "index": 187,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 3999,
+            "index": 188,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4000,
+            "index": 189,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4001,
+            "index": 190,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4002,
+            "index": 191,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4003,
+            "index": 192,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4004,
+            "index": 193,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4005,
+            "index": 194,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4006,
+            "index": 195,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4007,
+            "index": 196,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4008,
+            "index": 197,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4009,
+            "index": 198,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4010,
+            "index": 199,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4011,
+            "index": 200,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4012,
+            "index": 201,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4013,
+            "index": 202,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4014,
+            "index": 203,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4015,
+            "index": 204,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4016,
+            "index": 205,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4017,
+            "index": 206,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4018,
+            "index": 207,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4019,
+            "index": 208,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4020,
+            "index": 209,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4021,
+            "index": 210,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4022,
+            "index": 211,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4023,
+            "index": 212,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4024,
+            "index": 213,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4025,
+            "index": 214,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4026,
+            "index": 215,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4027,
+            "index": 216,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4028,
+            "index": 217,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4029,
+            "index": 218,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4030,
+            "index": 219,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4031,
+            "index": 220,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4032,
+            "index": 221,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4033,
+            "index": 222,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4034,
+            "index": 223,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4035,
+            "index": 224,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4036,
+            "index": 225,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4037,
+            "index": 226,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4038,
+            "index": 227,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4039,
+            "index": 228,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4040,
+            "index": 229,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4041,
+            "index": 230,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4042,
+            "index": 231,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4043,
+            "index": 232,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4044,
+            "index": 233,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4045,
+            "index": 234,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4046,
+            "index": 235,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4047,
+            "index": 236,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4048,
+            "index": 237,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4049,
+            "index": 238,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4050,
+            "index": 239,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4051,
+            "index": 240,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4052,
+            "index": 241,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4053,
+            "index": 242,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4054,
+            "index": 243,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4055,
+            "index": 244,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4056,
+            "index": 245,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4057,
+            "index": 246,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4058,
+            "index": 247,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4059,
+            "index": 248,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4060,
+            "index": 249,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4061,
+            "index": 250,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4062,
+            "index": 251,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4063,
+            "index": 252,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4064,
+            "index": 253,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4065,
+            "index": 254,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4066,
+            "index": 255,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4067,
+            "index": 256,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4068,
+            "index": 257,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4069,
+            "index": 258,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4070,
+            "index": 259,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4071,
+            "index": 260,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4072,
+            "index": 261,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4073,
+            "index": 262,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4074,
+            "index": 263,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4075,
+            "index": 264,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4076,
+            "index": 265,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4077,
+            "index": 266,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4078,
+            "index": 267,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4079,
+            "index": 268,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4080,
+            "index": 269,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4081,
+            "index": 270,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4082,
+            "index": 271,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4083,
+            "index": 272,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4084,
+            "index": 273,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4085,
+            "index": 274,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4086,
+            "index": 275,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4087,
+            "index": 276,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4088,
+            "index": 277,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4089,
+            "index": 278,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4090,
+            "index": 279,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4091,
+            "index": 280,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4092,
+            "index": 281,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4093,
+            "index": 282,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4094,
+            "index": 283,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4095,
+            "index": 284,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4096,
+            "index": 285,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4097,
+            "index": 286,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4098,
+            "index": 287,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4099,
+            "index": 288,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4100,
+            "index": 289,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4101,
+            "index": 290,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4102,
+            "index": 291,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4103,
+            "index": 292,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4104,
+            "index": 293,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4105,
+            "index": 294,
+            "name": ""
+        },
+        {
+            "buttonname": "",
+            "id": 4106,
+            "index": 295,
+            "name": ""
+        },
+        {
+            "buttonname": "BatteryOvercharge",
+            "id": 4107,
+            "index": 0,
+            "name": "BatteryOvercharge"
+        },
+        {
+            "buttonname": "",
+            "id": 4108,
+            "index": 296,
+            "name": ""
+        },
+        {
+            "buttonname": "AmorphousArmorcloud",
+            "id": 4109,
+            "index": 0,
+            "name": "AmorphousArmorcloud"
+        },
+        {
+            "buttonname": "",
+            "id": 4110,
+            "index": 297,
+            "name": ""
+        },
+        {
+            "buttonname": "ShieldBatteryRecharge",
+            "id": 4111,
+            "index": 0,
+            "name": "ShieldBatteryRechargeEx5"
+        },
+        {
+            "buttonname": "Stop",
+            "id": 4112,
+            "index": 1,
+            "name": "ShieldBatteryRechargeEx5"
         }
     ],
     "Buffs": [
@@ -32383,7 +34279,231 @@
         {
             "id": 1942,
             "name": "ParasiticBombRelayDummy"
-        }
+        },
+	{
+	    "id": 1943,
+	    "name": "RefineryRich"
+	},
+	{
+	    "id": 1944,
+	    "name": "MechaZerglingACGlueScreenDummy"
+	},
+	{
+	    "id": 1945,
+	    "name": "MechaBanelingACGlueScreenDummy"
+	},
+	{
+	    "id": 1946,
+	    "name": "MechaHydraliskACGlueScreenDummy"
+	},
+	{
+	    "id": 1947,
+	    "name": "MechaInfestorACGlueScreenDummy"
+	},
+	{
+	    "id": 1948,
+	    "name": "MechaCorruptorACGlueScreenDummy"
+	},
+	{
+	    "id": 1949,
+	    "name": "MechaUltraliskACGlueScreenDummy"
+	},
+	{
+	    "id": 1950,
+	    "name": "MechaOverseerACGlueScreenDummy"
+	},
+	{
+	    "id": 1951,
+	    "name": "MechaLurkerACGlueScreenDummy"
+	},
+	{
+	    "id": 1952,
+	    "name": "MechaBattleCarrierLordACGlueScreenDummy"
+	},
+	{
+	    "id": 1953,
+	    "name": "MechaSpineCrawlerACGlueScreenDummy"
+	},
+	{
+	    "id": 1954,
+	    "name": "MechaSporeCrawlerACGlueScreenDummy"
+	},
+	{
+	    "id": 1955,
+	    "name": "TrooperMengskACGlueScreenDummy"
+	},
+	{
+	    "id": 1956,
+	    "name": "MedivacMengskACGlueScreenDummy"
+	},
+	{
+	    "id": 1957,
+	    "name": "BlimpMengskACGlueScreenDummy"
+	},
+	{
+	    "id": 1958,
+	    "name": "MarauderMengskACGlueScreenDummy"
+	},
+	{
+	    "id": 1959,
+	    "name": "GhostMengskACGlueScreenDummy"
+	},
+	{
+	    "id": 1960,
+	    "name": "SiegeTankMengskACGlueScreenDummy"
+	},
+	{
+	    "id": 1961,
+	    "name": "ThorMengskACGlueScreenDummy"
+	},
+	{
+	    "id": 1962,
+	    "name": "VikingMengskACGlueScreenDummy"
+	},
+	{
+	    "id": 1963,
+	    "name": "BattlecruiserMengskACGlueScreenDummy"
+	},
+	{
+	    "id": 1964,
+	    "name": "BunkerDepotMengskACGlueScreenDummy"
+	},
+	{
+	    "id": 1965,
+	    "name": "MissileTurretMengskACGlueScreenDummy"
+	},
+	{
+	    "id": 1966,
+	    "name": "ArtilleryMengskACGlueScreenDummy"
+	},
+	{
+	    "id": 1967,
+	    "name": "LoadoutSpray1"
+	},
+	{
+	    "id": 1968,
+	    "name": "LoadoutSpray2"
+	},
+	{
+	    "id": 1969,
+	    "name": "LoadoutSpray3"
+	},
+	{
+	    "id": 1970,
+	    "name": "LoadoutSpray4"
+	},
+	{
+	    "id": 1971,
+	    "name": "LoadoutSpray5"
+	},
+	{
+	    "id": 1972,
+	    "name": "LoadoutSpray6"
+	},
+	{
+	    "id": 1973,
+	    "name": "LoadoutSpray7"
+	},
+	{
+	    "id": 1974,
+	    "name": "LoadoutSpray8"
+	},
+	{
+	    "id": 1975,
+	    "name": "LoadoutSpray9"
+	},
+	{
+	    "id": 1976,
+	    "name": "LoadoutSpray10"
+	},
+	{
+	    "id": 1977,
+	    "name": "LoadoutSpray11"
+	},
+	{
+	    "id": 1978,
+	    "name": "LoadoutSpray12"
+	},
+	{
+	    "id": 1979,
+	    "name": "LoadoutSpray13"
+	},
+	{
+	    "id": 1980,
+	    "name": "LoadoutSpray14"
+	},
+	{
+	    "id": 1981,
+	    "name": "PreviewBunkerUpgraded"
+	},
+	{
+	    "id": 1982,
+	    "name": "InhibitorZoneSmall"
+	},
+	{
+	    "id": 1983,
+	    "name": "InhibitorZoneMedium"
+	},
+	{
+	    "id": 1984,
+	    "name": "InhibitorZoneLarge"
+	},
+	{
+	    "id": 1985,
+	    "name": "AccelerationZoneSmall"
+	},
+	{
+	    "id": 1986,
+	    "name": "AccelerationZoneMedium"
+	},
+	{
+	    "id": 1987,
+	    "name": "AccelerationZoneLarge"
+	},
+	{
+	    "id": 1988,
+	    "name": "AccelerationZoneFlyingSmall"
+	},
+	{
+	    "id": 1989,
+	    "name": "AccelerationZoneFlyingMedium"
+	},
+	{
+	    "id": 1990,
+	    "name": "AccelerationZoneFlyingLarge"
+	},
+	{
+	    "id": 1991,
+	    "name": "InhibitorZoneFlyingSmall"
+	},
+	{
+	    "id": 1992,
+	    "name": "InhibitorZoneFlyingMedium"
+	},
+	{
+	    "id": 1993,
+	    "name": "InhibitorZoneFlyingLarge"
+	},
+	{
+	    "id": 1994,
+	    "name": "AssimilatorRich"
+	},
+	{
+	    "id": 1995,
+	    "name": "ExtractorRich"
+	},
+	{
+	    "id": 1996,
+	    "name": "MineralField450"
+	},
+	{
+	    "id": 1997,
+	    "name": "MineralFieldOpaque"
+	},
+	{
+	    "id": 1998,
+	    "name": "MineralFieldOpaque900"
+	}
     ],
     "Upgrades": [
         {
@@ -33587,6 +35707,34 @@
         {
             "id": 295,
             "name": "CarrierLeashRangeUpgrade"
+        },
+        {
+            "id": 296,
+            "name": "TempestGroundAttackUpgrade"
+        },
+        {
+            "id": 297,
+            "name": "EnhancedShockwaves"
+        },
+        {
+            "id": 298,
+            "name": "MicrobialShroud"
+        },
+        {
+            "id": 299,
+            "name": "SunderingImpact"
+        },
+        {
+            "id": 300,
+            "name": "AmplifiedShielding"
+        },
+        {
+            "id": 301,
+            "name": "PsionicAmplifiers"
+        },
+        {
+            "id": 302,
+            "name": "SecretedCoating"
         }
     ]
 }
