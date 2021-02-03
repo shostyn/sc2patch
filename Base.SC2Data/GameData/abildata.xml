@@ -205,10 +205,10 @@
     </CAbilEffectTarget>
     <CAbilEffectTarget id="ShieldBatteryRechargeEx5">
         <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Effect index="0" value="ShieldBatteryRechargeChanneledSet"/>
         <Flags index="AutoCast" value="1"/>
         <Flags index="AutoCastOn" value="1"/>
         <Flags index="BestUnit" value="0"/>
-        <Flags index="CancelResetAutoCast" value="0"/>
         <Flags index="ReExecutable" value="1"/>
         <Flags index="Smart" value="1"/>
         <TargetFilters value="Visible;Self,Enemy,Missile,UnderConstruction,Dead,Hidden"/>
@@ -232,11 +232,11 @@
             <Flags index="UseDefaultButton" value="1"/>
             <Flags index="CreateDefaultButton" value="1"/>
         </CmdButtonArray>
-        <CmdButtonArray index="Cancel" DefaultButtonFace="Stop">
+        <!--CmdButtonArray index="Cancel" DefaultButtonFace="Stop">
             <Flags index="ToSelection" value="1"/>
             <Flags index="UseDefaultButton" value="1"/>
             <Flags index="CreateDefaultButton" value="1"/>
-        </CmdButtonArray>
+        </CmdButtonArray-->
     </CAbilEffectTarget>
     <CAbilTrain id="StargateTrain">
         <InfoArray index="Train5" Time="52"/>

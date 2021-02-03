@@ -371,10 +371,12 @@
         </CardLayouts>
     </CUnit>
     <CUnit id="ShieldBattery">
+        <AbilArray index="1" Link="ShieldBatteryRechargeEx5"/>
+        <AbilArray index="2" removed="1"/>
         <CardLayouts index="0">
             <LayoutButtons index="0" Face="Cancel" AbilCmd="BuildInProgress,Cancel" Column="4"/>
-            <LayoutButtons index="1" Face="ShieldBatteryRecharge" AbilCmd="ShieldBatteryRechargeChanneled,Execute" Row="0" Column="0"/>
-            <LayoutButtons index="2" Face="Cancel" AbilCmd="ShieldBatteryRechargeChanneled,Cancel" Column="1"/>
+            <LayoutButtons index="1" Face="ShieldBatteryRecharge" AbilCmd="ShieldBatteryRechargeEx5,Execute" Row="0" Column="0"/>
+            <LayoutButtons index="2" Face="Cancel" AbilCmd="ShieldBatteryRechargeEx5,Cancel" Column="1"/>
         </CardLayouts>
     </CUnit>
     <CUnit id="Tempest">
