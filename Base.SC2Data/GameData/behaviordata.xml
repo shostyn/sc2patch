@@ -46,13 +46,12 @@
         <DisplayDuration index="Self" value="1"/>
         <Modification HealDealtMultiplier="2"/>
     </CBehaviorBuff>
-    <CBehaviorBuff id="DummyBuff001">
-        <Alignment value="Positive"/>
-        <InfoIcon value="Assets\Textures\btn-ability-zerg-yagdra-firewave.dds"/>
-        <TimeScaleSource Value="Global"/>
-        <Duration value="0"/>
-        <DisplayDuration index="Self" value="1"/>
-        <Modification HealDealtMultiplier="2"/>
+    <CBehaviorBuff id="InhibitorZoneFlyingTemporalField">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-temporalfield.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.125"/>
+        <Modification MoveSpeedMultiplier="0.65"/>
     </CBehaviorBuff>
     <CBehaviorBuff id="ResonatingGlaivesPhaseShift">
         <Alignment value="Positive"/>
@@ -185,5 +184,13 @@
             <WeaponDisableArray value="OracleDisplayDummy"/>
         </Modification>
         <InfoFlags index="Hidden" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DummyBuff001">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-yagdra-firewave.dds"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0"/>
+        <DisplayDuration index="Self" value="1"/>
+        <Modification HealDealtMultiplier="2"/>
     </CBehaviorBuff>
 </Catalog>
