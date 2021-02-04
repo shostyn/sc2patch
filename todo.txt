@@ -1,2 +1,0 @@
-# - Add localized strings for non english
-# - Make Shield Battery stop ability not cancel autocast
