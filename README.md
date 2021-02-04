@@ -21,14 +21,15 @@ Added 5.0.6 Maps
 - All IDs (units\abilities\buffs\etc) are now equivelant between these maps and 5.0.6
 - Shield batteries now use "Ex5" abilities to match version 5.0.6
 - Battlecruiser & Oracle weapons are visible through the API
+- Maps should work on 5.0.6 live without issues (not thoroughly tested)
 
 Bugfixes
 - Fixed some instances of "LE" appearing in map name
 - Warp prism mineral cost 200 -> 250 to match 5.0.6
 
 ## Known Issues
-- Stop ability on shield battery disables autocast for Shield Recharge
+- Stop ability on shield battery disables autocast for Shield Recharge on 4.10.0
 - No localized strings exist for non enUS clients
 
-## How to apply the match manually to a map
+## How to apply the patch manually to a map
 https://www.youtube.com/watch?v=1dtGEkLXv3E

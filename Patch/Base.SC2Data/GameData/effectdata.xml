@@ -197,6 +197,8 @@
     </CEffectDestroyPersistent>
     <CEffectSet id="LurkerMPSearchSet">
         <EditorCategories value="Race:Zerg"/>
+        <EffectArray index="0" removed="1"/>
+        <EffectArray index="1" removed="1"/>
         <EffectArray value="LurkerMPWeaponRangeSwitch"/>
         <EffectArray value="KillRemove"/>
     </CEffectSet>

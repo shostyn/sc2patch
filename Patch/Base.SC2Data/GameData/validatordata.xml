@@ -24,6 +24,7 @@
     </CValidatorCombine>
     <CValidatorLocationEnumArea id="NexusBatteryOvercharge8RangePlacementVisual">
         <ResultFailed value="TargetIsOutOfRange,Error/BatteryMustBeNearNexus"/>
+        <AreaArray index="0" removed="1"/>
         <AreaArray>
             <Compare value="GE"/>
             <Count value="1"/>
@@ -40,6 +41,7 @@
     </CValidatorUnitType>
     <CValidatorLocationEnumArea id="NexusBatteryOvercharge8Range">
         <ResultFailed value="TargetIsOutOfRange,Error/BatteryMustBeNearNexus"/>
+        <AreaArray index="0" removed="1"/>
         <AreaArray>
             <Compare value="GE"/>
             <Count value="1"/>
