@@ -1,0 +1,7 @@
+﻿DocInfo/DescLong=Rather small and aggressive map with fewer bases. Although small, the layout is still rather standard, so it allows for several different kinds of strategies. The short straight forward attack path is choked off by rocks.<n/><n/>Submitted to TLnet Map Contest<n/>Created by: Zweck
+DocInfo/DescShort=1v1
+DocInfo/Name=Submarine 5.0.6
+MapInfo/Player00/Name=Neutral
+MapInfo/Player01/Name=Player 1
+MapInfo/Player02/Name=Player 2
+MapInfo/Player03/Name=Hostile

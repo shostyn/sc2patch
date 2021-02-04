@@ -1,7 +1,0 @@
-﻿DocInfo/DescLong=The linear third base is further away from the opponent compared to the triangular third but in return, the high grounds surrounding it must be taken into consideration. No matter in which direction you go, there’ll be a fourth waiting for you.<n/><n/>Submitted to TLnet Map Contest<n/>Created by: Agaton
-DocInfo/DescShort=1v1
-DocInfo/Name=Pillars of Gold LE
-MapInfo/Player00/Name=Neutral
-MapInfo/Player01/Name=Player 1
-MapInfo/Player02/Name=Player 2
-MapInfo/Player03/Name=Hostile
