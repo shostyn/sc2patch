@@ -1,50 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
-    <CUnit id="DummyUnit000">
-        <Name value="Unit/Name/DummyUnit000"/>
-    </CUnit>
-    <CUnit id="DummyUnit001">
-        <Name value="Unit/Name/DummyUnit001"/>
-    </CUnit>
-    <CUnit id="DummyUnit002">
-        <Name value="Unit/Name/DummyUnit002"/>
-    </CUnit>
-    <CUnit id="DummyUnit003">
-        <Name value="Unit/Name/DummyUnit003"/>
-    </CUnit>
-    <CUnit id="DummyUnit004">
-        <Name value="Unit/Name/DummyUnit004"/>
-    </CUnit>
-    <CUnit id="DummyUnit005">
-        <Name value="Unit/Name/DummyUnit005"/>
-    </CUnit>
-    <CUnit id="DummyUnit006">
-        <Name value="Unit/Name/DummyUnit006"/>
-    </CUnit>
-    <CUnit id="DummyUnit007">
-        <Name value="Unit/Name/DummyUnit007"/>
-    </CUnit>
-    <CUnit id="DummyUnit008">
-        <Name value="Unit/Name/DummyUnit008"/>
-    </CUnit>
-    <CUnit id="DummyUnit009">
-        <Name value="Unit/Name/DummyUnit009"/>
-    </CUnit>
-    <CUnit id="DummyUnit010">
-        <Name value="Unit/Name/DummyUnit010"/>
-    </CUnit>
-    <CUnit id="DummyUnit011">
-        <Name value="Unit/Name/DummyUnit011"/>
-    </CUnit>
-    <CUnit id="DummyUnit012">
-        <Name value="Unit/Name/DummyUnit012"/>
-    </CUnit>
-    <CUnit id="DummyUnit013">
-        <Name value="Unit/Name/DummyUnit013"/>
-    </CUnit>
-    <CUnit id="DummyUnit014">
-        <Name value="Unit/Name/DummyUnit014"/>
-    </CUnit>
     <CUnit default="1" id="AccelerationZoneBase">
         <Name value="Unit/Name/AccelerationZone"/>
         <Description value="Button/Tooltip/AccelerationZone"/>
@@ -443,5 +398,51 @@
     </CUnit>
     <CUnit id="Oracle">
         <BehaviorArray Link="OracleDisableAttack"/>
+    </CUnit>
+    <!--Dummy units used to push ids further in stableids.json/-->
+    <CUnit id="DummyUnit000">
+        <Name value="Unit/Name/DummyUnit000"/>
+    </CUnit>
+    <CUnit id="DummyUnit001">
+        <Name value="Unit/Name/DummyUnit001"/>
+    </CUnit>
+    <CUnit id="DummyUnit002">
+        <Name value="Unit/Name/DummyUnit002"/>
+    </CUnit>
+    <CUnit id="DummyUnit003">
+        <Name value="Unit/Name/DummyUnit003"/>
+    </CUnit>
+    <CUnit id="DummyUnit004">
+        <Name value="Unit/Name/DummyUnit004"/>
+    </CUnit>
+    <CUnit id="DummyUnit005">
+        <Name value="Unit/Name/DummyUnit005"/>
+    </CUnit>
+    <CUnit id="DummyUnit006">
+        <Name value="Unit/Name/DummyUnit006"/>
+    </CUnit>
+    <CUnit id="DummyUnit007">
+        <Name value="Unit/Name/DummyUnit007"/>
+    </CUnit>
+    <CUnit id="DummyUnit008">
+        <Name value="Unit/Name/DummyUnit008"/>
+    </CUnit>
+    <CUnit id="DummyUnit009">
+        <Name value="Unit/Name/DummyUnit009"/>
+    </CUnit>
+    <CUnit id="DummyUnit010">
+        <Name value="Unit/Name/DummyUnit010"/>
+    </CUnit>
+    <CUnit id="DummyUnit011">
+        <Name value="Unit/Name/DummyUnit011"/>
+    </CUnit>
+    <CUnit id="DummyUnit012">
+        <Name value="Unit/Name/DummyUnit012"/>
+    </CUnit>
+    <CUnit id="DummyUnit013">
+        <Name value="Unit/Name/DummyUnit013"/>
+    </CUnit>
+    <CUnit id="DummyUnit014">
+        <Name value="Unit/Name/DummyUnit014"/>
     </CUnit>
 </Catalog>

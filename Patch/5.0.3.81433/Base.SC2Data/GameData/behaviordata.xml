@@ -38,14 +38,6 @@
     <CBehaviorBuff id="AccelerationZoneFlyingLarge" parent="AccelerationZoneFlyingBase"/>
     <CBehaviorBuff id="AccelerationZoneFlyingMedium" parent="AccelerationZoneFlyingBase"/>
     <CBehaviorBuff id="AccelerationZoneFlyingSmall" parent="AccelerationZoneFlyingBase"/>
-    <CBehaviorBuff id="DummyBuff000">
-        <Alignment value="Positive"/>
-        <InfoIcon value="Assets\Textures\btn-ability-zerg-yagdra-firewave.dds"/>
-        <TimeScaleSource Value="Global"/>
-        <Duration value="0"/>
-        <DisplayDuration index="Self" value="1"/>
-        <Modification HealDealtMultiplier="2"/>
-    </CBehaviorBuff>
     <CBehaviorBuff id="InhibitorZoneFlyingTemporalField">
         <Alignment value="Negative"/>
         <InfoIcon value="Assets\Textures\btn-ability-spearofadun-temporalfield.dds"/>
@@ -184,6 +176,15 @@
             <WeaponDisableArray value="OracleDisplayDummy"/>
         </Modification>
         <InfoFlags index="Hidden" value="1"/>
+    </CBehaviorBuff>
+    <!--Dummy buffs used to be able to push ids further in stableids.json/-->
+    <CBehaviorBuff id="DummyBuff000">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-yagdra-firewave.dds"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0"/>
+        <DisplayDuration index="Self" value="1"/>
+        <Modification HealDealtMultiplier="2"/>
     </CBehaviorBuff>
     <CBehaviorBuff id="DummyBuff001">
         <Alignment value="Positive"/>

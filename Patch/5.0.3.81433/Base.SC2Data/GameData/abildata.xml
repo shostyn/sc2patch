@@ -50,55 +50,6 @@
     <CAbilEffectTarget id="Feedback">
         <Range index="0" value="10"/>
     </CAbilEffectTarget>
-    <CAbilEffectInstant id="DummyAbil000">
-        <Effect index="0" value="MedivacSpeedBoost"/>
-        <Flags index="Transient" value="1"/>
-        <CmdButtonArray index="Execute" DefaultButtonFace="MedivacSpeedBoost">
-            <Flags index="ToSelection" value="1"/>
-        </CmdButtonArray>
-    </CAbilEffectInstant>
-    <CAbilEffectInstant id="DummyAbil001">
-        <Effect index="0" value="MedivacSpeedBoost"/>
-        <Flags index="Transient" value="1"/>
-        <CmdButtonArray index="Execute" DefaultButtonFace="MedivacSpeedBoost">
-            <Flags index="ToSelection" value="1"/>
-        </CmdButtonArray>
-    </CAbilEffectInstant>
-    <CAbilEffectInstant id="DummyAbil002">
-        <Effect index="0" value="MedivacSpeedBoost"/>
-        <Flags index="Transient" value="1"/>
-        <CmdButtonArray index="Execute" DefaultButtonFace="MedivacSpeedBoost">
-            <Flags index="ToSelection" value="1"/>
-        </CmdButtonArray>
-    </CAbilEffectInstant>
-    <CAbilEffectInstant id="DummyAbil003">
-        <Effect index="0" value="MedivacSpeedBoost"/>
-        <Flags index="Transient" value="1"/>
-        <CmdButtonArray index="Execute" DefaultButtonFace="MedivacSpeedBoost">
-            <Flags index="ToSelection" value="1"/>
-        </CmdButtonArray>
-    </CAbilEffectInstant>
-    <CAbilEffectInstant id="DummyAbil004">
-        <Effect index="0" value="MedivacSpeedBoost"/>
-        <Flags index="Transient" value="1"/>
-        <CmdButtonArray index="Execute" DefaultButtonFace="MedivacSpeedBoost">
-            <Flags index="ToSelection" value="1"/>
-        </CmdButtonArray>
-    </CAbilEffectInstant>
-    <CAbilEffectInstant id="DummyAbil005">
-        <Effect index="0" value="MedivacSpeedBoost"/>
-        <Flags index="Transient" value="1"/>
-        <CmdButtonArray index="Execute" DefaultButtonFace="MedivacSpeedBoost">
-            <Flags index="ToSelection" value="1"/>
-        </CmdButtonArray>
-    </CAbilEffectInstant>
-    <CAbilEffectInstant id="DummyAbil006">
-        <Effect index="0" value="MedivacSpeedBoost"/>
-        <Flags index="Transient" value="1"/>
-        <CmdButtonArray index="Execute" DefaultButtonFace="MedivacSpeedBoost">
-            <Flags index="ToSelection" value="1"/>
-        </CmdButtonArray>
-    </CAbilEffectInstant>
     <CAbilEffectTarget id="BatteryOvercharge">
         <Alignment value="Negative"/>
         <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
@@ -348,6 +299,58 @@
     <CAbilMove id="move">
         <AbilSetId value="Move"/>
     </CAbilMove>
+    <!--Dummy abilities used to push ids further in stableids.json
+       Most likely possible to remove some of the internals of the following
+       abilities and still have them count as real abilities /-->
+    <CAbilEffectInstant id="DummyAbil0">
+        <Effect index="0" value="MedivacSpeedBoost"/>
+        <Flags index="Transient" value="1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="MedivacSpeedBoost">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="DummyAbil1">
+        <Effect index="0" value="MedivacSpeedBoost"/>
+        <Flags index="Transient" value="1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="MedivacSpeedBoost">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="DummyAbil2">
+        <Effect index="0" value="MedivacSpeedBoost"/>
+        <Flags index="Transient" value="1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="MedivacSpeedBoost">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="DummyAbil3">
+        <Effect index="0" value="MedivacSpeedBoost"/>
+        <Flags index="Transient" value="1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="MedivacSpeedBoost">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="DummyAbil4">
+        <Effect index="0" value="MedivacSpeedBoost"/>
+        <Flags index="Transient" value="1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="MedivacSpeedBoost">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="DummyAbil5">
+        <Effect index="0" value="MedivacSpeedBoost"/>
+        <Flags index="Transient" value="1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="MedivacSpeedBoost">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="DummyAbil6">
+        <Effect index="0" value="MedivacSpeedBoost"/>
+        <Flags index="Transient" value="1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="MedivacSpeedBoost">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
     <CAbilEffectInstant id="DummyAbil7">
         <Effect index="0" value="MedivacSpeedBoost"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="MedivacSpeedBoost">
