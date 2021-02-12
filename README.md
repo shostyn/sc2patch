@@ -30,6 +30,8 @@ Bugfixes
 ## Known Issues
 - Stop ability on shield battery disables autocast for Shield Recharge on 4.10.0
 - No localized strings exist for non enUS clients
+- Acceleration zones don't appear on mimimap
+- No fade in on cloak animation from mothership
 
 ## How to apply the patch manually to a map
 https://www.youtube.com/watch?v=1dtGEkLXv3E
