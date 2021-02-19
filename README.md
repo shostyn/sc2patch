@@ -22,6 +22,3 @@ Added 5.0.6 Maps
 Bugfixes
 - Fixed some instances of "LE" appearing in map name
 - Warp prism mineral cost 200 -> 250 to match 5.0.6
-
-## How to apply the patch manually to a map
-https://www.youtube.com/watch?v=1dtGEkLXv3E
