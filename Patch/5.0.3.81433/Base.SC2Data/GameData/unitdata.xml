@@ -381,6 +381,9 @@
     <CUnit id="WarpPrism">
         <CostResource index="Minerals" value="250"/>
     </CUnit>
+    <CUnit id="WarpPrismPhasing">
+        <CostResource index="Minerals" value="250"/>
+    </CUnit>
     <CUnit id="WidowMine">
         <CardLayouts index="0">
             <LayoutButtons Face="DrillClaws" Type="Passive" Requirements="HaveWidowMineDrillingClaws" Row="2" Column="3"/>
