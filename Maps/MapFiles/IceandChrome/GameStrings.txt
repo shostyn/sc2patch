@@ -1,8 +1,0 @@
-﻿DocInfo/DescLong=Choose between an open third and safer fourth base, or go for the safer third and open fourth base option.<n/><n/>Submitted to TLnet Map Contest<n/>Created by: TheMusic246
-DocInfo/DescShort=1v1
-DocInfo/Name=Ice and Chrome 5.0.6
-MapInfo/Player00/Name=Neutral
-MapInfo/Player01/Name=Player 1
-MapInfo/Player02/Name=Player 2
-MapInfo/Player03/Name=Hostile
-Terrain/Name/DominionLab2=Custom 1
