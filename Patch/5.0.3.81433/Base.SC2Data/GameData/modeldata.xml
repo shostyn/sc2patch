@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CModel id="InhibitorZone" parent="Unit">
+        <Model value="Assets\Buildings\Neutral\XelNagaInhibitor\XelNagaInhibitor.m3"/>
+        <SelectionRadius value="2.000000"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <Tipability value="1.000000"/>
+    </CModel>
+    <CModel id="InhibitorZoneDeath" parent="Unit">
+        <Model value="Assets\Doodads\ProtossCratesDeath\ProtossCratesDeath_06.m3"/>
+    </CModel>
+    <CModel id="InhibitorZoneRadius" parent="RacePersistentSpellFX">
+        <Model value="Assets\Effects\Neutral\XelNagaInhibitor_Field\XelNagaInhibitor_Field.m3"/>
+        <ScaleMax value="1.000000,1.000000,0.500000"/>
+        <ScaleMin value="1.000000,1.000000,0.500000"/>
+    </CModel>
+    <CModel id="InhibitorZoneTemporalFieldImpactModel" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Neutral\XelNagaInhibitor_Impact\XelNagaInhibitor_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="InhibitorZoneFlying" parent="Unit">
+        <Model value="Assets\Buildings\Neutral\XelNagaInhibitorFlying\XelNagaInhibitorFlying.m3"/>
+        <SelectionRadius value="1.500000"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="InhibitorZoneFlyingDeath" parent="Unit">
+        <Model value="Assets\Doodads\ProtossCratesDeath\ProtossCratesDeath_06.m3"/>
+    </CModel>
+    <CModel id="InhibitorZoneFlyingRadius" parent="RacePersistentSpellFX">
+        <Model value="Assets\Effects\Neutral\XelNagaInhibitorFlying_Field\XelNagaInhibitorFlying_Field.m3"/>
+        <ScaleMax value="1.000000,1.000000,0.500000"/>
+        <ScaleMin value="1.000000,1.000000,0.500000"/>
+    </CModel>
+    <CModel id="InhibitorZoneFlyingTemporalFieldImpactModel" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Neutral\XelNagaInhibitor_Impact\XelNagaInhibitor_Impact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
     <CModel id="AccelerationZone" parent="Unit">
         <Model value="Assets\Buildings\Neutral\XelNagaInhibitor\XelNagaInhibitor.m3"/>
         <SelectionRadius value="2.000000"/>

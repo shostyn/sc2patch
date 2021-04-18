@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CBehaviorBuff default="1" id="InhibitorZoneBase">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <Period value="0.0625"/>
+        <PeriodicEffect value="##id##Search"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff default="1" id="InhibitorZoneFlyingBase">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <Period value="0.0625"/>
+        <PeriodicEffect value="##id##Search"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="InhibitorZoneFlyingTemporalField">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-temporalfield.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.125"/>
+        <Modification MoveSpeedMultiplier="0.65"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="InhibitorZoneFlyingLarge" parent="InhibitorZoneFlyingBase"/>
+    <CBehaviorBuff id="InhibitorZoneFlyingMedium" parent="InhibitorZoneFlyingBase"/>
+    <CBehaviorBuff id="InhibitorZoneFlyingSmall" parent="InhibitorZoneFlyingBase"/>
+    <CBehaviorBuff id="InhibitorZoneLarge" parent="InhibitorZoneBase"/>
+    <CBehaviorBuff id="InhibitorZoneMedium" parent="InhibitorZoneBase"/>
+    <CBehaviorBuff id="InhibitorZoneSmall" parent="InhibitorZoneBase"/>
+    <CBehaviorBuff id="InhibitorZoneTemporalField">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-temporalfield.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.125"/>
+        <Modification MoveSpeedMultiplier="0.65"/>
+    </CBehaviorBuff>
     <CBehaviorBuff default="1" id="AccelerationZoneBase">
         <BehaviorFlags index="Permanent" value="1"/>
         <InfoFlags index="Hidden" value="1"/>
