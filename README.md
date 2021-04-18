@@ -12,6 +12,11 @@ A version manager should no longer be required to adjust IDs between game versio
 To detect these maps query map name through the Sc2 API and all map names will end with "5.0.6"
 
 ## Changelog
+### 21/04/18
+Added 2021 Season 2 Ladder maps
+- Suffix will be "AIE" going forward no matter the patch
+- Warp prism cost change between modes fixed
+
 ### 20/02/04
 Added 5.0.6 Maps
 - All IDs (units\abilities\buffs\etc) are now equivelant between these maps and 5.0.6
