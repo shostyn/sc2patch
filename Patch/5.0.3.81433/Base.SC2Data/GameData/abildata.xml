@@ -296,6 +296,12 @@
             <Flags index="CreateDefaultButton" value="1"/>
         </CmdButtonArray>
     </CAbilEffectTarget>
+    <CAbilResearch id="LairResearch">
+        <InfoArray index="Research2">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+        </InfoArray>
+    </CAbilResearch>
     <CAbilMove id="move">
         <AbilSetId value="Move"/>
     </CAbilMove>
