@@ -6,11 +6,8 @@ Intended for use with latest Sc2 linux binary 4.10.0 to speed up AI competition 
 ## Download
 ### 506 Maps (Sc2 AI Arena Season 1 Maps)
 https://github.com/shostyn/sc2patch/raw/master/Maps/506.zip
-
-### Sc2 ladder 2021 season 2 maps
-https://github.com/shostyn/sc2patch/raw/master/Maps/2021Season2.zip
-
 ## How to use
+
 A version manager should no longer be required to adjust IDs between game versions.
 
 To detect these maps query map name through the Sc2 API and all map names will end with "AIE"
