@@ -154,6 +154,11 @@
         <!--CmdButtonArray index="Execute" DefaultButtonFace="AmorphousArmorcloud" Requirements="UseAmorphousArmorcloud"/-->
         <CmdButtonArray index="Execute" DefaultButtonFace="AmorphousArmorcloud"/>
     </CAbilEffectTarget>
+    <CAbilEffectTarget id="RavenScramblerMissile">
+        <Cost index="0">
+            <Vital index="Energy" value="75"/>
+        </Cost>
+    </CAbilEffectTarget>
     <CAbilEffectTarget id="ShieldBatteryRechargeEx5">
         <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
         <Effect index="0" value="ShieldBatteryRechargeChanneledSet"/>

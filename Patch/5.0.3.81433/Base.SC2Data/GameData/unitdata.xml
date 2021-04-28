@@ -407,6 +407,9 @@
             <LayoutButtons Face="ShieldBattery" Type="AbilCmd" AbilCmd="ProtossBuild,Build16" Row="2" Column="2"/>
         </CardLayouts>
     </CUnit>
+    <CUnit id="Raven">
+        <Speed value="2.9492"/>
+    </CUnit>
     <CUnit id="ShieldBattery">
         <AbilArray index="1" Link="ShieldBatteryRechargeEx5"/>
         <AbilArray index="2" removed="1"/>

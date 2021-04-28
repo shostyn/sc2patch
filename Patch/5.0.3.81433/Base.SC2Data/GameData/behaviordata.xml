@@ -151,6 +151,9 @@
     <CBehaviorResource id="MineralFieldMinerals750">
         <DepletionThreshold value="903"/>
     </CBehaviorResource>
+    <CBehaviorBuff id="RavenScramblerMissile">
+        <Duration value="15"/>
+    </CBehaviorBuff>
     <CBehaviorBuff id="BeamTargetCD">
         <EditorCategories value="AbilityorEffectType:Units"/>
         <MaxStackCount value="65535"/>
