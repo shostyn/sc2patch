@@ -422,4 +422,12 @@
         <ValidatorArray value="SourceNotHidden"/>
         <ValidatorArray value="NotInterceptor"/>
     </CEffectSet>
+    <CEffectSet id="RavenShredderMissileSearchImpactSet">
+        <!--EffectArray value="RavenShredderMissileImpactApplyBehavior"/>
+        <EffectArray value="RavenShredderMissileArmorReductionUIAdd"/-->
+        <EffectArray index="0" removed="1"/>
+        <EffectArray index="1" removed="1"/>
+        <EffectArray index="2" removed="1"/>
+        <EffectArray value="RavenShredderMissileArmorReductionUISubtruct"/>
+    </CEffectSet>
 </Catalog>

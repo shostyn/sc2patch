@@ -603,4 +603,14 @@
         <On Terms="Behavior.BatteryOvercharge.Off" Send="ClearScale 0.000000 OverchargeScale"/>
         <ModelFlags index="AutomateGlobalLoops" value="1"/>
     </CActorBeamSimple>
+    <CActorModel id="RavenShredderMissileAttackImpactDebuff">
+        <On index="3" Terms="Effect.RavenShredderMissileArmorReductionUISubtruct.Start; At Target" Send="Create"/>
+        <On index="4" Terms="Behavior.RavenShredderMissileArmorReductionUISubtruct.Off" Send="Destroy"/>
+    </CActorModel>
+    <CActorSimple id="RavenShredderMissileImpactArmorReductionTint">
+        <On index="0" Terms="Behavior.RavenShredderMissileArmorReductionUISubtruct.On" Send="Create"/>
+        <On index="1" Terms="Behavior.RavenShredderMissileArmorReductionUISubtruct.On" Target="_Unit" Send="SetTintColor {255,100,0 2.000000} 0.100000 OneShot SeekerTargetArmor"/>
+        <On index="2" Terms="Behavior.RavenShredderMissileArmorReductionUISubtruct.Off" Target="_Unit" Send="ClearTintColor 0.100000 SeekerTargetArmor"/>
+        <On index="3" Terms="Behavior.RavenShredderMissileArmorReductionUISubtruct.Off" Send="Destroy"/>
+    </CActorSimple>
 </Catalog>

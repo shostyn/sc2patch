@@ -211,6 +211,16 @@
             <WeaponDisableArray value="OracleDisplayDummy"/>
         </Modification>
         <InfoFlags index="Hidden" value="1"/>
+    </CBehaviorBuff>   
+    <CBehaviorBuff id="RavenShredderMissileArmorReductionUISubtruct">
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <DisplayDuration index="Neutral" value="1"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <Modification ShieldArmorBonus="-3">
+            <LifeArmorBonus value="-3"/>
+        </Modification>
+        <InfoFlags index="Hidden" value="0"/>
     </CBehaviorBuff>
     <!--Dummy buffs used to be able to push ids further in stableids.json/-->
     <CBehaviorBuff id="DummyBuff000">

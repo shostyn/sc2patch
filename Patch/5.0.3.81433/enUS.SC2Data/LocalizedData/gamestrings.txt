@@ -8,10 +8,12 @@ Behavior/Name/AccelerationZoneFlyingTemporalField=Acceleration Zone
 Behavior/Name/AccelerationZoneTemporalField=Acceleration Zone
 Behavior/Name/AmorphousArmorcloud=Microbial Shroud
 Behavior/Name/BatteryOvercharge=Battery Overcharge
+Behavior/Name/RavenShredderMissileArmorReductionUISubtruct=Armor Reduction
 Behavior/Tooltip/AccelerationZoneFlyingTemporalField=This unit's movement speed is increased by <d ref="(Behavior,AccelerationZoneTemporalField,Modification.MoveSpeedMultiplier-1)*100"/>%.
 Behavior/Tooltip/AccelerationZoneTemporalField=This unit's movement speed is increased by <d ref="(Behavior,AccelerationZoneTemporalField,Modification.MoveSpeedMultiplier-1)*100"/>%.
 Behavior/Tooltip/AmorphousArmorcloud=Incoming damage from air units reduced by <d ref="Behavior,AmorphousArmorcloud,DamageResponse.ModifyFraction*100" precision="1"/>%.
 Behavior/Tooltip/BatteryOvercharge=Restoration rate increased. Not consuming energy.
+Behavior/Tooltip/RavenShredderMissileArmorReductionUISubtruct=This unit has reduced armor.
 Behavior/Tooltip/TemporalField=This unit's attack and movement speeds are reduced by 50%.
 Button/Name/AmorphousArmorcloud=Microbial Shroud
 Button/Name/BatteryOvercharge=Battery Overcharge
@@ -106,6 +108,7 @@ Effect/Name/NeuralParasiteChildren=Neural Parasite Children
 Effect/Name/OrbitalCommandCreateMuleOffsetCP=Orbital Command Create Mule Offset CP
 Effect/Name/OrbitalCommandCreateMuleSearchTownHall=Orbital Command Create Mule Search TownHall
 Effect/Name/OrbitalCommandCreateMuleSwitch=Orbital Command Create Mule Switch
+Effect/Name/RavenShredderMissileArmorReductionUISubtruct=RavenShredderMissileArmorReductionUISubtruct
 Effect/Name/ShieldBatteryRechargeEx5=
 Effect/Name/ShieldBatteryRechargeEx5@DamageDummy=Damage Dummy
 Effect/Name/ShieldBatteryRechargeEx5@RevealSearch=Reveal Search
