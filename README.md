@@ -4,6 +4,9 @@ Modifies map files to replicate behavior of the live version of Starcraft 2 in p
 Intended for use with latest Sc2 linux binary 4.10.0 to speed up AI competition & training
 
 ## Download
+### 2021 Season 2 Ladder Maps
+https://github.com/shostyn/sc2patch/raw/master/Maps/2021Season2Ladder.zip
+
 ### 506 Maps (Sc2 AI Arena Season 1 Maps)
 https://github.com/shostyn/sc2patch/raw/master/Maps/506.zip
 ## How to use
