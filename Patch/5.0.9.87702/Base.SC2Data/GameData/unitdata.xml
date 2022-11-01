@@ -164,27 +164,6 @@
     <CUnit id="AccelerationZoneFlyingSmall" parent="AccelerationZoneFlyingBase"/>
     <CUnit id="AccelerationZoneFlyingMedium" parent="AccelerationZoneFlyingBase"/>
     <CUnit id="AccelerationZoneFlyingLarge" parent="AccelerationZoneFlyingBase"/>
-    <CUnit id="Baneling">
-        <BehaviorArray index="1" Link="OnCreepVisible"/>
-    </CUnit>
-    <CUnit id="BanelingBurrowed">
-        <BehaviorArray Link="OnCreepVisible"/>
-    </CUnit>
-    <CUnit id="BanelingCocoon">
-        <BehaviorArray Link="OnCreepVisible"/>
-    </CUnit>
-    <CUnit id="Broodling">
-        <BehaviorArray Link="OnCreepVisible"/>
-    </CUnit>
-    <CUnit id="Changeling">
-        <BehaviorArray Link="OnCreepVisible"/>
-    </CUnit>
-    <CUnit id="ChangelingZergling">
-        <BehaviorArray Link="OnCreepVisible"/>
-    </CUnit>
-    <CUnit id="ChangelingZerglingWings">
-        <BehaviorArray Link="OnCreepVisible"/>
-    </CUnit>
     <CUnit id="CreepTumor">
         <CardLayouts index="0" removed="1"/>
         <Attributes index="Light" value="1"/>
@@ -204,7 +183,6 @@
     </CUnit>
     <CUnit id="Drone">
         <AbilArray Link="SprayZerg"/>
-        <BehaviorArray Link="OnCreepVisible"/>
         <CardLayouts index="0">
             <LayoutButtons index="6" AbilCmd="255,255"/>
             <LayoutButtons index="7" AbilCmd="255,255"/>
@@ -243,12 +221,6 @@
         </CardLayouts-->
         <Collide index="Locust" value="1"/>
         <SubgroupPriority value="60"/>
-    </CUnit>
-    <CUnit id="DroneBurrowed">
-        <BehaviorArray Link="OnCreepVisible"/>
-    </CUnit>
-    <CUnit id="Egg">
-        <BehaviorArray Link="OnCreepVisible"/>
     </CUnit>
     <CUnit id="FleetBeacon">
         <Collide index="Locust" value="1"/>
@@ -290,12 +262,6 @@
             <LayoutButtons index="6" Face="ResearchEnhancedShockwaves" Type="AbilCmd" AbilCmd="GhostAcademyResearch,Research3" Row="0" Column="1"/>
         </CardLayouts>
     </CUnit>
-    <CUnit id="Hydralisk">
-        <BehaviorArray Link="OnCreepVisible"/>
-    </CUnit>
-    <CUnit id="HydraliskBurrowed">
-        <BehaviorArray Link="OnCreepVisible"/>
-    </CUnit>
     <CUnit id="Immortal">
         <CardLayouts index="0">
             <LayoutButtons index="5" Face="ImmortalOverload" AbilCmd="ImmortalOverload,Execute" Behavior="BarrierDamageResponse"/>
@@ -306,7 +272,6 @@
         <LifeMax value="75"/>
     </CUnit>
     <CUnit id="Infestor">
-        <BehaviorArray Link="OnCreepVisible"/>
         <CardLayouts index="0">
             <LayoutButtons index="4" Face="FungalGrowth" AbilCmd="FungalGrowth,Execute" Column="1"/>
             <LayoutButtons index="5" Face="Attack" AbilCmd="attack,Execute" Row="0" Column="4"/>
@@ -343,7 +308,6 @@
         <AbilArray Link="AmorphousArmorcloud"/>
     </CUnit>
     <CUnit id="InfestorBurrowed">
-        <BehaviorArray Link="OnCreepVisible"/>
         <CardLayouts index="0">
             <LayoutButtons index="7" Face="BurrowUp" AbilCmd="BurrowDroneUp,Execute" Column="4"/>
             <LayoutButtons Face="BurrowUp" Type="AbilCmd" AbilCmd="BurrowZerglingUp,Execute" Row="2" Column="4"/>
@@ -376,9 +340,6 @@
         <AbilArray Link="AmorphousArmorcloud"/>
         <Radius value="0.625"/>
     </CUnit>
-    <CUnit id="LocustMP">
-        <BehaviorArray Link="OnCreepVisible"/>
-    </CUnit>
     <CUnit id="LurkerDenMP">
         <CardLayouts index="0">
             <LayoutButtons Face="EvolveDiggingClaws" Type="AbilCmd" AbilCmd="LurkerDenResearch,Research1" Row="0" Column="0"/>
@@ -386,16 +347,9 @@
         </CardLayouts>
     </CUnit>
     <CUnit id="LurkerMP">
-        <BehaviorArray Link="OnCreepVisible"/>
         <CardLayouts index="0">
             <LayoutButtons index="6" Column="3"/>
         </CardLayouts>
-    </CUnit>
-    <CUnit id="LurkerMPBurrowed">
-        <BehaviorArray Link="OnCreepVisible"/>
-    </CUnit>
-    <CUnit id="LurkerMPEgg">
-        <BehaviorArray Link="OnCreepVisible"/>
     </CUnit>
     <CUnit id="Mothership">
         <Attributes index="Heroic" value="1"/>
@@ -455,28 +409,13 @@
         </CardLayouts>
     </CUnit>
     <CUnit id="Queen">
-        <BehaviorArray Link="OnCreepVisible"/>
+        <BehaviorArray Link="OnCreepQueen"/>
     </CUnit>
     <CUnit id="QueenBurrowed">
-        <BehaviorArray Link="OnCreepVisible"/>
-    </CUnit>
-    <CUnit id="Ravager">
-        <BehaviorArray Link="OnCreepVisible"/>
-    </CUnit>
-    <CUnit id="RavagerBurrowed">
-        <BehaviorArray Link="OnCreepVisible"/>
-    </CUnit>
-    <CUnit id="RavagerCocoon">
-        <BehaviorArray Link="OnCreepVisible"/>
+        <BehaviorArray Link="OnCreepQueen"/>
     </CUnit>
     <CUnit id="Raven">
         <Speed value="2.9492"/>
-    </CUnit>
-    <CUnit id="Roach">
-        <BehaviorArray Link="OnCreepVisible"/>
-    </CUnit>
-    <CUnit id="RoachBurrowed">
-        <BehaviorArray Link="OnCreepVisible"/>
     </CUnit>
     <CUnit id="ShieldBattery">
         <EnergyStart value="50"/>
@@ -488,12 +427,6 @@
             <LayoutButtons index="1" Face="ShieldBatteryRecharge" AbilCmd="ShieldBatteryRechargeEx5,Execute" Row="0" Column="0"/>
             <LayoutButtons index="2" Face="Cancel" AbilCmd="ShieldBatteryRechargeEx5,Cancel" Column="1"/>
         </CardLayouts>
-    </CUnit>
-    <CUnit id="SwarmHostBurrowedMP">
-        <BehaviorArray Link="OnCreepVisible"/>
-    </CUnit>
-    <CUnit id="SwarmHostMP">
-        <BehaviorArray Link="OnCreepVisible"/>
     </CUnit>
     <CUnit id="Tempest">
         <CardLayouts index="0">
@@ -535,12 +468,6 @@
         <AddedOnArray index="1" ParentBehaviorLink="AddonIsWorking"/>
         <AddedOnArray index="2" ParentBehaviorLink="AddonIsWorking"/>
     </CUnit>
-    <CUnit id="Ultralisk">
-        <BehaviorArray Link="OnCreepVisible"/>
-    </CUnit>
-    <CUnit id="UltraliskBurrowed">
-        <BehaviorArray Link="OnCreepVisible"/>
-    </CUnit>
     <CUnit id="VoidRay">
         <Speed value="2.75"/>
         <CostResource index="Minerals" value="250"/>
@@ -568,12 +495,6 @@
     </CUnit>
     <CUnit id="Oracle">
         <BehaviorArray Link="OracleDisableAttack"/>
-    </CUnit>
-    <CUnit id="Zergling">
-        <BehaviorArray Link="OnCreepVisible"/>
-    </CUnit>
-    <CUnit id="ZerglingBurrowed">
-        <BehaviorArray Link="OnCreepVisible"/>
     </CUnit>
     <!--Dummy units used to push ids further in stableids.json/-->
     <CUnit id="DummyUnit000">

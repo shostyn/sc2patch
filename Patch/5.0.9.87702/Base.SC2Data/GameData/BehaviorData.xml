@@ -277,8 +277,9 @@
         <Duration value="0.01"/>
         <ExpireEffect value="BatteryAddEnergy"/>
     </CBehaviorBuff>
-    <CBehaviorBuff id="OnCreepVisible">
+    <CBehaviorBuff id="OnCreepQueen">
         <InfoIcon value="Assets\Textures\btn-ability-zerg-creepspread.dds"/>
+        <InfoFlags index="Hidden" value="1"/>
         <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
         <DisableValidatorArray value="OnCreep"/>
     </CBehaviorBuff>

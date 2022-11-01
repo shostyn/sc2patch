@@ -40,9 +40,9 @@
     <CRequirementNot id="NotCountUpgradeTempestGroundAttackUpgradeQueuedOrBetter">
         <OperandArray index="0" value="CountUpgradeTempestGroundAttackUpgradeQueuedOrBetter"/>
     </CRequirementNot>
-    <CRequirementCountBehavior id="CountBehaviorOnCreepVisibleCompleteOnlyAtUnit">
+    <CRequirementCountBehavior id="CountBehaviorOnCreepQueenCompleteOnlyAtUnit">
         <Flags index="TechTreeCheat" value="0"/>
         <Tooltip value="RequirementNode/Tooltip/##id##"/>
-        <Count Link="OnCreepVisible" State="CompleteOnlyAtUnit"/>
+        <Count Link="OnCreepQueen" State="CompleteOnlyAtUnit"/>
     </CRequirementCountBehavior>
 </Catalog>

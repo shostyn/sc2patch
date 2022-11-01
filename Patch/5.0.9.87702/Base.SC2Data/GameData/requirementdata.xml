@@ -35,8 +35,8 @@
         <EditorCategories value="Race:Terran,TechType:Ability"/>
         <NodeArray index="Show" Link="NotCountUpgradeEnhancedShockwavesQueuedOrBetter"/>
     </CRequirement>
-    <CRequirement id="OnCreepVisible">
+    <CRequirement id="OnCreepQueen">
         <EditorCategories value="Race:Zerg,TechType:Unit"/>
-        <NodeArray index="Use" Link="CountBehaviorOnCreepVisibleCompleteOnlyAtUnit"/>
+        <NodeArray index="Use" Link="CountBehaviorOnCreepQueenCompleteOnlyAtUnit"/>
     </CRequirement>
 </Catalog>

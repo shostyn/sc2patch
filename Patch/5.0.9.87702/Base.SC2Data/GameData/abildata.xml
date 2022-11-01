@@ -311,7 +311,7 @@
         <AbilSetId value="Move"/>
     </CAbilMove>
     <CAbilEffectTarget id="Transfusion">
-        <CmdButtonArray index="Execute" Requirements="OnCreepVisible"/>
+        <CmdButtonArray index="Execute" Requirements="OnCreepQueen"/>
     </CAbilEffectTarget>
     <!--Dummy abilities used to push ids further in stableids.json
        Most likely possible to remove some of the internals of the following
