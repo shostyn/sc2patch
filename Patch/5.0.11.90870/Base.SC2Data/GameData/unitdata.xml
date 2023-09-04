@@ -251,7 +251,7 @@
             <LayoutButtons index="10" Face="EMP" AbilCmd="EMP,Execute" Column="1"/>
             <LayoutButtons index="11" Face="WeaponsFree" AbilCmd="GhostWeaponsFree,Execute" Row="1" Column="3"/>
             <LayoutButtons Face="ChannelSnipe" Type="AbilCmd" AbilCmd="ChannelSnipe,Execute" Row="2" Column="0"/>
-            <LayoutButtons Face="ChannelSnipe" Type="AbilCmd" AbilCmd="ChannelSnipe,Cancel" Row="2" Column="3"/>
+            <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="ChannelSnipe,Cancel" Row="2" Column="4"/>
         </CardLayouts>
     </CUnit>
     <CUnit id="GhostAlternate">
@@ -262,7 +262,7 @@
             <LayoutButtons index="10" Face="EMP" AbilCmd="EMP,Execute" Column="1"/>
             <LayoutButtons index="11" Face="WeaponsFree" AbilCmd="GhostWeaponsFree,Execute" Row="1" Column="3"/>
             <LayoutButtons Face="ChannelSnipe" Type="AbilCmd" AbilCmd="ChannelSnipe,Execute" Row="2" Column="0"/>
-            <LayoutButtons Face="ChannelSnipe" Type="AbilCmd" AbilCmd="ChannelSnipe,Cancel" Row="2" Column="3"/>
+            <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="ChannelSnipe,Cancel" Row="2" Column="4"/>
         </CardLayouts>
     </CUnit>
     <CUnit id="GhostNova">
@@ -273,7 +273,7 @@
             <LayoutButtons index="10" Face="EMP" AbilCmd="EMP,Execute" Column="1"/>
             <LayoutButtons index="11" Face="WeaponsFree" AbilCmd="GhostWeaponsFree,Execute" Row="1" Column="3"/>
             <LayoutButtons Face="ChannelSnipe" Type="AbilCmd" AbilCmd="ChannelSnipe,Execute" Row="2" Column="0"/>
-            <LayoutButtons Face="ChannelSnipe" Type="AbilCmd" AbilCmd="ChannelSnipe,Cancel" Row="2" Column="3"/>
+            <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="ChannelSnipe,Cancel" Row="2" Column="4"/>
         </CardLayouts>
     </CUnit>
     <CUnit id="GhostAcademy">
