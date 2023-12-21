@@ -204,6 +204,8 @@
         <Range value="7"/>
     </CValidatorLocationCompareRange>
     <CValidatorLocationCompareRange id="ColossusAttackDamageMaxRange">
+        <WhichLocation Value="TargetUnit"/>
+        <Compare value="LE"/>
         <Range value="2"/>
         <Value Effect="ThermalLances" Value="TargetPoint"/>
     </CValidatorLocationCompareRange>
