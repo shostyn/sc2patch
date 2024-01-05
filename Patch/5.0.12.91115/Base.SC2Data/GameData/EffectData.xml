@@ -37,7 +37,7 @@
         <EditorCategories value=""/>
         <Behavior value="BeamTargetCD"/>
         <Flags index="UseDuration" value="1"/>
-        <Duration value="2"/>
+        <Duration value="1.6667"/>
     </CEffectApplyBehavior>
     <CEffectSwitch id="DisruptionBeamTimeWarpSwitch">
         <EditorCategories value=""/>
@@ -45,7 +45,7 @@
         <CaseDefault value="DisruptionBeamABTarget"/>
     </CEffectSwitch>
     <CEffectEnumArea id="EMPSearch">
-        <AreaArray index="0" Radius="1.75"/>
+        <AreaArray index="0" Radius="1.5"/>
     </CEffectEnumArea>
     <CEffectCreatePersistent id="OracleWeaponCreatePersistent">
         <!--PeriodicValidator value="IsAttackingTargetAndTargetInRange"/-->
@@ -72,7 +72,7 @@
         <EditorCategories value=""/>
         <Behavior value="BeamTargetCD"/>
         <Flags index="UseDuration" value="1"/>
-        <Duration value="1.72"/>
+        <Duration value="1.4333"/>
     </CEffectApplyBehavior>
     <CEffectCreatePersistent id="VoidRaySwarm">
         <!--PeriodicValidator value="IsAttackingTargetAndTargetInRange"/-->
@@ -98,7 +98,7 @@
         <EditorCategories value=""/>
         <Behavior value="BeamTargetCD"/>
         <Flags index="UseDuration" value="1"/>
-        <Duration value="1"/>
+        <Duration value="0.8332"/>
     </CEffectApplyBehavior>
     <CEffectSwitch id="VoidRayWeaponTimeWarpSwitch">
         <EditorCategories value=""/>
@@ -303,9 +303,11 @@
         <ExpireDelay value="28"/>
     </CEffectCreatePersistent>
     <CEffectCreatePersistent id="TemporalFieldGrowingBubbleCreatePersistent">
-        <PeriodCount value="40"/>
+        <PeriodCount value="0"/>
+        <ExpireDelay value="1"/>
     </CEffectCreatePersistent>
     <CEffectEnumArea id="TemporalFieldAfterBubbleSearchArea">
+        <AreaArray index="0" Radius="3.75"/>
         <SearchFilters value="-;Player,Ally,Neutral,Missile,Stasis,Dead,Hidden"/>
     </CEffectEnumArea>
     <CEffectApplyBehavior id="BatteryCooldownAB">
@@ -552,4 +554,103 @@
     <CEffectEnumArea id="TerranStructuresKnockbackSE">
         <AreaArray index="0" Radius="0.9"/>
     </CEffectEnumArea>
+    <CEffectDamage id="ChannelSnipeDamage">
+        <Amount value="130"/>
+        <AttributeBonus index="Psionic" value="40"/>
+    </CEffectDamage>
+    <CEffectApplyBehavior id="CloakingFieldApplyCasterBehavior">
+        <ValidatorArray index="0" removed="1"/>
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Source"/>
+        <Behavior value="CloakField"/>
+    </CEffectApplyBehavior>
+    <CEffectDamage id="CycloneAttackWeaponDamage">
+        <AttributeBonus index="Mechanical" value="3"/>
+        <Amount value="11"/>
+    </CEffectDamage>
+    <CEffectSet id="CycloneAttackWeaponLaunchMissileLeftSet">
+        <EffectArray value="CycloneCooldownAB"/>
+        <!--EffectArray value="CycloneWeaponLaunchMissileLeft"/>
+        <EffectArray value="CycloneWeaponLaunchMissileAlternateAB"/>
+        <EffectArray value="CycloneWeaponTurretLook"/-->
+    </CEffectSet>
+    <CEffectSet id="CycloneAttackWeaponLaunchMissileRightSet">
+        <EffectArray value="CycloneCooldownAB"/>
+        <!--EffectArray value="CycloneWeaponLaunchMissileRight"/>
+        <EffectArray value="CycloneWeaponLaunchMissileAlternateRB"/>
+        <EffectArray value="CycloneWeaponTurretLook"/-->
+    </CEffectSet>
+    <CEffectApplyBehavior id="CycloneCooldownAB">
+        <WhichUnit Value="Source"/>
+        <Behavior value="CycloneLockOnCooldown"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="CycloneWeaponLaunchSet">
+        <ValidatorArray value="NotHaveCycloneLockOnCooldownBehavior"/>
+        <EditorCategories value="Race:Terran"/>
+        <EffectArray value="CycloneWeaponLaunchMissileSwitch"/>
+        <EffectArray value="CycloneCooldownAB"/>
+        <EffectArray value="CycloneLockOnAddCDtodefaultweapon"/>
+    </CEffectSet>
+    <CEffectLaunchMissile id="CycloneWeaponLaunchMissileLeft">
+        <ImpactEffect value="CycloneAttackWeaponDamage"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="CycloneWeaponLaunchMissileRight">
+        <ImpactEffect value="CycloneAttackWeaponDamage"/>
+    </CEffectLaunchMissile>
+    <CEffectDamage id="FungalGrowthDamage">
+        <Amount value="1.5625"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="GuardianShieldPersistent">
+        <PeriodCount value="36"/>
+    </CEffectCreatePersistent>
+    <CEffectApplyBehavior id="ImmortalBarrierAddBarrier">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="ImmortalOverload"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="ImmortalBarrierAfterfirstdamageeffect">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="ImmortalOverloadAB"/>
+        <EffectArray value="ImmortalBarrierSupressedApplyBehavior"/>
+    </CEffectSet>
+    <CEffectRemoveBehavior id="ImmortalBarrierRemoveactiveDuration">
+        <EditorCategories value="Race:Protoss"/>
+        <BehaviorLink value="TakenDamage"/>
+    </CEffectRemoveBehavior>
+    <CEffectRemoveBehavior id="ImmortalBarrierRemoveBarrier">
+        <EditorCategories value="Race:Protoss"/>
+        <BehaviorLink value="ImmortalOverload"/>
+    </CEffectRemoveBehavior>
+    <CEffectApplyBehavior id="ImmortalOverloadAB">
+        <Behavior value="TakenDamage"/>
+    </CEffectApplyBehavior>
+    <CEffectCreatePersistent id="LockOnCP">
+        <InitialEffect value="CycloneWeaponLaunchSet"/>
+        <PeriodCount value="320"/>
+        <PeriodicEffectArray index="0" value="CycloneWeaponLaunchSet"/>
+        <PeriodicPeriodArray index="0" value="0.0625"/>
+        <ValidatorArray value="LockOnGroundAirPeriodicValidators"/>
+    </CEffectCreatePersistent>
+    <CEffectEnumArea id="MothershipStrategicRecallSearch">
+        <AreaArray index="0" Radius="5"/>
+    </CEffectEnumArea>
+    <CEffectModifyUnit id="CycloneLockOnAddCDtodefaultweapon">
+        <EditorCategories value="Race:Terran"/>
+        <ImpactUnit Value="Source"/>
+        <Weapon Weapon="TyphoonMissilePod" CooldownOperation="Set" CooldownFraction="1"/>
+    </CEffectModifyUnit>
+    <CEffectEnumArea id="TemporalFieldSearchAreaImpactDummy">
+        <SearchFilters value="-;Player,Ally,Neutral,Structure,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray index="0" Radius="3.75"/>
+    </CEffectEnumArea>
+    <CEffectModifyUnit id="ViperConsumeStructureModifyTarget">
+        <VitalArray index="Life">
+            <Change value="-7.5"/>
+        </VitalArray>
+    </CEffectModifyUnit>
+    <CEffectTeleport id="HyperjumpTeleport">
+        <TeleportFlags index="TestZone" value="1"/>
+    </CEffectTeleport>
+    <CEffectDamage id="MULEFate">
+        <Death value="Timeout"/>
+    </CEffectDamage>
 </Catalog>
