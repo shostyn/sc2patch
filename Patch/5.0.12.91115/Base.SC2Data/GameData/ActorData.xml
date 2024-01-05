@@ -460,6 +460,7 @@
     <!--        <On Terms="ActorCreation" Send="SetTintColor 255,64,64"/>-->
     <!--    </CActorModel-->
     <CActorMissile id="TempestAttackGroundMissile">
+        <Scale value="0.900000"/>
         <On Terms="ActorCreation; ValidateUnit TempestGroundAttackUpgraded" Send="ModelSwap TempestWeaponGroundUpgraded"/>
         <On Terms="ActorCreation; ValidateCreationEffect TempestGroundAttackUpgraded" Send="SetTintColor {255,128,0 5.000000}"/>
     </CActorMissile>
@@ -722,6 +723,13 @@
         <TerrainSquibs index="0" RangeDown="5.100000"/>
     </CActorUnit>
     <CActorUnit id="Mothership">
+        <On index="68" Send="SetScale 0.900000 0.400000"/>
+        <On index="73" Send="SetScale 0.900000 0.500000"/>
+        <On index="83" Send="SetScale 0.900000 0.500000"/>
+        <Scale value="0.900000"/>
+        <BarOffset value="160"/>
+        <BarWidth value="194"/>
+        <NameOffset value="117"/>
         <TerrainSquibs index="0" RangeDown="5.750000"/>
     </CActorUnit>
     <CActorUnit id="OrbitalCommand">
@@ -764,4 +772,58 @@
         <On Terms="Effect.NexusMassRecallTeleport.Start; At Target" Send="Create"/>
         <On Terms="Effect.MothershipStrategicRecallTeleport.Start; At Target" Send="Create"/>
     </CActorSimple>
+    <CActorUnit id="Cyclone">
+        <On index="97" removed="1"/>
+        <On index="98" removed="1"/>
+        <On index="99" removed="1"/>
+        <On index="100" removed="1"/>
+        <On index="101" removed="1"/>
+        <On index="102" removed="1"/>
+    </CActorUnit>
+    <CActorRange id="CycloneLockOnTrackingRange">
+        <Range value="9.000000"/>
+    </CActorRange>
+    <CActorUnit id="Disruptor">
+        <Scale value="0.912500"/>
+        <BarOffset value="83"/>
+        <BarWidth value="60"/>
+    </CActorUnit>
+    <CActorUnit id="Immortal">
+        <On index="73" Terms="Behavior.TakenDamage.Enable"/>
+        <On index="74" Terms="Behavior.TakenDamage.Enable"/>
+        <On index="75" Terms="Behavior.TakenDamage.Off"/>
+        <On index="76" Terms="Behavior.TakenDamage.Off"/>
+    </CActorUnit>
+    <CActorSound id="Mothership_CloakFieldOff">
+        <On index="1" Terms="Behavior.CloakField.Off"/>
+    </CActorSound>
+    <CActorSound id="Mothership_CloakFieldOn">
+        <On index="1" Terms="Behavior.CloakField.On"/>
+    </CActorSound>
+    <CActorModel id="MothershipCloakingField" parent="ModelAnimationStyleContinuous">
+        <On Terms="Behavior.CloakField.On" Send="Create"/>
+        <On Terms="Behavior.CloakField.Off" Send="AnimBracketStop BSD"/>
+        <Host Subject="_Selectable"/>
+        <HostSiteOps Ops="SOpAttachCenter"/>
+        <Model value="CloakingField"/>
+        <Scale value="3.164100"/>
+    </CActorModel>
+    <CActorUnit id="Tempest">
+        <Scale value="0.900000"/>
+        <BarOffset value="86"/>
+        <BarWidth value="140"/>
+        <NameOffset value="99"/>
+    </CActorUnit>
+    <CActorMissile id="TempestAttackMissile">
+        <Scale value="0.900000"/>
+    </CActorMissile>
+    <CActorModel id="TemporalFieldAfterBubbleModel">
+        <Scale value="0.937500"/>
+    </CActorModel>
+    <CActorModel id="TemporalFieldGrowingBubbleModel">
+        <Scale value="0.937500"/>
+    </CActorModel>
+    <CActorUnit id="ThornLizard">
+        <DeathArray index="Normal" ModelLink="ThornLizardDeath"/>
+    </CActorUnit>
 </Catalog>
