@@ -68,4 +68,16 @@
         <LegacyOptions index="NoDeceleration" value="1"/>
         <AllowedMovement value="Slowing"/>
     </CWeaponLegacy>
+    <CWeaponLegacy id="CycloneLockOnDummy">
+        <MinScanRange value="6.5"/>
+        <Range value="6"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="NeedleClaws">
+        <Period value="0.8"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TyphoonMissilePod">
+        <MinScanRange value="6.5"/>
+        <Range value="6"/>
+        <Period value="0.6738"/>
+    </CWeaponLegacy>
 </Catalog>

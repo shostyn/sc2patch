@@ -209,4 +209,21 @@
         <Range value="2"/>
         <Value Effect="ThermalLances" Value="TargetPoint"/>
     </CValidatorLocationCompareRange>
+    <CValidatorCombine id="BarrierNoGravitonBeamOrBarrierOnCooldown">
+        <CombineArray value="NotGravitonBeamd"/>
+        <CombineArray value="BarrierOnCooldown"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareCooldown id="BarrierOnCooldown">
+        <CooldownLink value="Behavior/BarrierDamageResponse"/>
+        <Location value="Behavior"/>
+        <Ability value=""/>
+        <Behavior value="BarrierDamageResponse"/>
+    </CValidatorUnitCompareCooldown>
+    <CValidatorLocationCompareRange id="LockOnCasterNearTargetUpgraded">
+        <Range value="9"/>
+    </CValidatorLocationCompareRange>
+    <CValidatorUnitCompareBehaviorCount id="NotHaveCycloneLockOnCooldownBehavior">
+        <WhichUnit Value="Caster"/>
+        <Behavior value="CycloneLockOnCooldown"/>
+    </CValidatorUnitCompareBehaviorCount>
 </Catalog>

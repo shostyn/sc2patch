@@ -25,6 +25,8 @@
         <EffectArray index="1" Value="1.500000"/>
         <EffectArray index="2" removed="1"/>
         <!--EffectArray Operation="Set" Reference="Behavior,WidowMineBurrowedCloakingBehavior,Modification.StateFlags[SuppressCloak]" Value="0"/-->
+        <EffectArray Operation="Subtract" Reference="Abil,WidowMineUnburrow,InfoArray[0].SectionArray[Actor].DurationArray[Duration]" Value="0.500000"/>
+        <EffectArray Operation="Subtract" Reference="Abil,WidowMineUnburrow,InfoArray[0].SectionArray[Stats].DurationArray[Duration]" Value="0.500000"/>
     </CUpgrade>
     <CUpgrade id="ObserverGraviticBooster">
         <EffectArray index="0" Reference="Unit,Observer,Speed" Value="0.937500"/>
@@ -80,15 +82,18 @@
         <ScoreAmount value="200"/>
         <EffectArray index="0" Operation="Set" Value="3.320300"/>
         <EffectArray index="1" Operation="Set" Value="2.687500"/>
+        <EffectArray index="2" Value="0.621"/>
+        <Flags index="TechTreeCheat" value="1"/>
         <EffectArray Operation="Set" Reference="Behavior,VoidRaySwarmDamageBoost,Modification.MoveSpeedMultiplier" Value="0.5644"/>
         <EffectArray Operation="Set" Reference="Behavior,VoidRaySwarmDamageBoost,Modification.AccelerationMultiplier" Value="0.7441"/>
     </CUpgrade>
     <CUpgrade id="DiggingClaws">
-        <ScoreAmount value="300"/>
+        <ScoreAmount value="200"/>
         <EffectArray index="0" Value="0.125000"/>
         <EffectArray index="1" Value="1.000000"/>
         <EffectArray index="2" Value="0.660000"/>
         <EffectArray index="3" Value="0.660000"/>
+        <EffectArray index="4" removed="1"/>
     </CUpgrade>
     <CUpgrade id="BansheeCloak">
         <ScoreAmount value="200"/>
@@ -125,5 +130,144 @@
         <ScoreAmount value="200"/>
         <EffectArray Operation="Set" Reference="Unit,RoachBurrowed,Collide[Land1]" Value="0"/>
         <EffectArray Operation="Set" Reference="Unit,RoachBurrowed,Collide[Land7]" Value="1"/>
+    </CUpgrade>
+    <CUpgrade id="CentrificalHooks">
+        <ScoreAmount value="200"/>
+        <EffectArray index="1" removed="1"/>
+        <EffectArray index="2" removed="1"/>
+        <EffectArray index="3" removed="1"/>
+        <EffectArray index="4" removed="1"/>
+    </CUpgrade>
+    <CUpgrade id="EvolveGroovedSpines">
+        <ScoreAmount value="150"/>
+    </CUpgrade>
+    <CUpgrade id="HurricaneThrusters">
+        <Icon value="Assets\Textures\btn-upgrade-terran-jotunboosters.dds"/>
+        <Race value="Terr"/>
+        <ScoreAmount value="200"/>
+        <ScoreResult value="BuildOrder"/>
+        <EffectArray Operation="Set" Reference="Unit,Cyclone,Speed" Value="3.375000"/>
+        <EditorCategories value="Race:Terran,UpgradeType:Talents"/>
+        <AffectedUnitArray value="Cyclone"/>
+        <Flags index="TechTreeCheat" value="1"/>
+    </CUpgrade>
+    <CUpgrade id="InterferenceMatrix">
+        <Icon value="Assets\Textures\btn-upgrade-terran-interferencematrix.dds"/>
+        <Alert value="ResearchComplete"/>
+        <Race value="Terr"/>
+        <ScoreAmount value="100"/>
+        <ScoreResult value="BuildOrder"/>
+        <EditorCategories value="Race:Terran,UpgradeType:SpellResearch"/>
+        <AffectedUnitArray value="Raven"/>
+        <Flags index="TechTreeCheat" value="1"/>
+    </CUpgrade>
+    <CUpgrade id="MedivacCaduceusReactor">
+        <EffectArray index="0" Operation="Multiply" Reference="Unit,Medivac,EnergyRegenRate" Value="2.000000"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossAirArmorsLevel1">
+        <ScoreAmount value="200"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossAirArmorsLevel2">
+        <ScoreAmount value="350"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossAirArmorsLevel3">
+        <ScoreAmount value="500"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossShieldsLevel2">
+        <ScoreAmount value="400"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossShieldsLevel3">
+        <ScoreAmount value="500"/>
+    </CUpgrade>
+    <CUpgrade id="TerranVehicleWeaponsLevel1">
+        <EffectArray index="34" Reference="Weapon,LanceMissileLaunchers,Level" Value="1"/>
+        <EffectArray index="35" Reference="Effect,LanceMissileLaunchersDamage,Amount" Value="3"/>
+        <EffectArray index="36" Reference="Effect,CycloneAttackWeaponDamage,Amount" Value="1"/>
+        <EffectArray index="37" Operation="Set" Reference="Weapon,LanceMissileLaunchers,Icon" Value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel1.dds"/>
+        <EffectArray index="38" Operation="Add" Reference="Weapon,TyphoonMissilePod,Level" Value="1"/>
+        <EffectArray index="39" Operation="Set" Reference="Weapon,TyphoonMissilePod,Icon" Value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel1.dds"/>
+        <EffectArray index="40" Operation="Add" Reference="Effect,LanceMissileLaunchersDamage,AttributeBonus[Massive]" Value="1"/>
+        <EffectArray index="41" removed="1"/>
+    </CUpgrade>
+    <CUpgrade id="TerranVehicleWeaponsLevel2">
+        <EffectArray index="34" Reference="Weapon,LanceMissileLaunchers,Level" Value="1"/>
+        <EffectArray index="35" Reference="Effect,LanceMissileLaunchersDamage,Amount" Value="3"/>
+        <EffectArray index="36" Reference="Effect,CycloneAttackWeaponDamage,Amount" Value="1"/>
+        <EffectArray index="37" Operation="Set" Reference="Weapon,LanceMissileLaunchers,Icon" Value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel2.dds"/>
+        <EffectArray index="38" Operation="Add" Reference="Weapon,TyphoonMissilePod,Level" Value="1"/>
+        <EffectArray index="39" Operation="Set" Reference="Weapon,TyphoonMissilePod,Icon" Value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel2.dds"/>
+        <EffectArray index="40" Operation="Add" Reference="Effect,LanceMissileLaunchersDamage,AttributeBonus[Massive]" Value="1"/>
+        <EffectArray index="41" removed="1"/>
+    </CUpgrade>
+    <CUpgrade id="TerranVehicleWeaponsLevel3">
+        <EffectArray index="34" Reference="Weapon,LanceMissileLaunchers,Level" Value="1"/>
+        <EffectArray index="35" Reference="Effect,LanceMissileLaunchersDamage,Amount" Value="3"/>
+        <EffectArray index="36" Reference="Effect,CycloneAttackWeaponDamage,Amount" Value="1"/>
+        <EffectArray index="37" Operation="Set" Reference="Weapon,LanceMissileLaunchers,Icon" Value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel3.dds"/>
+        <EffectArray index="38" Operation="Add" Reference="Weapon,TyphoonMissilePod,Level" Value="1"/>
+        <EffectArray index="39" Operation="Set" Reference="Weapon,TyphoonMissilePod,Icon" Value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel3.dds"/>
+        <EffectArray index="40" Operation="Add" Reference="Effect,LanceMissileLaunchersDamage,AttributeBonus[Massive]" Value="1"/>
+        <EffectArray index="41" removed="1"/>
+    </CUpgrade>
+    <CUpgrade id="VoidRaySpeedUpgrade">
+        <EffectArray index="2" Value="0.621"/>
+        <Flags index="TechTreeCheat" value="1"/>
+    </CUpgrade>
+    <CUpgrade id="ZergFlyerArmorsLevel1">
+        <ScoreAmount value="200"/>
+    </CUpgrade>
+    <CUpgrade id="ZergFlyerArmorsLevel2">
+        <ScoreAmount value="350"/>
+    </CUpgrade>
+    <CUpgrade id="ZergFlyerArmorsLevel3">
+        <ScoreAmount value="500"/>
+    </CUpgrade>
+    <CUpgrade id="ZergGroundArmorsLevel2">
+        <ScoreAmount value="400"/>
+    </CUpgrade>
+    <CUpgrade id="ZergGroundArmorsLevel3">
+        <ScoreAmount value="500"/>
+    </CUpgrade>
+    <CUpgrade id="ZergMeleeWeaponsLevel1">
+        <EffectArray index="13" Operation="Set" Reference="Weapon,Claws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray index="14" Operation="Set" Reference="Weapon,NeedleClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray index="15" Reference="Weapon,KaiserBlades,Icon"/>
+        <EffectArray index="16" Reference="Weapon,Ram,Icon"/>
+        <EffectArray index="17" Operation="Add" Reference="Effect,BurrowChargeMPTargetDamage,Amount" Value="2"/>
+        <EffectArray index="18" Operation="Add" Reference="Effect,BurrowChargeMPTargetDamage,AttributeBonus[Armored]" Value="2"/>
+        <EffectArray index="19" Reference="Effect,VolatileBurstDirectFallbackEnemyNeutralBuilding,Amount" Value="5"/>
+        <EffectArray index="20" Reference="Effect,VolatileBurstDirectFallbackEnemyNeutralUnit,Amount"/>
+        <EffectArray index="21" removed="1"/>
+        <EffectArray index="22" removed="1"/>
+        <EffectArray index="23" removed="1"/>
+    </CUpgrade>
+    <CUpgrade id="ZergMeleeWeaponsLevel2">
+        <EffectArray index="13" Operation="Set" Reference="Weapon,Claws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray index="14" Operation="Set" Reference="Weapon,NeedleClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray index="15" Reference="Weapon,KaiserBlades,Icon"/>
+        <EffectArray index="16" Reference="Weapon,Ram,Icon"/>
+        <EffectArray index="17" Operation="Add" Reference="Effect,BurrowChargeMPTargetDamage,Amount" Value="2"/>
+        <EffectArray index="18" Operation="Add" Reference="Effect,BurrowChargeMPTargetDamage,AttributeBonus[Armored]" Value="2"/>
+        <EffectArray index="19" Reference="Effect,VolatileBurstDirectFallbackEnemyNeutralBuilding,Amount" Value="5"/>
+        <EffectArray index="20" Reference="Effect,VolatileBurstDirectFallbackEnemyNeutralUnit,Amount"/>
+        <EffectArray index="21" removed="1"/>
+        <EffectArray index="22" removed="1"/>
+        <EffectArray index="23" removed="1"/>
+    </CUpgrade>
+    <CUpgrade id="ZergMeleeWeaponsLevel3">
+        <EffectArray index="13" Operation="Set" Reference="Weapon,Claws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray index="14" Operation="Set" Reference="Weapon,NeedleClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray index="15" Reference="Weapon,KaiserBlades,Icon"/>
+        <EffectArray index="16" Reference="Weapon,Ram,Icon"/>
+        <EffectArray index="17" Operation="Add" Reference="Effect,BurrowChargeMPTargetDamage,Amount" Value="2"/>
+        <EffectArray index="18" Operation="Add" Reference="Effect,BurrowChargeMPTargetDamage,AttributeBonus[Armored]" Value="2"/>
+        <EffectArray index="19" Reference="Effect,VolatileBurstDirectFallbackEnemyNeutralBuilding,Amount" Value="5"/>
+        <EffectArray index="20" Reference="Effect,VolatileBurstDirectFallbackEnemyNeutralUnit,Amount"/>
+        <EffectArray index="21" removed="1"/>
+        <EffectArray index="22" removed="1"/>
+        <EffectArray index="23" removed="1"/>
+    </CUpgrade>
+    <CUpgrade id="overlordspeed">
+        <EffectArray index="2" Value="2.019500"/>
     </CUpgrade>
 </Catalog>
