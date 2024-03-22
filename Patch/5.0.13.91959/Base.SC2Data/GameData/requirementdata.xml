@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CRequirement id="HaveTempestGroundAttackUpgrade">
+        <NodeArray index="Use" Link="CountUpgradeTempestGroundAttackUpgradeCompleteOnly788113278"/>
+    </CRequirement>
+    <CRequirement id="LearnTempestGroundAttackUpgrade">
+        <NodeArray index="Show" Link="NotCountUpgradeTempestGroundAttackUpgradeQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="HaveEnhancedShockwaves">
+        <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradeEnhancedShockwavesCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="LearnAmorphousArmorcloud">
+        <EditorCategories value="Race:Protoss,TechType:Ability"/>
+        <!--NodeArray index="Use" Link="CountUnitHiveCompleteOnlyTechTreeCheat"/-->
+        <NodeArray index="Show" Link="NotCountUpgradeMicrobialShroudQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnEvolveSeismicSpines">
+        <NodeArray index="Use" Link="CountUnitHiveCompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="NotCountUpgradeLurkerRangeQueuedOrBetterTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="UseAmorphousArmorcloud">
+        <EditorCategories value="Race:Protoss,TechType:Ability"/>
+        <NodeArray index="Use" Link="CountUpgradeMicrobialShroudCompleteOnly3803934920TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="UseSunderingImpact">
+        <EditorCategories value="Race:Protoss,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradeSunderingImpactCompleteOnly1226141447TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveSunderingImpact">
+        <EditorCategories value="Race:Protoss,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradeSunderingImpactCompleteOnly1226141447TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="LearnEnhancedShockwaves">
+        <EditorCategories value="Race:Terran,TechType:Ability"/>
+        <NodeArray index="Show" Link="NotCountUpgradeEnhancedShockwavesQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="OnCreepQueen">
+        <EditorCategories value="Race:Zerg,TechType:Unit"/>
+        <NodeArray index="Use" Link="CountBehaviorOnCreepQueenCompleteOnlyAtUnit"/>
+    </CRequirement>
+    <CRequirement id="HaveCycloneSpeedUpgrade">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradeHurricaneThrustersCompleteOnly114637382"/>
+    </CRequirement>
+    <CRequirement id="HaveMuscularAugments">
+        <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradeEvolveMuscularAugmentsCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveMedivacEnergyUpgrade">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradeMedivacCaduceusReactorCompleteOnly3015700321"/>
+    </CRequirement>
+    <CRequirement id="HaveRavenInterferenceMatrixUpgrade">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradeInterferenceMatrixCompleteOnly1603463487"/>
+    </CRequirement>
+    <CRequirement id="LearnCycloneSpeedUpgrade">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeHurricaneThrustersQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnRavenInterferenceMatrixUpgrade">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeInterferenceMatrixQueuedOrBetter"/>
+    </CRequirement>
+</Catalog>
