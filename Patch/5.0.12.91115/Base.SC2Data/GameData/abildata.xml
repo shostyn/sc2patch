@@ -358,13 +358,11 @@
         <InfoArray index="Research5" Time="202.5"/>
         <InfoArray index="Research6" Time="235"/>
         <InfoArray index="Research7" Time="170"/>
-        <!-- TODO: If theres a bug with forge research its here -->
-        <InfoArray index="Research8" Time="202.5"/>
+        <InfoArray index="Research8" Time="202.5">
             <Resource index="Minerals" value="200"/>
             <Resource index="Vespene" value="200"/>
         </InfoArray>
-        <InfoArray index="Research9" Time="235"/>
-        <InfoArray index="Research9">
+        <InfoArray index="Research9" Time="235">
             <Resource index="Minerals" value="250"/>
             <Resource index="Vespene" value="250"/>
         </InfoArray>
