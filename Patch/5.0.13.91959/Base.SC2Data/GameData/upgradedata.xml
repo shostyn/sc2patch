@@ -6,6 +6,8 @@
         <ScoreResult value="BuildOrder"/>
         <EffectArray index="0" removed="1"/>
         <EffectArray Reference="Effect,TempestDamageGround,AttributeBonus[Structure]" Value="40"/>
+        <EffectArray index="1" removed="1"/> <-- This prevents the Tempest upgrade from applying twice on live game -->
+        <EffectArray Reference="Effect,TempestDamage,AttributeBonus[Structure]" Value="40"/>
         <AffectedUnitArray value="Tempest"/>
     </CUpgrade>
     <CUpgrade id="MicrobialShroud">
@@ -34,8 +36,8 @@
     <CUpgrade id="LiberatorAGRangeUpgrade">
         <EffectArray index="0" removed="1"/>
         <EffectArray index="1" removed="1"/>
-        <EffectArray Reference="Abil,LiberatorAGTarget,Range[0]" Value="3"/>
-        <EffectArray Reference="Weapon,LiberatorAGWeapon,Range" Value="3"/>
+        <EffectArray Reference="Abil,LiberatorAGTarget,Range[0]" Value="2"/>
+        <EffectArray Reference="Weapon,LiberatorAGWeapon,Range" Value="2"/>
     </CUpgrade>
     <CUpgrade id="EnhancedShockwaves">
         <Icon value="Assets\Textures\btn-ability-terran-electricfield.dds"/>
@@ -142,7 +144,7 @@
         <ScoreAmount value="150"/>
     </CUpgrade>
     <CUpgrade id="HurricaneThrusters">
-        <Icon value="Assets\Textures\btn-upgrade-terran-jotunboosters.dds"/>
+        <Icon value="Assets\Textures\btn-upgrade-mengsk-armory-smartservos.dds"/>
         <Race value="Terr"/>
         <ScoreAmount value="200"/>
         <ScoreResult value="BuildOrder"/>
@@ -268,6 +270,18 @@
         <EffectArray index="23" removed="1"/>
     </CUpgrade>
     <CUpgrade id="overlordspeed">
-        <EffectArray index="2" Value="2.019500"/>
+        <EffectArray index="2" Value="2.144500"/>
+    </CUpgrade>
+    <CUpgrade id="TerranInfantryArmorsLevel2">
+        <ScoreAmount value="300"/>
+    </CUpgrade>
+    <CUpgrade id="TerranInfantryArmorsLevel3">
+        <ScoreAmount value="400"/>
+    </CUpgrade>
+    <CUpgrade id="TerranInfantryWeaponsLevel2">
+        <ScoreAmount value="300"/>
+    </CUpgrade>
+    <CUpgrade id="TerranInfantryWeaponsLevel3">
+        <ScoreAmount value="400"/>
     </CUpgrade>
 </Catalog>
