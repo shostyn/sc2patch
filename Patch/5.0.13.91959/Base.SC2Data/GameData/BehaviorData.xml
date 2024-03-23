@@ -172,7 +172,7 @@
     <CBehaviorBuff id="WidowMineBurrowedCloakingBehavior">
         <InfoFlags index="Hidden" value="1"/>
         <EditorCategories value="AbilityorEffectType:Units"/>
-        <DisableValidatorArray value="NotHaveArmory"/>
+        <DisableValidatorArray value="NotHaveDrillingClawsUpgrade"/>
         <DisableValidatorArray value="WidowMineAttackOnCooldown"/>
         <!--DisableValidatorArray value="WidowMineAttackOnCooldown"/-->
         <Modification>
@@ -236,6 +236,7 @@
     </CBehaviorBuff>
     <CBehaviorBuff id="AdeptPhaseShiftTimer">
         <RemoveValidatorArray value="CasterIsNotHidden"/>
+        <RemoveValidatorArray value="CasterIsNotMothershipMassRecalling"/>
     </CBehaviorBuff>
     <CBehaviorBuff id="AutoTurretTimedLife">
         <Duration value="11"/>
@@ -363,13 +364,14 @@
     <CBehaviorBuff id="CycloneLockOnCooldown">
         <InfoFlags index="Hidden" value="1"/>
         <TimeScaleSource Value="Caster"/>
-        <Duration value="0.64"/>
+        <Duration value="0.812"/>
     </CBehaviorBuff>
     <CBehaviorBuff id="CloakField">
         <InfoFlags index="Hidden" value="0"/>
         <Period value="0.0625"/>
         <Tooltip value="Behavior/Tooltip/CloakField2"/>
         <Duration value="28"/>
+        <Name value="Behavior/Name/CloakFieldEffect"/>
     </CBehaviorBuff>
     <CBehaviorBuff id="CloakFieldEffect">
         <Duration value="0.125"/>
@@ -408,4 +410,47 @@
     <CBehaviorCreepSource id="makeCreep2x2Overlord">
         <Delay value="1.5"/>
     </CBehaviorCreepSource>
+    <CBehaviorBuff id="ScramblerMarker">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+        <Duration value="2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="WidowMineDrillingClawsTracker">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="HasDrillingClawsUpgrade"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="WidowMineTargeted">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+        <RemoveValidatorArray value="CasterIsAlive"/>
+        <RemoveValidatorArray value="TargetStillAimedAtByCasterWidowMine"/>
+        <RemoveValidatorArray value="CasterisWidowMineBurrowed"/>
+        <RemoveValidatorArray value="CasterIsNotGravitonBeamed"/>
+        <RemoveValidatorArray value="CasterIsNotStasisWarded"/>
+        <RemoveValidatorArray value="CasterIsNotYoinked"/>
+        <RemoveValidatorArray value="CasterIsNotNeuralParasited"/>
+        <RemoveValidatorArray value="CasterDoesNotHaveScramblerMissileBehavior"/>
+        <RemoveValidatorArray value="CasterIsNotNexusStrategicRecalling"/>
+        <RemoveValidatorArray value="CasterIsNotMothershipMassRecalling"/>
+        <MaxStackCount value="2"/>
+        <Duration value="2.5"/>
+    </CBehaviorBuff>
+    <CBehaviorConjoined id="Conjoined">
+        <ConjoinedFlags index="ShareVisible" value="1"/>
+        <Radius value="10"/>
+    </CBehaviorConjoined>
+    <CBehaviorConjoined id="CollapsibleRockTowerConjoined">
+        <ConjoinedFlags index="ShareVisible" value="1"/>
+    </CBehaviorConjoined>
+    <CBehaviorConjoined id="CollapsibleTerranTowerConjoined">
+        <ConjoinedFlags index="ShareVisible" value="1"/>
+    </CBehaviorConjoined>
+    <CBehaviorBuff id="Detector35" parent="Detector">
+        <Alignment value="Positive"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-status-detector.dds"/>
+        <Modification Detect="3.5"/>
+    </CBehaviorBuff>
 </Catalog>
