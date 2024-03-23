@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CRequirementCountUpgrade id="CountUpgradeEnhancedShockwavesCompleteOnly2618611756TechTreeCheat">
+        <Count Link="EnhancedShockwaves" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeEnhancedShockwavesCompleteOnlyTechTreeCheat">
+        <Count Link="EnhancedShockwaves" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeEnhancedShockwavesQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="EnhancedShockwaves" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeLurkerRangeQueuedOrBetterTechTreeCheat">
+        <Count Link="LurkerRange" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeMicrobialShroudCompleteOnly3803934920TechTreeCheat">
+        <Count Link="MicrobialShroud" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeMicrobialShroudQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="MicrobialShroud" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTempestGroundAttackUpgradeCompleteOnly788113278">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TempestGroundAttackUpgrade" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTempestGroundAttackUpgradeQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TempestGroundAttackUpgrade" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="NotCountUpgradeEnhancedShockwavesQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeEnhancedShockwavesQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeLurkerRangeQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeLurkerRangeQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeMicrobialShroudQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeMicrobialShroudQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeTempestGroundAttackUpgradeQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeTempestGroundAttackUpgradeQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementCountBehavior id="CountBehaviorOnCreepQueenCompleteOnlyAtUnit">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Count Link="OnCreepQueen" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountBehavior>
+    <CRequirementAnd id="And361380870CountUpgradeCycloneLockOnUpgradeCompleteOnlyNotCountBehaviorLockOnDisableAttackCompleteOnlyAtUnit">
+        <OperandArray value="CountUpgradeCycloneLockOnUpgradeCompleteOnly"/>
+        <OperandArray value="NotCountBehaviorLockOnDisableAttackCompleteOnlyAtUnit"/>
+    </CRequirementAnd>
+    <CRequirementCountUpgrade id="CountUpgradeCycloneLockOnUpgradeCompleteOnly">
+        <Count Link="CycloneLockOnUpgrade" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeEvolveMuscularAugmentsCompleteOnlyTechTreeCheat">
+        <Count Link="EvolveMuscularAugments" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeHurricaneThrustersCompleteOnly114637382">
+        <Count Link="HurricaneThrusters" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeHurricaneThrustersQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="HurricaneThrusters" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeInterferenceMatrixCompleteOnly1603463487">
+        <Count Link="InterferenceMatrix" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeInterferenceMatrixQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="InterferenceMatrix" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeMedivacCaduceusReactorCompleteOnly3015700321">
+        <Count Link="MedivacCaduceusReactor" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="NotCountBehaviorLockOnDisableAttackCompleteOnlyAtUnit">
+        <OperandArray index="0" value="CountBehaviorLockOnDisableAttackCompleteOnlyAtUnit"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeHurricaneThrustersQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeHurricaneThrustersQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeInterferenceMatrixQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeInterferenceMatrixQueuedOrBetter"/>
+    </CRequirementNot>
+</Catalog>

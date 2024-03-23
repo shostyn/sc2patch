@@ -1,0 +1,159 @@
+﻿Abil/Name/AmorphousArmorcloud=Amorphous Armorcloud
+Abil/Name/BatteryOvercharge=Battery Overcharge
+Abil/Name/MorphToBaneling=Morph To Baneling
+Abil/Name/NexusMassRecall=Nexus Mass Recall
+Abil/Name/ShieldBatteryRechargeChanneled=Shield Recharge
+Abil/Name/ShieldBatteryRechargeEx5=ShieldBatteryRechargeEx5
+Actor/HighlightTooltip/AccelerationZone=Increases movement speed of nearby units.
+Behavior/Name/AccelerationZoneFlyingTemporalField=Acceleration Zone
+Behavior/Name/AccelerationZoneTemporalField=Acceleration Zone
+Behavior/Name/AmorphousArmorcloud=Microbial Shroud
+Behavior/Name/BatteryOvercharge=Battery Overcharge
+Behavior/Name/OnCreepVisible=On Creep
+Behavior/Name/RavenShredderMissileArmorReductionUISubtruct=Armor Reduction
+Behavior/Tooltip/AccelerationZoneFlyingTemporalField=This unit's movement speed is increased by <d ref="(Behavior,AccelerationZoneTemporalField,Modification.MoveSpeedMultiplier-1)*100"/>%.
+Behavior/Tooltip/AccelerationZoneTemporalField=This unit's movement speed is increased by <d ref="(Behavior,AccelerationZoneTemporalField,Modification.MoveSpeedMultiplier-1)*100"/>%.
+Behavior/Tooltip/AmorphousArmorcloud=Incoming damage from air units reduced by <d ref="Behavior,AmorphousArmorcloud,DamageResponse.ModifyFraction*100" precision="1"/>%.
+Behavior/Tooltip/BatteryOvercharge=Restoration rate increased. Not consuming energy.
+Behavior/Tooltip/OnCreepVisible=Unit is on creep
+Behavior/Tooltip/RavenShredderMissileArmorReductionUISubtruct=This unit has reduced armor.
+Behavior/Tooltip/TemporalField=This unit's attack and movement speeds are reduced by 50%.
+Button/Name/AmorphousArmorcloud=Microbial Shroud
+Button/Name/BatteryOvercharge=Battery Overcharge
+Button/Name/CycloneResearchHurricaneThrusters=Research Hurricane Engines
+Button/Name/EnhancedShockwaves=Enhanced Shockwaves
+Button/Name/EvolveAmorphousArmorcloud=Evolve Microbial Shroud
+Button/Name/HurricaneThrusters=Hurricane Engines
+Button/Name/NexusMassRecall=Strategic Recall
+Button/Name/ResearchEnhancedShockwaves=Research Enhanced Shockwaves
+Button/Name/ShieldBattery=Warp In Shield Battery
+Button/Name/ShieldBatteryRecharge=Restore
+Button/Name/ShieldBatteryRechargeEx5=Recharge
+Button/Name/TempestGroundAttackUpgrade=Tectonic Destabilizers
+Button/Name/WidowMineConcealment=Concealment
+Button/Tooltip/Transfusion=Instantly heals target biological unit or structure for <d ref="Effect,Transfusion,VitalArray[Life].Change"/> life. An additional <d ref="Behavior,Transfusion,Duration/Behavior,Transfusion,Period*Effect,TransfusionHealTick,VitalArray[Life].Change"  precision="3"/> life regenerates over <d ref="Behavior,Transfusion,Duration"/> seconds. Can only be cast on creep.
+Button/Tooltip/AccelerationZone=Warps spacetime within the nearby area.  All ground units, air units, and structures within the field will have movement speeds increased by <d ref="(Behavior,AccelerationZoneTemporalField,Modification.MoveSpeedMultiplier-1)*100"/>%.
+Button/Tooltip/AmorphousArmorcloud=Creates a shroud that obscures ground units underneath, reducing damage taken from air units by <d ref="Behavior,AmorphousArmorcloud,DamageResponse.ModifyFraction*100" precision="1"/>%. Lasts <d ref="Effect,AmorphousArmorcloudCP,PeriodCount*Effect,AmorphousArmorcloudCP,PeriodicPeriodArray[0]"/> seconds.
+Button/Tooltip/Armory=Contains weapon and armor upgrades for Factory and Starport units. <n/><n/><c val="ffff8a">Enables:</c><n/>- Hellbat at the Factory<n/>- Thor at the Factory
+Button/Tooltip/BatteryOvercharge=Overcharges a target Shield Battery near a Nexus, increasing its shield restoration rate by <d ref="Behavior,BatteryOvercharge,Modification.HealDealtMultiplier * 100 - 100"/>% and allowing it to restore shields without consuming energy for <d ref="Behavior,BatteryOvercharge,Duration"/> seconds.
+Button/Tooltip/ChannelSnipe=After carefully aiming for <d ref="Effect,ChannelSnipeCreatePersistent,PeriodCount*Effect,ChannelSnipeCreatePersistent,PeriodicPeriodArray[0]" precision="2"/> seconds while not taking damage, the Ghost fires a sniper round dealing <d ref="Effect,ChannelSnipeDamage,Amount"/> (+<d ref="Effect,ChannelSnipeDamage,AttributeBonus[Psionic]"/> vs. psionic) damage. Ignores armor.<n/><n/><c val="#ColorAttackInfo">Can only target biological units.</c>
+Button/Tooltip/Charge=Allows Zealots to intercept nearby enemies. Also increases the movement speed of Zealots. Ability can only be used once every <d ref="Abil,Charge,Cost.Cooldown.TimeUse"/> seconds.
+Button/Tooltip/CycloneResearchLockOnDamageUpgrade=Increases <c val="ffff8a">Cyclone</c> Lock On damage. Deals 600 over <d ref="Effect,LockOnCP,PeriodCount * Effect,LockOnCP,PeriodicPeriodArray[0]"/> seconds to ground and flying targets.
+Button/Tooltip/DrillClaws=This unit burrows faster.
+Button/Tooltip/EnhancedShockwaves=Increases the radius of <c val="ffff8a">Ghost's</c> EMP Round by +<d ref="$UpgradeEffectArrayValue:EnhancedShockwaves:Effect,EMPSearch,AreaArray[0].Radius$" precision="1"/>.
+Button/Tooltip/EvolveAmorphousArmorcloud=Allows <c val="ffff8a">Infestors</c> to use the Microbial Shroud ability.
+Button/Tooltip/FleetBeacon=Contains upgrades for Phoenixes and Void Rays.<n/><n/><c val="ffff8a">Enables:</c><n/>- Tempests at the Stargate</n>- Carriers at the Stargate<n/>- Mothership from the Nexus
+Button/Tooltip/FusionCore=Contains Medivac, Liberator, and Battlecruiser upgrades. <n/><n/><c val="ffff8a">Enables:</c><n/>- Battlecruisers at the Starport
+Button/Tooltip/Infestor=Infestation specialist. Can use the Fungal Growth, Microbial Shroud, and Neural Parasite abilities.
+Button/Tooltip/Nexus=Primary structure. Can receive gathered resources. Can use the Chrono Boost and Mass Recall abilities.<n/><n/><c val="ffff8a">Enables:</c><n/>- Probes<n/>- Mothership
+Button/Tooltip/RavenShredderMissile=Deploys a missile which pursues the target unit and, upon contact, reduces the armor and shield armor of affected units by <d ref="-1*Behavior,RavenShredderMissileArmorReductionUISubtruct,Modification.LifeArmorBonus"/> for <d ref="Behavior,RavenShredderMissileArmorReductionUISubtruct,Duration"/> seconds.
+Button/Tooltip/ResearchCharge=Allows <c val="ffff8a">Zealots</c> to intercept nearby enemies. Also increases the movement speed of <c val="ffff8a">Zealots</c>. Ability can only be used once every <d ref="Abil,Charge,Cost.Cooldown.TimeUse"/> seconds.
+Button/Tooltip/ResearchDrillClaws=Allows <c val="ffff8a">Widow Mines</c> to burrow and activate three times as fast.
+Button/Tooltip/ResearchEnhancedShockwaves=Increases the <c val="ffff8a">Ghost's</c> EMP Round radius by +<d ref="$UpgradeEffectArrayValue:EnhancedShockwaves:Effect,EMPSearch,AreaArray[0].Radius$" precision="1"/>.
+Button/Tooltip/ResearchLurkerRange=Increases the attack range of <c val="ffff8a">Lurkers</c> by +<d ref="$UpgradeEffectArrayValue:LurkerRange:Weapon,LurkerMP,Range$"/>.
+Button/Tooltip/ResearchRapidReignitionSystem=Reduces the cooldown of <c val="ffff8a">Medivac's</c> Ignite Afterburners by <d time="[d ref='$UpgradeEffectArrayValue:MedivacIncreaseSpeedBoost:Abil,MedivacSpeedBoost,Cost[0].Cooldown.TimeUse$'/]"/> and increases the movement speed of <c val="ffff8a">Medivacs</c>.
+Button/Tooltip/ShieldBatteryRecharge=Restores target unit or structure's shields.
+Button/Tooltip/ShieldBatteryRechargeEx5=Restores target unit or structure's shields.<n/><n/><c val="f078ff">Restores 3 shields per 1 energy.</c><n/><n/><c val="#ColorAttackInfo">Autocasting targets units and defensive structures only.</c>
+Button/Tooltip/ShieldBatteryRechargeNotOvercharged=<n/><n/><c val="f078ff">Restores up to <d ref="Effect,ShieldBatteryRechargeEx5,RechargeVitalRate * Behavior,BatteryOvercharge,Modification.HealDealtMultiplier"/> shields per second.</c>
+Button/Tooltip/ShieldBatteryRechargeNotOverchargedConstantText=<n/><n/><c val="#ColorAttackInfo">Autocasting targets units and defensive structures only.</c>
+Button/Tooltip/ShieldBatteryRechargeOvercharged=<n/><n/><c val="f078ff">Restores up to <d ref="Effect,ShieldBatteryRechargeEx5,RechargeVitalRate"/> shields per second. Every 3 shields restored drains 1 energy from the Battery.</c>
+Button/Tooltip/Starport=Air-unit production facility. <n/><n/><c val="ffff8a">Enables:</c><n/>- Vikings<n/>- Medivacs<n/>- Liberators
+Button/Tooltip/TempestGroundAttackUpgrade=Improves the Tempest's weapon to deal +<d ref="$UpgradeEffectArrayValue:TempestGroundAttackUpgrade:Effect,TempestDamageGround,AttributeBonus[Structure]$"/> damage vs structures.
+Button/Tooltip/TempestResearchGroundAttackUpgrade=Improves the <c val="ffff8a">Tempest's</c> weapon to deal +<d ref="$UpgradeEffectArrayValue:TempestGroundAttackUpgrade:Effect,TempestDamageGround,AttributeBonus[Structure]$"/> damage vs structures.
+Button/Tooltip/TemporalField=After a <d ref="(Effect,TemporalFieldGrowingBubbleCreatePersistent,PeriodCount*Effect,TemporalFieldGrowingBubbleCreatePersistent,PeriodicPeriodArray[0])"/> second delay, warps spacetime within the target area for <d ref="Effect,TemporalFieldAfterBubbleCreatePersistent,PeriodCount*Effect,TemporalFieldAfterBubbleCreatePersistent,PeriodicPeriodArray[0]"/> seconds. All enemy units and structures within the field will have attack and movement speeds reduced by <d ref="(1-Behavior,TemporalField,Modification.MoveSpeedMultiplier)*100"/>%.
+Button/Tooltip/WidowMine=Robotic mine. Launches missiles at nearby enemy units while burrowed. Attacks deal splash damage in a small area around the target. Widow Mine is revealed when Sentinel Missile is on cooldown. <n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/WidowMineBioSplash=Attacks air and ground units in proximity dealing <d ref="Effect,WidowMineExplodeDirect,Amount"/> (+<d ref="Effect,WidowMineExplodeDirect,ShieldBonus"/> vs. shields) damage to their primary target and <d ref="Effect,WidowMineExplodeSplash,Amount"/> (+<d ref="Effect,WidowMineExplodeSplash,ShieldBonus"/> vs. shields) splash damage to units nearby. This unit is revealed while reloading.<n/><n/><c val="#ColorAttackInfo">Cooldown: <d ref="Abil,WidowMineAttack,Cost[0].Cooldown[0].TimeUse[0]"/> seconds.</c>
+Button/Tooltip/WidowMineConcealment=This unit is no longer revealed while reloading.
+DataCollection/Name/ShieldBatteryRechargeEx5=Shield Battery Recharge Ex5
+Effect/Name/90mmCannonsDummy=90mm Cannons Dummy
+Effect/Name/AdeptPiercingDamage=Piercing Damage
+Effect/Name/AdeptPiercingInitialPersistent=Piercing Initial Persistent
+Effect/Name/AdeptPiercingSearch=Piercing Search
+Effect/Name/AdeptPiercingSet=Piercing Set
+Effect/Name/AmorphousArmorcloudAB=AmorphousArmorcloudAB
+Effect/Name/AmorphousArmorcloudCP=AmorphousArmorcloudCP
+Effect/Name/AmorphousArmorcloudSearch=AmorphousArmorcloudSearch
+Effect/Name/ApplyNeuralAcquireToAllChildren=Apply Neural Acquire To All Children
+Effect/Name/AutoMorphtoWarpGate=Auto Morph to Warp Gate
+Effect/Name/BarrierIssueOrder=Barrier Issue Order
+Effect/Name/BatteryCooldownAB=BatteryCooldownAB
+Effect/Name/BatteryOverchargeAB=Battery Overcharge AB
+Effect/Name/BatteryOverchargeCreateHealer=Battery Overcharge Create Healer
+Effect/Name/BattlecruiserAttackTrackerAB=BattlecruiserAttackTrackerAB
+Effect/Name/BattlecruiserAttackTrackerCP=BattlecruiserAttackTrackerCP
+Effect/Name/BattlecruiserAttackTrackerDP=BattlecruiserAttackTrackerDP
+Effect/Name/BattlecruiserAttackTrackerOrderAttack=BattlecruiserAttackTrackerOrderAttack
+Effect/Name/BattlecruiserAttackTrackerOrderStop=BattlecruiserAttackTrackerOrderStop
+Effect/Name/BattlecruiserAttackTrackerPointSet=BattlecruiserAttackTrackerPointSet
+Effect/Name/BattlecruiserAttackTrackerStopSet=BattlecruiserAttackTrackerStopSet
+Effect/Name/BattlecruiserAttackTrackerSwitch=BattlecruiserAttackTrackerSwitch
+Effect/Name/BattlecruiserAttackTrackerUnitSet=BattlecruiserAttackTrackerUnitSet
+Effect/Name/BattlecruiserChasingAB=BattlecruiserChasingAB
+Effect/Name/BattlecruiserChasingRB=BattlecruiserChasingRB
+Effect/Name/BattlecruiserDamageCP=BattlecruiserDamageCP
+Effect/Name/BattlecruiserDamageSet=BattlecruiserDamageSet
+Effect/Name/BattlecruiserDamageSwitch=BattlecruiserDamageSwitch
+Effect/Name/BattlecruiserTacticalJumpCD=Battlecruiser Tactical Jump CD
+Effect/Name/BattlecruiserTargetTriggerHyperJumpCD=BattlecruiserTargetTriggerHyperJumpCD
+Effect/Name/BattlecruiserTransientTrackerAB=BattlecruiserTransientTrackerAB
+Effect/Name/BattlecruiserTransientTrackerSwitch=BattlecruiserTransientTrackerSwitch
+Effect/Name/BattlecruiserTransientTrackerThreatAB=BattlecruiserTransientTrackerThreatAB
+Effect/Name/BattlecruiserYamatoCD=Battlecruiser Yamato CD
+Effect/Name/BattlecrusierDisableWeaponsAB=Disable Weapons AB
+Effect/Name/BatttlecruiserAttackTrackerRB=BatttlecruiserAttackTrackerRB
+Effect/Name/BroodlingTimedLifeBroodLord=Broodling Timed Life (Brood Lord)
+Effect/Name/CalldownMULEIssueOrderSecondary=Calldown MULE (Issue Order) Secondary
+Effect/Name/ChannelingCausticSprayAB=Channeling Caustic Spray AB
+Effect/Name/ChannelingCausticSprayRB=Channeling Caustic Spray RB
+Effect/Name/ChargeAttackApplyBuff=Charge Attack (Apply Buff)
+Effect/Name/ChargeAttackRemoveBuff=Charge Attack Remove Buff
+Effect/Name/ChargeCheckApplyBuff=Charge Check (Apply Buff)
+Effect/Name/ChargeCheckRemoveBuff=Charge Check Remove Buff
+Effect/Name/ChargingDamage=Charging Damage
+Effect/Name/ChargingDamageSecondary=Charging Damage Secondary
+Effect/Name/ChargingPrimaryDamageSet=Charging Primary Damage Set
+Effect/Name/HyperjumpInitialCP=Hyperjump Initial CP
+Effect/Name/HyperjumpInitialDelaySuppressWeaponAB=HyperjumpInitialDelaySuppressWeaponAB
+Effect/Name/HyperjumpInitialDelaySuppressWeaponRB=HyperjumpInitialDelaySuppressWeaponRB
+Effect/Name/NeuralParasiteChildren=Neural Parasite Children
+Effect/Name/OrbitalCommandCreateMuleOffsetCP=Orbital Command Create Mule Offset CP
+Effect/Name/OrbitalCommandCreateMuleSearchTownHall=Orbital Command Create Mule Search TownHall
+Effect/Name/OrbitalCommandCreateMuleSwitch=Orbital Command Create Mule Switch
+Effect/Name/RavenScramblerMissileSetInitial=RavenScramblerMissileSetInitial
+Effect/Name/RavenShredderMissileArmorReductionUISubtruct=RavenShredderMissileArmorReductionUISubtruct
+Effect/Name/ScramblerMarkerAB=Scrambler Marker AB
+Effect/Name/ShieldBatteryRechargeEx5=ShieldBatteryRechargeEx5 - create Healer
+Effect/Name/ShieldBatteryRechargeEx5@DamageDummy=Damage Dummy
+Effect/Name/ShieldBatteryRechargeEx5@RevealSearch=Reveal Search
+Effect/Name/TemporalFieldAfterBubbleCreatePersistent=Temporal Field After Bubble Create Persistent
+Effect/Name/TemporalFieldAfterBubbleSearchArea=Temporal Field After Bubble Search Area
+Effect/Name/TemporalFieldCreatePersistentGrowingBubble=Temporal Field Create Persistent Growing Bubble
+Effect/Name/TemporalFieldGrowingBubbleCreatePersistent=Temporal Field Growing Bubble (Create Persistent)
+Effect/Name/TemporalFieldGrowingBubbleSearchArea=Temporal Field Growing Bubble (Search Area)
+Effect/Name/WidowMineNotificationSearch=Widow Mine
+Error/AddOnIsWorking=Can't do that while add-on is researching
+Error/AlreadyChronoBoosted=Target is already accelerated
+Error/BatteryMustBeNearNexus=Battery must be near a Nexus
+Error/CantBlinkWhileRooted=Can't do that while affected by Fungal Growth
+Error/CantTargetBattlecruiserHyperjump=Can't target a Tactical Jumping unit.
+Error/CantTargetEggUnit=Can't target Eggs.
+Error/CantTargetOverchargedShieldBattery=Shield Battery is already overcharged.
+Error/CantTargetShieldBattery=Can't target a Shield Battery.
+Error/MustTargetMechanicalorPsionic=Must target a Mechanical or Psionic unit.
+Error/MustTargetShieldBattery=Must target a Shield Battery.
+Error/Scrambled=Cannot target Interference Matrixed units
+Error/TargetIsUnpowered=Target is unpowered
+LookAtType/CycloneTurret=
+RequirementNode/Tooltip/CountUpgradeEnhancedShockwavesCompleteOnly2618611756TechTreeCheat=Research Enhanced Shockwaves at the Ghost Academy
+RequirementNode/Tooltip/CountUpgradeLiberatorAGRangeUpgradeCompleteOnly2325880491=Research Advanced Ballistics at the Fusion Core
+RequirementNode/Tooltip/CountUpgradeMedivacIncreaseSpeedBoostCompleteOnly20648635=Research Rapid Reignition System at the Fusion Core
+RequirementNode/Tooltip/CountUpgradeMicrobialShroudCompleteOnly3803934920TechTreeCheat=Evolve Microbial Shroud at the Infestation Pit
+RequirementNode/Tooltip/CountUpgradeTempestGroundAttackUpgradeCompleteOnly788113278=Research Tectonic Destabilizers at the Fleet Beacon
+UI/HelpGameMechanic_AccelerationZoneGenerators_Description=<ul indent="2" text="•"><li>These ancient generators speed up movement speeds of all ground and air units within the generated field by 35%.</li><li>Acceleration Zones do not affect unit attack speeds.</li></ul>
+UI/HelpGameMechanic_AccelerationZoneGenerators_Name=Acceleration Zone Generators
+Unit/Name/AccelerationZone=Acceleration Zone Generator
+Upgrade/Name/EnhancedShockwaves=Enhanced Shockwaves
+Upgrade/Name/HurricaneThrusters=Hurricane Engines
+Upgrade/Name/LurkerRange=Seismic Spines
+Upgrade/Name/MicrobialShroud=Microbial Shroud
+Upgrade/Name/TempestGroundAttackUpgrade=Tectonic Destabilizers

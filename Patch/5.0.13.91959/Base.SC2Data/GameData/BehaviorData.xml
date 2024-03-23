@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CBehaviorBuff default="1" id="InhibitorZoneBase">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <Period value="0.0625"/>
+        <PeriodicEffect value="##id##Search"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff default="1" id="InhibitorZoneFlyingBase">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <Period value="0.0625"/>
+        <PeriodicEffect value="##id##Search"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="InhibitorZoneFlyingTemporalField">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-temporalfield.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.125"/>
+        <Modification MoveSpeedMultiplier="0.65"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="InhibitorZoneFlyingLarge" parent="InhibitorZoneFlyingBase"/>
+    <CBehaviorBuff id="InhibitorZoneFlyingMedium" parent="InhibitorZoneFlyingBase"/>
+    <CBehaviorBuff id="InhibitorZoneFlyingSmall" parent="InhibitorZoneFlyingBase"/>
+    <CBehaviorBuff id="InhibitorZoneLarge" parent="InhibitorZoneBase"/>
+    <CBehaviorBuff id="InhibitorZoneMedium" parent="InhibitorZoneBase"/>
+    <CBehaviorBuff id="InhibitorZoneSmall" parent="InhibitorZoneBase"/>
+    <CBehaviorBuff id="InhibitorZoneTemporalField">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-temporalfield.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.125"/>
+        <Modification MoveSpeedMultiplier="0.65"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff default="1" id="AccelerationZoneBase">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <Period value="0.0625"/>
+        <PeriodicEffect value="##id##Search"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff default="1" id="AccelerationZoneFlyingBase">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <Period value="0.0625"/>
+        <PeriodicEffect value="##id##Search"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff default="1" id="InhibitorZoneFlyingBase">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <Period value="0.0625"/>
+        <PeriodicEffect value="##id##Search"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AccelerationZoneLarge" parent="AccelerationZoneBase"/>
+    <CBehaviorBuff id="AccelerationZoneMedium" parent="AccelerationZoneBase"/>
+    <CBehaviorBuff id="AccelerationZoneSmall" parent="AccelerationZoneBase"/>
+    <CBehaviorBuff id="AccelerationZoneTemporalField">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-temporalfield.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.125"/>
+        <Modification MoveSpeedMultiplier="1.35"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AccelerationZoneFlyingTemporalField">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-temporalfield.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.125"/>
+        <Modification MoveSpeedMultiplier="1.35"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AccelerationZoneFlyingLarge" parent="AccelerationZoneFlyingBase"/>
+    <CBehaviorBuff id="AccelerationZoneFlyingMedium" parent="AccelerationZoneFlyingBase"/>
+    <CBehaviorBuff id="AccelerationZoneFlyingSmall" parent="AccelerationZoneFlyingBase"/>
+    <CBehaviorBuff id="InhibitorZoneFlyingTemporalField">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-temporalfield.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.125"/>
+        <Modification MoveSpeedMultiplier="0.65"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ResonatingGlaivesPhaseShift">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-resonatingglaives-orange.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <DisplayDuration index="Neutral" value="1"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <Duration value="8.4"/>
+        <Modification AttackSpeedMultiplier="1.6"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HyperjumpInitialDelaySuppressWeapon">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+        <Modification>
+            <ModifyFlags index="SuppressMoving" value="1"/>
+            <ModifyFlags index="SuppressTurning" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="SuppressCloak" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorResource id="MineralFieldMinerals450">
+        <DepletionThreshold value="903"/>
+    </CBehaviorResource>
+    <CBehaviorResource id="MineralFieldMineralsOpaque">
+        <DepletionThreshold value="903"/>
+    </CBehaviorResource>
+    <CBehaviorResource id="MineralFieldMineralsOpaque900">
+        <DepletionThreshold value="903"/>
+    </CBehaviorResource>
+    <CBehaviorBuff id="NeuralParasite">
+        <InitialEffect value="ApplyNeuralAcquireToAllChildren"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="NeuralParasiteChildren" parent="Radar">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\BTN-Ability-Zerg-NeuralParasite.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <AcquirePlayer Effect="NeuralParasiteLaunchMissile" Value="Target"/>
+        <BuffFlags index="Channeling" value="1"/>
+        <Modification>
+            <StateFlags index="Benign" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="OracleRevelation">
+        <Duration value="28"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="OracleWeapon">
+        <Modification>
+            <WeaponEnableArray value="OracleDisplayDummy"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AmorphousArmorcloud">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-darkswarm.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="0.625"/>
+        <DamageResponse ModifyFraction="0.5">
+            <Kind index="Spell" value="0"/>
+            <ValidatorArray value="TargetIsNotGround"/>
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorResource id="HighYieldMineralFieldMinerals">
+        <DepletionThreshold value="903"/>
+    </CBehaviorResource>
+    <CBehaviorResource id="HighYieldMineralFieldMinerals750">
+        <DepletionThreshold value="903"/>
+    </CBehaviorResource>
+    <CBehaviorResource id="MineralFieldMinerals">
+        <DepletionThreshold value="903"/>
+    </CBehaviorResource>
+    <CBehaviorResource id="MineralFieldMinerals750">
+        <DepletionThreshold value="903"/>
+    </CBehaviorResource>
+    <CBehaviorBuff id="RavenScramblerMissile">
+        <ExpireEffect value=""/>
+        <Duration value="15"/>
+        <Modification>
+            <ModifyFlags index="EnableAttack" value="1"/>
+            <StateFlags index="SuppressCombat" value="1"/>
+            <AbilClassEnableArray index="CAbilStop" value="1"/>
+            <BehaviorLinkDisableArray index="0" removed="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BeamTargetCD">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <MaxStackCount value="65535"/>
+        <MaxStackCountPerCaster value="1"/>
+        <Duration value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <TimeScaleSource Value="Caster"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="WidowMineBurrowedCloakingBehavior">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="NotHaveDrillingClawsUpgrade"/>
+        <DisableValidatorArray value="WidowMineAttackOnCooldown"/>
+        <!--DisableValidatorArray value="WidowMineAttackOnCooldown"/-->
+        <Modification>
+            <StateFlags index="SuppressCloak" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="WidowMineArmoryTracker">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="HaveArmory"/>
+        <!--DisableValidatorArray value="WidowMineAttackOnCooldown"/-->
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DummyBuff002">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-yagdra-firewave.dds"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0"/>
+        <DisplayDuration index="Self" value="1"/>
+        <Modification HealDealtMultiplier="2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BatteryOvercharge">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zeratul-observer-sensorarray.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="20"/>
+        <!--Period value="0.0625"/-->
+        <!--PeriodicEffect value="BatteryOverchargeCreateHealer"/-->
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <DisplayDuration index="Neutral" value="1"/>
+        <Modification HealDealtMultiplier="1.5"/>
+        <!--InitialEffect value="NexusShieldOverchargeMorphNexus"/>
+        <FinalEffect value="NexusShieldOverchargeMorphNexusBack"/-->
+    </CBehaviorBuff>
+    <CBehaviorBuff id="OracleDisableAttack">
+        <Name value="Behavior/Name/OracleDisableAttack"/>
+        <BehaviorFlags index="Permanent" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Modification>
+            <WeaponDisableArray value="Oracle"/>
+            <WeaponDisableArray value="OracleDisplayDummy"/>
+        </Modification>
+        <InfoFlags index="Hidden" value="1"/>
+    </CBehaviorBuff>   
+    <CBehaviorBuff id="RavenShredderMissileArmorReductionUISubtruct">
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <DisplayDuration index="Neutral" value="1"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <Modification ShieldArmorBonus="-2">
+            <LifeArmorBonus value="-2"/>
+        </Modification>
+        <InfoFlags index="Hidden" value="0"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdeptPhaseShiftCaster">
+        <Modification>
+            <StateFlags index="SuppressPassenger" value="0"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdeptPhaseShiftTimer">
+        <RemoveValidatorArray value="CasterIsNotHidden"/>
+        <RemoveValidatorArray value="CasterIsNotMothershipMassRecalling"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AutoTurretTimedLife">
+        <Duration value="11"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BatteryAcquireTargetCooldown">
+        <InfoFlags index="Hidden" value="1"/>
+        <TimeScaleSource Value="Caster"/>
+        <Duration value="0.125"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ChangelingDisguiseEx3">
+        <DisableValidatorArray value="IsNotNeuralParasited"/>
+    </CBehaviorBuff>
+    <CBehaviorCreepSource id="NydusCreepGrowth">
+        <InfoFlags index="Hidden" value="1"/>
+    </CBehaviorCreepSource>
+    <CBehaviorBuff id="OracleStasisTrapTarget">
+        <Modification>
+            <AbilClassEnableArray index="CAbilHarvest" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SensorTowerRadar">
+        <Modification Radar="27"/>
+    </CBehaviorBuff>
+    <CBehaviorCreepSource id="makeCreep8x6">
+        <Period value="0.352"/>
+    </CBehaviorCreepSource>
+    <CBehaviorPowerUser id="PowerUserWarpable">
+        <PowerStageArray index="1" LevelGainEffect="PowerUserWarpablelevel2gained" LevelLossEffect="PowerUserWarpablelevel2lost"/>
+    </CBehaviorPowerUser>
+    <CBehaviorBuff id="CommandCenterKnockbackBehavior">
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0.5"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TerranStructuresKnockbackBehavior">
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0.5"/>
+    </CBehaviorBuff>
+    <!--Dummy buffs used to be able to push ids further in stableids.json/-->
+    <CBehaviorBuff id="DummyBuff000">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-yagdra-firewave.dds"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0"/>
+        <DisplayDuration index="Self" value="1"/>
+        <Modification HealDealtMultiplier="2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DummyBuff001">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-yagdra-firewave.dds"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0"/>
+        <DisplayDuration index="Self" value="1"/>
+        <Modification HealDealtMultiplier="2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DummyBuff002">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-yagdra-firewave.dds"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0"/>
+        <DisplayDuration index="Self" value="1"/>
+        <Modification HealDealtMultiplier="2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DummyBuff003">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-yagdra-firewave.dds"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0"/>
+        <DisplayDuration index="Self" value="1"/>
+        <Modification HealDealtMultiplier="2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DummyBuff004">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-yagdra-firewave.dds"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0"/>
+        <DisplayDuration index="Self" value="1"/>
+        <Modification HealDealtMultiplier="2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DummyBuff005">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-yagdra-firewave.dds"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="0"/>
+        <DisplayDuration index="Self" value="1"/>
+        <Modification HealDealtMultiplier="2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BatteryEnergy">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Duration value="0.01"/>
+        <ExpireEffect value="BatteryAddEnergy"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="OnCreepQueen">
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-creepspread.dds"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="OnCreep"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DarkTemplarBlinkAttackDelay">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="1"/>
+        <Modification>
+            <StateFlags index="SuppressAttack" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorCreepSource id="makeCreepNydus4x4">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Structures"/>
+        <Period value="0.63"/>
+        <Start value="Footprint4x4CreepSourceGrown"/>
+        <Birth value="Footprint4x4CreepSourceStart2"/>
+        <Grown value="Footprint4x4CreepSourceGrown"/>
+    </CBehaviorCreepSource>
+    <CBehaviorBuff id="RavenScramblerMissileCarrier" parent="RavenScramblerMissile">
+        <Modification>
+            <ModifyFlags index="EnableAttack" value="0"/>
+            <BehaviorLinkDisableArray index="0" removed="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BarrierDamageResponse">
+        <DisableValidatorArray value="NotHaveScramblerMissileBehavior"/>
+        <DamageResponse Handled="ImmortalBarrierAfterfirstdamageeffect"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="CycloneLockOnCooldown">
+        <InfoFlags index="Hidden" value="1"/>
+        <TimeScaleSource Value="Caster"/>
+        <Duration value="0.812"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="CloakField">
+        <InfoFlags index="Hidden" value="0"/>
+        <Period value="0.0625"/>
+        <Tooltip value="Behavior/Tooltip/CloakField2"/>
+        <Duration value="28"/>
+        <Name value="Behavior/Name/CloakFieldEffect"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="CloakFieldEffect">
+        <Duration value="0.125"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ImmortalBarrierSupressed">
+        <Cost>
+            <Cooldown TimeStart="0"/>
+        </Cost>
+        <ExpireEffect value="ImmortalBarrierAddBarrier"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ImmortalOverload">
+        <RemoveValidatorArray index="0" removed="1"/>
+        <Duration value="0"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <DisableValidatorArray value="NotHaveScramblerMissileBehavior"/>
+        <DisableValidatorArray value="BarrierNoGravitonBeamOrBarrierOnCooldown"/>
+        <DamageResponse Exhausted="ImmortalBarrierRemoveactiveDuration"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="LockOnDummyWeapon">
+        <Modification WeaponRange="0" WeaponScanBonus="0"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TakenDamage">
+        <Name value="Behavior/Name/ImmortalOverload"/>
+        <DisplayDuration index="Self" value="1"/>
+        <Duration value="3"/>
+        <ExpireEffect value="ImmortalBarrierRemoveBarrier"/>
+        <Tooltip value="Behavior/Tooltip/ImmortalOverload"/>
+        <Alignment value="Positive"/>
+        <InfoFlags index="Hidden" value="0"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-invulnerabilityshield.dds"/>
+        <RemoveValidatorArray value="NotHaveScramblerMissileBehavior"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TemporalField">
+        <Modification MoveSpeedMultiplier="0.6" AttackSpeedMultiplier="0.6"/>
+    </CBehaviorBuff>
+    <CBehaviorCreepSource id="makeCreep2x2Overlord">
+        <Delay value="1.5"/>
+    </CBehaviorCreepSource>
+    <CBehaviorBuff id="ScramblerMarker">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+        <Duration value="2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="WidowMineDrillingClawsTracker">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="HasDrillingClawsUpgrade"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="WidowMineTargeted">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+        <RemoveValidatorArray value="CasterIsAlive"/>
+        <RemoveValidatorArray value="TargetStillAimedAtByCasterWidowMine"/>
+        <RemoveValidatorArray value="CasterisWidowMineBurrowed"/>
+        <RemoveValidatorArray value="CasterIsNotGravitonBeamed"/>
+        <RemoveValidatorArray value="CasterIsNotStasisWarded"/>
+        <RemoveValidatorArray value="CasterIsNotYoinked"/>
+        <RemoveValidatorArray value="CasterIsNotNeuralParasited"/>
+        <RemoveValidatorArray value="CasterDoesNotHaveScramblerMissileBehavior"/>
+        <RemoveValidatorArray value="CasterIsNotNexusStrategicRecalling"/>
+        <RemoveValidatorArray value="CasterIsNotMothershipMassRecalling"/>
+        <MaxStackCount value="2"/>
+        <Duration value="2.5"/>
+    </CBehaviorBuff>
+    <CBehaviorConjoined id="Conjoined">
+        <ConjoinedFlags index="ShareVisible" value="1"/>
+        <Radius value="10"/>
+    </CBehaviorConjoined>
+    <CBehaviorConjoined id="CollapsibleRockTowerConjoined">
+        <ConjoinedFlags index="ShareVisible" value="1"/>
+    </CBehaviorConjoined>
+    <CBehaviorConjoined id="CollapsibleTerranTowerConjoined">
+        <ConjoinedFlags index="ShareVisible" value="1"/>
+    </CBehaviorConjoined>
+    <CBehaviorBuff id="Detector35" parent="Detector">
+        <Alignment value="Positive"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-status-detector.dds"/>
+        <Modification Detect="3.5"/>
+    </CBehaviorBuff>
+</Catalog>
