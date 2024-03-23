@@ -89,7 +89,8 @@
     </CModel>
     <CModel id="ShieldBatteryRechargeEx5@ActionImpact" parent="OneShotSpellFX">
         <Model value="Assets\Effects\Protoss\ProtossShield_Battery_Beam_Impact\ProtossShield_Battery_Beam_Impact.m3"/>
-        <EditorCategories value="Race:Protoss"/>
+	<EditorCategories value="Race:Protoss"/>
+	<RadiusLoose value="0.500000"/>
     </CModel>
     <CModel id="CastanarHoloProjector" parent="Doodad">
         <Events>
@@ -284,5 +285,12 @@
     </CModel>
     <CModel id="DestructibleCityDebrisHugeDiagonalBLUR">
         <SelectionRadius value="2.941100"/>
+    </CModel>
+    <CModel id="WidowMineTargetingBeam">
+        <Model value="Assets\Effects\Terran\TargetingDroneBeam\TargetingDroneBeam.m3"/>
+    </CModel>
+    <CModel id="XelNagaHealingShrine">
+        <ScaleMax value="0.500000,0.500000,0.200000"/>
+        <ScaleMin value="0.500000,0.500000,0.200000"/>
     </CModel>
 </Catalog>
