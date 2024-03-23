@@ -189,12 +189,12 @@
         <DefaultError value="RequiresHealTarget"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="ShieldBatteryRecharge">
             <Flags index="UseDefaultButton" value="1"/>
-            <Flags index="CreateDefaultButton" value="1"/>
+            <Flags index="CreateDefaultButton" value="0"/>
         </CmdButtonArray>
         <!--CmdButtonArray index="Cancel" DefaultButtonFace="Stop">
             <Flags index="ToSelection" value="1"/>
             <Flags index="UseDefaultButton" value="1"/>
-            <Flags index="CreateDefaultButton" value="1"/>
+            <Flags index="CreateDefaultButton" value="0"/>
         </CmdButtonArray-->
     </CAbilEffectTarget>
     <CAbilTrain id="StargateTrain">
@@ -392,7 +392,7 @@
     </CAbilMorph>
     <CAbilEffectTarget id="LockOn">
         <Cost index="0">
-            <Cooldown TimeUse="0"/>
+            <Cooldown TimeUse="4"/>
         </Cost>
         <AutoCastValidatorArray index="1" value="IsNotInterceptor"/>
         <AutoCastValidatorArray index="2" value="TargetNotChangeling"/>
@@ -410,6 +410,7 @@
         <TargetSorts>
             <SortArray value="TSThreatensCyclone"/>
             <SortArray value="AirTarget"/>
+            <SortArray value="TSDistance"/>
         </TargetSorts>
     </CAbilEffectTarget>
     <CAbilMorph id="MorphToLurker">
@@ -464,11 +465,14 @@
     <CAbilEffectTarget id="WidowMineAttack">
         <AutoCastValidatorArray value="NotLarvaEgg"/>
         <AutoCastValidatorArray value="IsNotNeuralParasited"/>
+        <PrepEffect index="0" value="WidowMineTargetTintApplyBehavior"/>
+        <CancelEffect index="Prep" value="WidowMineTargetTintRemoveBehavior"/>
     </CAbilEffectTarget>
     <CAbilMorph id="WidowMineBurrow">
         <InfoArray index="0" RandomDelayMax="0.25">
             <SectionArray index="Actor">
                 <DurationArray index="Duration" value="3.125"/>
+                <EffectArray index="Start" value="WidowMineNotificationSearch"/>
             </SectionArray>
             <SectionArray index="Collide">
                 <DurationArray index="Delay" value="0.6806"/>
@@ -494,6 +498,50 @@
     <CAbilEffectTarget id="Yoink">
         <CastOutroTime value="0.8"/>
     </CAbilEffectTarget>
+    <CAbilMorph id="BurrowInfestorUp">
+        <InfoArray index="0" RandomDelayMax="0.125">
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="0.875"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Duration" value="0.875"/>
+            </SectionArray>
+        </InfoArray>
+    </CAbilMorph>
+    <CAbilResearch id="EngineeringBayResearch">
+        <InfoArray index="Research4">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+        </InfoArray>
+        <InfoArray index="Research5">
+            <Resource index="Minerals" value="200"/>
+            <Resource index="Vespene" value="200"/>
+        </InfoArray>
+        <InfoArray index="Research8">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+        </InfoArray>
+        <InfoArray index="Research9">
+            <Resource index="Minerals" value="200"/>
+            <Resource index="Vespene" value="200"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilMorph id="MorphToTransportOverlord">
+        <InfoArray index="1">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="21"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Delay" value="21"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="21"/>
+            </SectionArray>
+        </InfoArray>
+    </CAbilMorph>
+    <CAbilTrain id="RoboticsFacilityTrain">
+        <InfoArray index="Train2" Time="25"/>
+    </CAbilTrain>
     <!--Dummy abilities used to push ids further in stableids.json
        Most likely possible to remove some of the internals of the following
        abilities and still have them count as real abilities /-->
@@ -1870,9 +1918,6 @@
         <CmdButtonArray index="Execute" DefaultButtonFace="OracleCloakField"/>
         <Flags index="Transient" value="1"/>
     </CAbilEffectInstant>
-    <CAbilEffectTarget id="FungalGrowth">
-        <Range index="0" value="9"/>
-    </CAbilEffectTarget>
     <CAbilResearch id="InfestationPitResearch">
         <InfoArray index="Research3" Upgrade="">
             <Button DefaultButtonFace="" Requirements=""/>
