@@ -20,8 +20,10 @@ Behavior/Tooltip/RavenShredderMissileArmorReductionUISubtruct=This unit has redu
 Behavior/Tooltip/TemporalField=This unit's attack and movement speeds are reduced by 50%.
 Button/Name/AmorphousArmorcloud=Microbial Shroud
 Button/Name/BatteryOvercharge=Battery Overcharge
+Button/Name/CycloneResearchHurricaneThrusters=Research Hurricane Engines
 Button/Name/EnhancedShockwaves=Enhanced Shockwaves
 Button/Name/EvolveAmorphousArmorcloud=Evolve Microbial Shroud
+Button/Name/HurricaneThrusters=Hurricane Engines
 Button/Name/NexusMassRecall=Strategic Recall
 Button/Name/ResearchEnhancedShockwaves=Research Enhanced Shockwaves
 Button/Name/ShieldBattery=Warp In Shield Battery
@@ -34,6 +36,7 @@ Button/Tooltip/AccelerationZone=Warps spacetime within the nearby area.  All gro
 Button/Tooltip/AmorphousArmorcloud=Creates a shroud that obscures ground units underneath, reducing damage taken from air units by <d ref="Behavior,AmorphousArmorcloud,DamageResponse.ModifyFraction*100" precision="1"/>%. Lasts <d ref="Effect,AmorphousArmorcloudCP,PeriodCount*Effect,AmorphousArmorcloudCP,PeriodicPeriodArray[0]"/> seconds.
 Button/Tooltip/Armory=Contains weapon and armor upgrades for Factory and Starport units. <n/><n/><c val="ffff8a">Enables:</c><n/>- Hellbat at the Factory<n/>- Thor at the Factory
 Button/Tooltip/BatteryOvercharge=Overcharges a target Shield Battery near a Nexus, increasing its shield restoration rate by <d ref="Behavior,BatteryOvercharge,Modification.HealDealtMultiplier * 100 - 100"/>% and allowing it to restore shields without consuming energy for <d ref="Behavior,BatteryOvercharge,Duration"/> seconds.
+Button/Tooltip/ChannelSnipe=After carefully aiming for <d ref="Effect,ChannelSnipeCreatePersistent,PeriodCount*Effect,ChannelSnipeCreatePersistent,PeriodicPeriodArray[0]" precision="2"/> seconds while not taking damage, the Ghost fires a sniper round dealing <d ref="Effect,ChannelSnipeDamage,Amount"/> (+<d ref="Effect,ChannelSnipeDamage,AttributeBonus[Psionic]"/> vs. psionic) damage. Ignores armor.<n/><n/><c val="#ColorAttackInfo">Can only target biological units.</c>
 Button/Tooltip/Charge=Allows Zealots to intercept nearby enemies. Also increases the movement speed of Zealots. Ability can only be used once every <d ref="Abil,Charge,Cost.Cooldown.TimeUse"/> seconds.
 Button/Tooltip/CycloneResearchLockOnDamageUpgrade=Increases <c val="ffff8a">Cyclone</c> Lock On damage. Deals 600 over <d ref="Effect,LockOnCP,PeriodCount * Effect,LockOnCP,PeriodicPeriodArray[0]"/> seconds to ground and flying targets.
 Button/Tooltip/DrillClaws=This unit burrows faster.
@@ -55,8 +58,8 @@ Button/Tooltip/ShieldBatteryRechargeNotOvercharged=<n/><n/><c val="f078ff">Resto
 Button/Tooltip/ShieldBatteryRechargeNotOverchargedConstantText=<n/><n/><c val="#ColorAttackInfo">Autocasting targets units and defensive structures only.</c>
 Button/Tooltip/ShieldBatteryRechargeOvercharged=<n/><n/><c val="f078ff">Restores up to <d ref="Effect,ShieldBatteryRechargeEx5,RechargeVitalRate"/> shields per second. Every 3 shields restored drains 1 energy from the Battery.</c>
 Button/Tooltip/Starport=Air-unit production facility. <n/><n/><c val="ffff8a">Enables:</c><n/>- Vikings<n/>- Medivacs<n/>- Liberators
-Button/Tooltip/TempestGroundAttackUpgrade=Improves the Tempest's Resonance Coil to deal +<d ref="$UpgradeEffectArrayValue:TempestGroundAttackUpgrade:Effect,TempestDamageGround,AttributeBonus[Structure]$"/> damage vs structures.
-Button/Tooltip/TempestResearchGroundAttackUpgrade=Improves the <c val="ffff8a">Tempest's</c> Resonance Coil to deal +<d ref="$UpgradeEffectArrayValue:TempestGroundAttackUpgrade:Effect,TempestDamageGround,AttributeBonus[Structure]$"/> damage vs structures.
+Button/Tooltip/TempestGroundAttackUpgrade=Improves the Tempest's weapon to deal +<d ref="$UpgradeEffectArrayValue:TempestGroundAttackUpgrade:Effect,TempestDamageGround,AttributeBonus[Structure]$"/> damage vs structures.
+Button/Tooltip/TempestResearchGroundAttackUpgrade=Improves the <c val="ffff8a">Tempest's</c> weapon to deal +<d ref="$UpgradeEffectArrayValue:TempestGroundAttackUpgrade:Effect,TempestDamageGround,AttributeBonus[Structure]$"/> damage vs structures.
 Button/Tooltip/TemporalField=After a <d ref="(Effect,TemporalFieldGrowingBubbleCreatePersistent,PeriodCount*Effect,TemporalFieldGrowingBubbleCreatePersistent,PeriodicPeriodArray[0])"/> second delay, warps spacetime within the target area for <d ref="Effect,TemporalFieldAfterBubbleCreatePersistent,PeriodCount*Effect,TemporalFieldAfterBubbleCreatePersistent,PeriodicPeriodArray[0]"/> seconds. All enemy units and structures within the field will have attack and movement speeds reduced by <d ref="(1-Behavior,TemporalField,Modification.MoveSpeedMultiplier)*100"/>%.
 Button/Tooltip/WidowMine=Robotic mine. Launches missiles at nearby enemy units while burrowed. Attacks deal splash damage in a small area around the target. Widow Mine is revealed when Sentinel Missile is on cooldown. <n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
 Button/Tooltip/WidowMineBioSplash=Attacks air and ground units in proximity dealing <d ref="Effect,WidowMineExplodeDirect,Amount"/> (+<d ref="Effect,WidowMineExplodeDirect,ShieldBonus"/> vs. shields) damage to their primary target and <d ref="Effect,WidowMineExplodeSplash,Amount"/> (+<d ref="Effect,WidowMineExplodeSplash,ShieldBonus"/> vs. shields) splash damage to units nearby. This unit is revealed while reloading.<n/><n/><c val="#ColorAttackInfo">Cooldown: <d ref="Abil,WidowMineAttack,Cost[0].Cooldown[0].TimeUse[0]"/> seconds.</c>
@@ -116,7 +119,9 @@ Effect/Name/NeuralParasiteChildren=Neural Parasite Children
 Effect/Name/OrbitalCommandCreateMuleOffsetCP=Orbital Command Create Mule Offset CP
 Effect/Name/OrbitalCommandCreateMuleSearchTownHall=Orbital Command Create Mule Search TownHall
 Effect/Name/OrbitalCommandCreateMuleSwitch=Orbital Command Create Mule Switch
+Effect/Name/RavenScramblerMissileSetInitial=RavenScramblerMissileSetInitial
 Effect/Name/RavenShredderMissileArmorReductionUISubtruct=RavenShredderMissileArmorReductionUISubtruct
+Effect/Name/ScramblerMarkerAB=Scrambler Marker AB
 Effect/Name/ShieldBatteryRechargeEx5=ShieldBatteryRechargeEx5 - create Healer
 Effect/Name/ShieldBatteryRechargeEx5@DamageDummy=Damage Dummy
 Effect/Name/ShieldBatteryRechargeEx5@RevealSearch=Reveal Search
@@ -125,6 +130,7 @@ Effect/Name/TemporalFieldAfterBubbleSearchArea=Temporal Field After Bubble Searc
 Effect/Name/TemporalFieldCreatePersistentGrowingBubble=Temporal Field Create Persistent Growing Bubble
 Effect/Name/TemporalFieldGrowingBubbleCreatePersistent=Temporal Field Growing Bubble (Create Persistent)
 Effect/Name/TemporalFieldGrowingBubbleSearchArea=Temporal Field Growing Bubble (Search Area)
+Effect/Name/WidowMineNotificationSearch=Widow Mine
 Error/AddOnIsWorking=Can't do that while add-on is researching
 Error/AlreadyChronoBoosted=Target is already accelerated
 Error/BatteryMustBeNearNexus=Battery must be near a Nexus
@@ -135,7 +141,9 @@ Error/CantTargetOverchargedShieldBattery=Shield Battery is already overcharged.
 Error/CantTargetShieldBattery=Can't target a Shield Battery.
 Error/MustTargetMechanicalorPsionic=Must target a Mechanical or Psionic unit.
 Error/MustTargetShieldBattery=Must target a Shield Battery.
+Error/Scrambled=Cannot target Interference Matrixed units
 Error/TargetIsUnpowered=Target is unpowered
+LookAtType/CycloneTurret=
 RequirementNode/Tooltip/CountUpgradeEnhancedShockwavesCompleteOnly2618611756TechTreeCheat=Research Enhanced Shockwaves at the Ghost Academy
 RequirementNode/Tooltip/CountUpgradeLiberatorAGRangeUpgradeCompleteOnly2325880491=Research Advanced Ballistics at the Fusion Core
 RequirementNode/Tooltip/CountUpgradeMedivacIncreaseSpeedBoostCompleteOnly20648635=Research Rapid Reignition System at the Fusion Core
@@ -145,6 +153,7 @@ UI/HelpGameMechanic_AccelerationZoneGenerators_Description=<ul indent="2" text="
 UI/HelpGameMechanic_AccelerationZoneGenerators_Name=Acceleration Zone Generators
 Unit/Name/AccelerationZone=Acceleration Zone Generator
 Upgrade/Name/EnhancedShockwaves=Enhanced Shockwaves
+Upgrade/Name/HurricaneThrusters=Hurricane Engines
 Upgrade/Name/LurkerRange=Seismic Spines
 Upgrade/Name/MicrobialShroud=Microbial Shroud
 Upgrade/Name/TempestGroundAttackUpgrade=Tectonic Destabilizers
