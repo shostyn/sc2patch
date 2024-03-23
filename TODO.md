@@ -1,0 +1,6 @@
+- Check new ids for stableid
+  - Cyclone speed upgrade
+  - Raven matrix upgrade
+  - Mothership active cloak field behavior
+  - Medivac energy recharge rate upgrade
+- Check if data exists for Healing Shrines in 4.10 liberty mod
