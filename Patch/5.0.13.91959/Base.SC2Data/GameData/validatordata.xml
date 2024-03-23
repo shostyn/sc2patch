@@ -226,4 +226,34 @@
         <WhichUnit Value="Caster"/>
         <Behavior value="CycloneLockOnCooldown"/>
     </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitType id="CasterisWidowMineBurrowed">
+        <WhichUnit Value="Caster"/>
+        <Value value="WidowMineBurrowed"/>
+    </CValidatorUnitType>
+    <CValidatorPlayerRequirement id="NotHaveDrillingClawsUpgrade">
+        <ResultNoPlayer value="Error"/>
+        <Value value="HaveWidowMineDrillingClaws"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorUnitCompareBehaviorCount id="NoScramblerMarker">
+        <ResultFailed value="Error,Error/Scrambled"/>
+        <Behavior value="ScramblerMarker"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="NotHaveScramblerMissileBehavior">
+        <ResultFailed value="CantTargetThatUnit,Error/Scrambled"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorCombine id="noStructureOrFlyingStructure">
+        <CombineArray value="NotStructure"/>
+        <CombineArray value="TargetIsNotGround"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareBehaviorCount id="CasterIsNotMothershipMassRecalling">
+        <Behavior value="MothershipStrategicWarpOut"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="CasterIsNotNeuralParasited">
+        <WhichUnit Value="Caster"/>
+        <Behavior value="NeuralParasite"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitOrderQueue id="TargetStillAimedAtByCasterWidowMine">
+        <AbilLink value="WidowMineAttack"/>
+        <Target Value="TargetUnit"/>
+    </CValidatorUnitOrderQueue>
 </Catalog>
