@@ -308,8 +308,9 @@
         <!--ImpactModel value="TempestGroundAttackImpactModel"/-->
     </CActorAction>
     <CActorModel id="TempestAttackGroundImpact" parent="GenericAttackModel">
-        <On Terms="ActorCreation; ValidateCreationEffect TempestGroundAttackUpgraded" Send="ModelSwap TempestGroundAttackImpactUpgraded"/>
-        <On Terms="ActorCreation; ValidateCreationEffect TempestGroundAttackUpgraded" Send="SetTintColor {255,128,0 5.000000}"/>
+        <On Terms="ActorCreation" Send="SetTintColor 219,151,255 0.000000 OneShot {} 100.000000"/>
+        <On Terms="ActorCreation; ValidateUnit IsStructureTarget; ValidateCreationEffect TempestGroundAttackUpgraded" Send="ModelSwap TempestGroundAttackImpactUpgraded"/>
+        <On Terms="ActorCreation; ValidateUnit IsStructureTarget; ValidateCreationEffect TempestGroundAttackUpgraded" Send="SetTintColor {255,128,0 5.000000}"/>    
     </CActorModel>
     <CActorMissile id="AdeptAttackMissile">
         <On Terms="ActorCreation; ValidateUnit AdeptGlaivesUpgraded" Send="ModelSwap Adept_Missile_Upgrade"/>
@@ -326,7 +327,7 @@
     <CActorModel id="ShieldBatteryRechargeEx5@ImpactActor">
         <Flags index="SuppressCreationErrors" value="1"/>
         <Inherits index="TintColor" value="1"/>
-        <Inherits index="Visibility" value="1"/>
+        <Inherits index="Visibility" value="0"/>
         <Supporter Subject="::Creator"/>
         <On Terms="ActorCreation" Send="AnimBracketStart BSD Birth Stand Death"/>
         <On Terms="AnimBracketState.*.AfterClosing; AnimName BSD" Send="Destroy"/>
@@ -461,8 +462,9 @@
     <!--    </CActorModel-->
     <CActorMissile id="TempestAttackGroundMissile">
         <Scale value="0.900000"/>
-        <On Terms="ActorCreation; ValidateUnit TempestGroundAttackUpgraded" Send="ModelSwap TempestWeaponGroundUpgraded"/>
-        <On Terms="ActorCreation; ValidateCreationEffect TempestGroundAttackUpgraded" Send="SetTintColor {255,128,0 5.000000}"/>
+        <On Terms="ActorCreation" Send="SetTintColor 219,151,255 0.000000 OneShot {} 100.000000"/>
+        <On Terms="ActorCreation; ValidateUnit TempestGroundAttackUpgraded; ValidateCreationEffect IsStructureTarget" Send="ModelSwap TempestWeaponGroundUpgraded"/>
+        <On Terms="ActorCreation; ValidateUnit TempestGroundAttackUpgraded; ValidateCreationEffect IsStructureTarget" Send="SetTintColor {255,128,0 5.000000}"/>
     </CActorMissile>
     <CActorAction id="ZealotSunderingImpactAttackImpactEffect" parent="GenericAttack" effectAttack="ChargingDamage">
         <ImpactMap index="None" Model="PurificationNovaImpact" Sound="" ModelReaction=""/>
@@ -516,8 +518,8 @@
         <On Terms="Upgrade.DrillClaws.Add" Send="Create WidowMineDrillingClawsUpgrade"/>
         <On Terms="Upgrade.DrillClaws.Remove" Target="WidowMineDrillingClawsUpgrade" Send="Destroy"/-->
         <!--On Terms="ActorCreation; ValidatePlayer HaveArmory" Send="Create WidowMineDrillingClawsUpgrade"/-->
-        <On Terms="Behavior.WidowMineArmoryTracker.On" Send="Create WidowMineDrillingClawsUpgrade"/>
-        <On Terms="Behavior.WidowMineArmoryTracker.Off" Target="WidowMineDrillingClawsUpgrade" Send="Destroy"/>
+        <On Terms="Behavior.WidowMineDrillingClawsTracker.On" Send="Create WidowMineDrillingClawsUpgrade"/>
+        <On Terms="Behavior.WidowMineDrillingClawsTracker.Off" Target="WidowMineDrillingClawsUpgrade" Send="Destroy"/>
     </CActorUnit>
     <CActorUnit id="Infestor">
         <On Terms="ActorCreation" Send="ModelAnimateInvisible 1"/>
@@ -632,7 +634,8 @@
     </CActorAction>
     <CActorUnit id="Observer">
         <BarWidth value="46"/>
-        <Scale value="1.100000"/>
+        <Scale value="1.210000"/>
+        <On index="76" Send="AnimBracketStart Work Stand,Work,Start Stand,Work Stand,Work,End 0 1.750000 AsTimeScale"/>
     </CActorUnit>
     <CActorModel id="PurificationNova">
         <Scale value="0.916667"/>
@@ -816,6 +819,9 @@
     </CActorUnit>
     <CActorMissile id="TempestAttackMissile">
         <Scale value="0.900000"/>
+        <On index="4" Terms="ActorCreation" Send="SetTintColor 219,151,255 0.000000 OneShot {} 100.000000"/>
+        <On index="5" Terms="ActorCreation; ValidateUnit TempestGroundAttackUpgraded; ValidateCreationEffect IsStructureTarget" Send="ModelSwap TempestWeaponGroundUpgraded"/>
+        <On Terms="ActorCreation; ValidateUnit TempestGroundAttackUpgraded; ValidateCreationEffect IsStructureTarget" Send="SetTintColor {255,128,0 5.000000}"/>
     </CActorMissile>
     <CActorModel id="TemporalFieldAfterBubbleModel">
         <Scale value="0.937500"/>
@@ -825,5 +831,70 @@
     </CActorModel>
     <CActorUnit id="ThornLizard">
         <DeathArray index="Normal" ModelLink="ThornLizardDeath"/>
+    </CActorUnit>
+    <CActorModel id="BurrowMoveEffectExtra">
+        <Inherits index="BaseModelScale" value="0"/>
+        <Inherits index="Scale" value="0"/>
+        <On Terms="ActorCreation; ValidateUnitType IsInfestor" Send="SetScale 1.250000"/>
+    </CActorModel>
+    <CActorLookAt id="CycloneWeaponTurretLookAt">
+        <Types index="0">
+            <Start index="0" Time="150"/>
+            <Stop index="0" Time="200"/>
+        </Types>
+    </CActorLookAt>
+    <CActorSimple id="WidowMineTargetTint">
+        <On Terms="Behavior.WidowMineTargeted.On" Send="Create"/>
+        <On Terms="ActorCreation" Target="_Unit" Send="SetTintColor 255,138,138 0.000000 OneShot WidowMineTarget"/>
+        <On Terms="Behavior.WidowMineTargeted.Off" Target="_Unit" Send="ClearTintColor 0.000000 WidowMineTarget"/>
+        <On Terms="Behavior.WidowMineTargeted.Off" Send="Destroy"/>
+    </CActorSimple>
+    <CActorBeamSimple id="WidowMineTargetingBeam">
+        <On index="3" Terms="Effect.WidowMineTargetTintApplyBehavior.Start; At Caster"/>
+        <On Terms="ActorCreation" Send="SetTintColorBlendPair 255,255,255 {221,0,0 1.500000} 1.350000"/>
+        <On Terms="ActorCreation" Send="SetScale 2.000000 3.000000"/>
+        <Scale value="0.400000"/>
+    </CActorBeamSimple>
+    <CActorAction id="TempestAttack">
+        <ImpactModel value="TempestAttackGroundImpact"/> <!--Allows for the impact model to change colour-->
+    </CActorAction>
+    <CActorEventMacro id="ZergBurrowMobileAnimMacro">
+        <On Terms="AbilMorph.*.Start; AbilKey BurrowDown" Send="Create BurrowMoveEffectExtra"/>
+    </CActorEventMacro>
+    <CActorUnit id="BraxisAlphaDestructible1x1">
+        <MinimapIcon value="Assets\Textures\ui_minimap_icon_destructibledebris.dds"/>
+    </CActorUnit>
+    <CActorModel id="XelNagaHealingShrineGlowModel">
+        <FogVisibility value="Dimmed"/>
+        <On index="3" Send="SetTintColor {255,255,255 0.500000}"/>
+        <Inherits index="TeamColor" value="1"/>
+        <ModelFlags index="UpdateVisibility" value="0"/>
+    </CActorModel>
+    <CActorUnit id="XelNagaHealingShrine">
+        <MinimapIcon value="Assets\Textures\btn-ability-terran-heal.dds"/>
+        <MinimapIconIsTeamColored value="1"/>
+        <MinimapIconScale value="0.250000"/>
+        <UnitIcon value="Assets\Textures\btn-ability-terran-heal.dds"/>
+    </CActorUnit>
+    <CActorUnit id="ProtossVespeneGeyser">
+        <On Terms="Behavior.RawVespeneGeyserGas.Deplete" Send="SetTintColor 95,95,95"/>
+        <On Terms="Behavior.RawVespeneGeyserGas.Restore" Send="SetTintColor 255,255,255"/>
+    </CActorUnit>
+    <CActorUnit id="PurifierVespeneGeyser">
+        <On Terms="Behavior.RawVespeneGeyserGas.Deplete" Send="SetTintColor 95,95,95"/>
+        <On Terms="Behavior.RawVespeneGeyserGas.Restore" Send="SetTintColor 255,255,255"/>
+    </CActorUnit>
+    <CActorUnit id="ShakurasVespeneGeyser">
+        <On Terms="Behavior.RawVespeneGeyserGas.Deplete" Send="SetTintColor 95,95,95"/>
+        <On Terms="Behavior.RawVespeneGeyserGas.Restore" Send="SetTintColor 255,255,255"/>
+    </CActorUnit>
+    <CActorUnit id="KD8Charge">
+        <On Terms="ActorCreation" Send="AnimSetTimeScaleGlobal 3.000000"/>
+    </CActorUnit>
+    <CActorUnit id="SiegeTank">
+        <On index="65" Terms="WeaponStart.90mmCannons.AttackStart"/>
+        <On index="66" Terms="WeaponStart.90mmCannons.AttackStart; AnimPlaying Birth"/>
+        <On index="67" Terms="WeaponStop.90mmCannons.AttackStop"/>
+        <On index="72" removed="1"/>
     </CActorUnit>
 </Catalog>
