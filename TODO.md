@@ -1,6 +1,10 @@
 - Check new ids for stableid
-  - Cyclone speed upgrade
-  - Raven matrix upgrade
+  - Cyclone speed upgrade (upgradeid)
+  - Cyclone speed upgrade (research abil id -- factory techlab research)
+  - Raven matrix upgrade (upgradeid)
+  - Raven matrix upgrade (research abil id -- starport techlab research)
   - Mothership active cloak field behavior
-  - Medivac energy recharge rate upgrade
+  - Mothership active cloak field ability
+  - Medivac energy recharge rate upgrade (upgradeid)
+  - Medivac energy recharge rate upgrade (research abil id -- fusioncore research)
 - Check if data exists for Healing Shrines in 4.10 liberty mod
