@@ -25172,34 +25172,58 @@
             "name": "DummyAbil299"
         },
         {
-            "buttonname": "DummyAbil300",
             "id": 4115,
-            "index": 0,
-            "name": "DummyAbil300"
+            "name": "ObserverSiegeMorphtoObserver",
+            "buttonname": "",
+            "index": 2
         },
         {
-            "buttonname": "DummyAbil301",
             "id": 4116,
-            "index": 0,
-            "name": "DummyAbil301"
+            "name": "ObserverMorphtoObserverSiege",
+            "buttonname": "",
+            "index": 2
         },
         {
-            "buttonname": "DummyAbil302",
             "id": 4117,
-            "index": 0,
-            "name": "DummyAbil302"
+            "name": "OverseerMorphtoOverseerSiegeMode",
+            "buttonname": "",
+            "index": 2
         },
         {
-            "buttonname": "Baneling",
             "id": 4118,
-            "index": 0,
-            "name": "MorphToBaneling"
+            "name": "OverseerSiegeModeMorphtoOverseer",
+            "buttonname": "",
+            "index": 2
         },
         {
-            "buttonname": "Cancel",
             "id": 4119,
-            "index": 1,
-            "name": "MorphToBaneling"
+            "name": "MorphToBaneling",
+            "buttonname": "Baneling",
+            "index": 0
+        },
+        {
+            "id": 4120,
+            "name": "MorphToBaneling",
+            "buttonname": "Cancel",
+            "index": 1
+        },
+        {
+            "id": 4121,
+            "name": "MorphToBaneling",
+            "buttonname": "",
+            "index": 2
+        },
+        {
+            "id": 4122,
+            "name": "MothershipCloak",
+            "buttonname": "OracleCloakField",
+            "index": 0
+        },
+        {
+            "id": 4123,
+            "name": "MothershipCloak",
+            "buttonname": "",
+            "index": 1
         }
     ],
     "Buffs": [
@@ -26379,50 +26403,38 @@
 	    "id": 293,
 	    "name": "InhibitorZoneTemporalField"
 	},
-	{
-	    "id": 294,
-	    "name": "ResonatingGlaivesPhaseShift"
-	},
-	{
-	    "id": 295,
-	    "name": "NeuralParasiteChildren"
-	},
-	{
-	    "id": 296,
-	    "name": "AmorphousArmorcloud"
-	},
-	{
-	    "id": 297,
-	    "name": "RavenShredderMissileArmorReductionUISubtruct"
-	},
-	{
-	    "id": 298,
-	    "name": "BatteryOvercharge"
-	},
-	{
-	    "id": 299,
-	    "name": "DummyBuff001"
-	},
-	{
-	    "id": 300,
-	    "name": "DummyBuff002"
-	},
-	{
-	    "id": 301,
-	    "name": "DummyBuff003"
-	},
-	{
-	    "id": 302,
-	    "name": "DummyBuff004"
-	},
-	{
-	    "id": 303,
-	    "name": "DummyBuff005"
-	},
-	{
-	    "id": 304,
-	    "name": "OnCreepQueen"
-	}
+        {
+            "id": 294,
+            "name": "CloakField"
+        },
+        {
+            "id": 295,
+            "name": "ResonatingGlaivesPhaseShift"
+        },
+        {
+            "id": 296,
+            "name": "NeuralParasiteChildren"
+        },
+        {
+            "id": 297,
+            "name": "AmorphousArmorcloud"
+        },
+        {
+            "id": 298,
+            "name": "RavenShredderMissileArmorReductionUISubtruct"
+        },
+        {
+            "id": 299,
+            "name": "TakenDamage"
+        },
+        {
+            "id": 300,
+            "name": "RavenScramblerMissileCarrier"
+        },
+        {
+            "id": 301,
+            "name": "BatteryOvercharge"
+        }
     ],
     "Effects": [
         {
@@ -35776,30 +35788,38 @@
         },
         {
             "id": 296,
-            "name": "TempestGroundAttackUpgrade"
+            "name": "HurricaneThrusters"
         },
         {
             "id": 297,
-            "name": "MicrobialShroud"
+            "name": "TempestGroundAttackUpgrade"
         },
         {
             "id": 298,
-            "name": "SunderingImpact"
+            "name": "MicrobialShroud"
         },
         {
             "id": 299,
-            "name": "AmplifiedShielding"
+            "name": "InterferenceMatrix"
         },
         {
             "id": 300,
-            "name": "PsionicAmplifiers"
+            "name": "SunderingImpact"
         },
         {
             "id": 301,
-            "name": "SecretedCoating"
+            "name": "AmplifiedShielding"
         },
         {
             "id": 302,
+            "name": "PsionicAmplifiers"
+        },
+        {
+            "id": 303,
+            "name": "SecretedCoating"
+        },
+        {
+            "id": 304,
             "name": "EnhancedShockwaves"
         }
     ]
