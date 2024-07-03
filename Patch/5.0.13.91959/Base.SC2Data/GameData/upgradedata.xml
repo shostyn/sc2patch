@@ -31,7 +31,7 @@
         <EffectArray Operation="Subtract" Reference="Abil,WidowMineUnburrow,InfoArray[0].SectionArray[Stats].DurationArray[Duration]" Value="0.500000"/>
     </CUpgrade>
     <CUpgrade id="ObserverGraviticBooster">
-        <EffectArray index="0" Reference="Unit,Observer,Speed" Value="0.937500"/>
+        <EffectArray index="0" Reference="Unit,Observer,Speed" Value="1.007800"/>
     </CUpgrade>
     <CUpgrade id="LiberatorAGRangeUpgrade">
         <EffectArray index="0" removed="1"/>
@@ -121,9 +121,6 @@
     </CUpgrade>
     <CUpgrade id="ExtendedThermalLance">
         <ScoreAmount value="300"/>
-    </CUpgrade>
-    <CUpgrade id="ObserverGraviticBooster">
-        <EffectArray index="0" Value="1.007800"/>
     </CUpgrade>
     <CUpgrade id="SmartServos">
         <ScoreAmount value="200"/>
